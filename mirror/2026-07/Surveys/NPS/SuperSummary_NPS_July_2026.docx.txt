@@ -1,0 +1,272 @@
+SuperSummary — NPS Continuous Discovery Report
+July 2026 Cycle
+Prepared by the Design Team, Lift Ventures  ·  Source: Sprig MCP (Production, BWedE9AHIM)  ·  Period: July 1–31, 2026
+Executive Summary
+The July 2026 cycle draws on 469 validated unique respondents across the four active in-product Sprig NPS surveys (BCM and Non-BCM segments on Website and Mobile App). Overall NPS for July is 65.9, up 2.5 points from June (63.4) and 7.0 points below the December 2025 program baseline of 72.9. The gain comes from a reduction in detractors rather than from promoter growth: the detractor share fell from 12.0% to 9.0% while the promoter share held roughly flat (75.4% to 74.8%) and the passive share rose from 12.6% to 16.2%.
+Two structural patterns that held across prior cycles reversed this month. Desktop overtook Mobile App as the strongest platform (71.6 vs. 69.0), the first such inversion in the program, driven by a 12.7-point Mobile App decline. At the same time Mobile Web vacated the floor position, rising 16.3 points to 54.0, and the Non-BCM × Mobile Web cross-segment tripled from 12.8 to 40.0. The lowest reading in the cycle is now defined by audience rather than platform: Non-BCM / student at 38.2 (n=34, 26.5% detractors).
+Data Quality & Integrity Notes
+Extraction. Sprig MCP, Production environment (id BWedE9AHIM). Window filtered on UTC millisecond bounds [number] (July 1, inclusive) to [number] (August 1, exclusive). Zero records fell outside the window.
+Survey scope. All four active NPS surveys returned data and were confirmed IN_PROGRESS with the expected four-question structure: Website / BCM (341467), Website / Non-BCM (341521), Mobile App / BCM (349231), Mobile App / Non-BCM (349230). The legacy 2022 survey (61016) returned zero responses for the window and was excluded.
+Record counts. 1,041 raw answer-rows were fetched across 14 paginated calls, including deliberate overlap from tail re-fetches. Deduplication on (responseGroupUid, question_id) removed 49 overlap rows, leaving 992 unique answer-rows. These resolve to 469 unique respondents. Raw answer-row counts are inflated because Sprig returns one row per question-answer, not per respondent.
+Dedupe result. Zero duplicate respondent records remained after deduplication on responseGroupUid.
+Validity filter. subscriptionDate is populated for all 469 respondents, so the validity filter removed no records. Validated count equals extracted unique respondents.
+Categorical checks. Raw NPS scores contain only integers 0–10 with no nulls or out-of-range values; all 469 respondents carry an NPS answer. Four distinct OS values and sixteen OS × browser combinations were observed, all resolvable under the standing classification rule. audienceCategory is populated for every record.
+Subscriber / Visitor status. These surveys reach authenticated users only. All 469 respondents are subscribers; Visitor is reported as not applicable. This is a structural characteristic of the instrument, not an absence in this cycle. Note that 28 respondents carry subscriptionDate with a blank status field; under the May 2026 rule these remain classified as subscribers, and the isSubscribed field is disregarded entirely.
+Audience cross-check. Audience is assigned by source survey. The cross-check against audienceCategory agrees for 468 of 469 records: all BCM-source respondents report book_club_member, and Non-BCM-source respondents report other, teacher, student, parent_of_student, or librarian. One Non-BCM-source respondent reports audienceCategory = book_club_member; that record retains its Non-BCM classification under the source-survey rule and is reported as a single-record sub-segment.
+Known extraction issue. Both Mobile App surveys and both Website surveys exhibited the recurring tail-page flooding behaviour, where the final pagination page returns inline rather than routing to a file. Each affected tail region was re-fetched with a narrower start timestamp to force file routing, and the resulting overlap was removed by deduplication. This is a consistent characteristic of the integration rather than a one-time anomaly.
+OS Classification
+Platform is derived from meta.os and meta.browser, not from the survey Website/Mobile App label. Every observed combination and its assigned platform:
+Unique OS values: iOS (260), Mac OS (80), Windows (68), Android (61). The classification reconciles with the survey channel as expected: all 197 Mobile App survey respondents classify as Mobile App, and the 272 Website survey respondents split into Desktop (148) and Mobile Web (124), confirming that a "Website" survey contains both desktop and mobile-web sessions.
+Platform precision caveat. iPad sessions and some desktop Safari sessions report OS as "Mac OS" or as "iOS" with a non-app browser, so a share of the Desktop and Mobile Web groups are tablets. Several July user-agent strings confirm iPad devices reporting under both values. Platform figures should be read as delivery-surface approximations rather than exact device counts.
+Key Findings
+Overall NPS rose to 65.9 (+2.5 vs. June), and the gain is detractor-driven. The detractor share fell from 12.0% to 9.0% while promoters held flat and passives rose to 16.2%. The score remains 7.0 points below the December 2025 baseline of 72.9.
+Desktop overtook Mobile App as the strongest platform (71.6 vs. 69.0). Mobile App fell 12.7 points from June (81.7), the largest single-segment movement in the cycle and the first reversal of the app-leads-platform pattern in the program. Mobile App carries the largest respondent base (n=197), so this movement drives the composition of the overall score.
+Mobile Web vacated the floor position it held across every prior cycle. Mobile Web rose 16.3 points to 54.0, and Non-BCM × Mobile Web — the tracked high-risk cross-segment — tripled from 12.8 to 40.0. It is still the weakest cross-segment at 21.8% detractors, but no longer a negative or near-zero reading.
+The audience gap narrowed to 12.0 points (BCM 69.8 vs. Non-BCM 57.8), the tightest of the tracked cycles. Within Non-BCM the spread is wide: librarian 87.5 (n=8) and teacher 71.1 (n=38) sit above the overall score, while student 38.2 (n=34) is the lowest reading in the cycle at 26.5% detractors.
+annual_essentials now outperforms annual_plus (67.6 vs. 64.4), inverting the March 2026 pattern. In March, annual_plus led annual_essentials by 16.8 points. The reversal coincides with seven requests for deeper critical analysis, indicating that the premium tier is not currently carrying a clear perceived value increment.
+Billing and cancellation remains the only established detractor theme (4 Non-BCM mentions, 1 BCM). No BCM detractor theme reached the three-mention threshold, because only 7 of 21 BCM detractors left free text. Root-cause analysis for the Mobile App decline is not recoverable from this instrument.
+Month-over-Month Trend
+July figures are computed from the current Sprig extraction. May and June values are carried forward from the prior cycle reports and were verified against the June build record. December 2025 (72.9) is the program baseline. Deltas show the June to July change.
+Six of seven tracked metrics improved. Mobile App is the sole decline, and it moves in the opposite direction to Mobile Web, which gained 16.3 points in the same period. Because the two surfaces draw on separate surveys with separate respondent pools, the divergence cannot be attributed to a shift of users between surfaces from this data alone. Respondent volume also rose materially, from 374 in June to 469 in July (+25.4%), which affects the stability of month-to-month comparison for smaller cross-segments.
+Theme Persistence
+Persistent. Book club preparation and discussion support remains the dominant BCM promoter theme, as in every prior cycle (29 mentions this month).
+Persistent. Billing and cancellation friction persists as the only established detractor theme, matching June.
+Persistent. Catalog gaps continue to surface across detractor, passive, and request responses, consistent with prior cycles.
+New. Perceived AI authorship of guide content appeared in Non-BCM free text for the first time. Prior cycles recorded AI as a competitive threat signal; this instance concerns the perceived provenance of SuperSummary content itself.
+
+NPS Score Overview
+NPS = (% Promoters − % Detractors). Promoters score 9–10, Passives 7–8, Detractors 0–6, derived from the raw 0–10 NPS question. Colour thresholds: green ≥ 70, amber ≥ 50, red < 50. Segments below n=30 are flagged [n<30]; segments below n=5 are flagged [n<5] and no conclusions are drawn from them.
+Overall
+Audience Breakdown
+The audience gap stands at 12.0 points, down from 15.6 in June and 24.4 in May. Non-BCM detractor share (13.6%) is roughly double the BCM share (6.7%).
+Non-BCM by audience category
+Professional and institutional users (librarian, teacher) score at or above the overall figure. Students are the weakest audience cut in the cycle: 9 of 34 are detractors, and student free text carries the strongest concentration of billing complaints. The single book_club_member record inside the Non-BCM surveys is retained under the source-survey classification rule and supports no inference.
+Promoter and detractor distribution within Non-BCM
+Students account for 20.0% of Non-BCM promoters but 42.9% of Non-BCM detractors, the most unfavourable ratio of any category.
+Subscribers and Visitors
+Visitors: not applicable. The four active surveys are delivered to authenticated users only, so the respondent population is entirely subscribers. This is a structural property of the instrument and will remain so unless a future survey explicitly targets non-subscribers.
+Subscription Plan Breakdown
+Coverage caveat. Only 171 of 469 respondents (36.5%) carry a non-legacy planId; the remaining 298 sit on legacy or unmapped plan identifiers and are grouped as legacy/other. Coverage improved from 25.9% in June (97 of 374) but remains partial, so tier comparisons should be read as directional. Monthly tiers fall below n=30 and are flagged.
+annual_essentials leads annual_plus by 3.2 points, reversing the March 2026 relationship in which annual_plus led by 16.8 points. The difference is composed of passives rather than detractors: annual_plus carries a 20.0% passive share against 11.8% for annual_essentials, while detractor shares are close (7.8% vs. 10.3%). A high passive share on the premium tier indicates satisfied-but-unenthusiastic subscribers, which is the pattern expected when a tier delivers adequate value without a distinct differentiator. Both monthly tiers score at or below zero, but each has fewer than ten respondents and supports no conclusion.
+Platform Breakdown
+The platform spread narrowed sharply, from 44.0 points in June (81.7 to 37.7) to 17.6 points in July (71.6 to 54.0). Mobile App retains the lowest detractor share of any platform (5.6%) but carries the highest passive share (19.8%), which is what pulls its score below Desktop despite fewer detractors. Desktop leads on promoter concentration (80.4%). Mobile Web still carries the highest detractor share (14.5%).
+Cross-segment: Audience × Platform
+BCM × Desktop is the strongest cross-segment at 74.2, the only cell in the green band. Non-BCM × Mobile Web remains the floor at 40.0 with a 21.8% detractor share, but the gap between it and the next-weakest cell narrowed to 25.2 points from 52.4 in June. Every cross-segment now sits above zero, which was not true in May.
+Promoter and detractor distribution by OS
+iOS accounts for 55.4% of all respondents and contributes proportionally to both promoters and detractors, so operating system alone does not concentrate risk. Sentiment separates on delivery surface within iOS rather than across operating systems.
+Cross-segment: Subscribers × Platform
+Because the population is entirely subscribers, this cross-segment reproduces the platform breakdown. No Visitor row is reported.
+
+Qualitative Theme Analysis
+Themes are coded from the "main reason for your score" question, using the raw text together with the per-response Sprig theme labels. A theme requires at least three mentions across distinct respondents; anything below that threshold is reported separately as an emerging signal. Response rates: 153 of 469 respondents left text (32.6%) — BCM 31.1%, Non-BCM 35.7%, detractors 31.0%.
+Promoter Themes — BCM
+Coded from 83 BCM promoter free-text responses.
+Theme: Book Club Preparation and Discussion Facilitation  (29 mentions)
+Respondents describe using SuperSummary to arrive at book club meetings prepared — generating discussion questions, building outlines, and hosting sessions. This is the single largest theme in the cycle and has appeared as the dominant BCM theme in every tracked month.
+“I have used it since I left Cliff Notes more than 6 years ago. I love it for previewing books I think would work for me to read, it helps me with characters when reading large books, and it gives me well thought out talking points when I host my book club discussion group” [Score: 10, BCM]
+“This has been fabulous when the hostess of our book club gets sick and needs me to take over. I can come up with great questions and fun games and recipes to still make everything enjoyable.” [Score: 10, BCM]
+“I love all the info and how it is laid out. It helps me form a discussion outline for book club.” [Score: 10, BCM]
+Theme: Depth and Thoroughness of Analysis  (15 mentions)
+Respondents credit the analytical depth of the guides — chapter breakdowns, theme and character treatment, and research quality — as the reason for their score.
+“Superb and intelligent, the crafting of each report is in-depth yet a good length” [Score: 10, BCM]
+“Highly academic… thorough and insightful. Lots of research” [Score: 10, BCM]
+“I call this "Cliff notes on steroids". This is a perfect program for students as well as book club members. Fantastic breakdown of chapters, themes characters as well suggested topics.” [Score: 10, BCM]
+Theme: Memory Refresh for Previously Read Books  (12 mentions)
+A distinct use case from preparation: respondents return to guides for books they have already read, to recover detail before a discussion or before continuing a series.
+“It’s an excellent resource when I read a book months ago and have read many more since then and need to remember details before book club.” [Score: 10, BCM]
+“Great way to catch up (i.e. remember what happened) on earlier books in a series” [Score: 10, BCM]
+“It helps with my poor memory after I read the book.” [Score: 10, BCM]
+Theme: Time Savings and Expanded Reading Capacity  (7 mentions)
+Respondents describe SuperSummary as extending how many books they can engage with under time constraints, including books they did not finish.
+“It lets me “read” many more books, especially the ones I get behind on for book clubs!” [Score: 10, BCM]
+“It takes me half as long to read the book. I know which story line to follow while reading actual book.” [Score: 9, BCM]
+Theme: Ease of Use and Content Layout  (6 mentions)
+“I love all of the resources and your app is so user-friendly!” [Score: 10, BCM]
+“Accuracy and ease of use” [Score: 10, BCM]
+Promoter Themes — Non-BCM
+Coded from 43 Non-BCM promoter free-text responses.
+Theme: Comprehensive and Detailed Summaries  (12 mentions)
+The most frequent Non-BCM theme centres on the completeness of coverage rather than on a specific use case.
+“Super summary is so thorough in looking at every aspect of a book whether you want to use it as a review after you’ve read a book or treat it as a lesson plan extension to enrich my independent reading as an adult.” [Score: 10, Non-BCM]
+“SuperSum is well designed, it is well written and hits the point and theme of a book superbly.” [Score: 9, Non-BCM]
+“Very detailed information and easy to use.” [Score: 10, Non-BCM]
+Theme: Educational and Instructional Support  (9 mentions)
+Teachers, tutors, librarians, and parents describe using guides in an instructional capacity — supporting students, preparing book talks, and working through texts with children.
+“I work in a library, and many of my coworkers do book talks. This is an amazing tool to assist in that task.” [Score: 9, Non-BCM]
+“The summary content and questions are extremely helpful given my time constraints as a tutor of several kids reading different books at different levels.” [Score: 10, Non-BCM]
+“This is so helpful for me to work through the book with my son.” [Score: 9, Non-BCM]
+Theme: Comprehension Support for Complex and Audio Formats  (5 mentions)
+Respondents use guides to track characters and plot lines in nonlinear narratives and while listening to audiobooks, where names and structure are harder to follow.
+“Helps support my understanding of multiple characters and details when listening to a audiobook.” [Score: 10, Non-BCM]
+“A book with a lot of characters that are very hard to keep track of can just be looked up quickly in SuperSummary.” [Score: 10, Non-BCM]
+Theme: Book Club Use Outside the BCM Segment  (4 mentions)
+Respondents classified as Non-BCM by source survey nonetheless report book club use, indicating that book club behaviour extends beyond the segment the BCM surveys capture.
+“I love Super Summary and rely on it to help supplement my participation in several bookclubs” [Score: 10, Non-BCM]
+“SuperSummary provides readers who have little time to read everyday, before book clubs, etc. The price is right and the summary is well-written and to the point!” [Score: 10, Non-BCM]
+Theme: Time Constraints  (4 mentions)
+“If you are elderly (like me) and want to read more than you have time for, SuperSummary is for you!” [Score: 10, Non-BCM]
+“Saves so much time” [Score: 10, Non-BCM]
+Theme: Ease of Use and Navigation  (4 mentions)
+“easy to use, good quality” [Score: 10, Non-BCM]
+“Easy navigation” [Score: 10, Non-BCM]
+Detractor Themes — Non-BCM
+Coded from 6 Non-BCM detractor free-text responses out of 21 Non-BCM detractors.
+Theme: Unexpected Charges and Cancellation Failure  (4 mentions)
+Respondents report being charged after cancelling, being charged without recognising a subscription, or receiving no renewal notice. Three of the four scored zero. This is the only established detractor theme in the cycle and it persists from June.
+“I canceled before from my app but you charged it. I’m going to decline.” [Score: 0, Non-BCM]
+“Didn’t subscribe and am being charged” [Score: 0, Non-BCM]
+“No reminder of subscription renewal.” [Score: 0, Non-BCM]
+Detractor Themes — BCM
+Only 7 of 21 BCM detractors left free text, and no BCM detractor theme reached the three-mention threshold. All BCM detractor signals are reported below as emerging signals. This is a material limitation on root-cause analysis and is carried into Research Gaps.
+Emerging Signals (fewer than 3 mentions)
+Mobile App navigation friction (2 mentions). Two BCM detractors on Mobile App cite navigation difficulty as their primary reason ("Rather difficult to navigate and use but ok" [Score: 3, BCM]; "Too difficult to navigate." [Score: 1, BCM]). Given the 12.7-point Mobile App decline, this is the closest qualitative signal to that movement and warrants dedicated investigation rather than dismissal on volume.
+Price sensitivity (2 mentions). Two BCM detractors give cost as their sole reason ("Expensive" [Score: 5, BCM]; "Cost" [Score: 5, BCM]), with a related request for a better price elsewhere in the cycle.
+Catalog gaps in detractor and passive text (4 mentions across categories). Two BCM detractors and two BCM passives cite missing titles ("The books I would like to hear about are not available." [Score: 3, BCM]; "A couple of the books I wanted a summary for are not here" [Score: 7, BCM]).
+Repetition and perceived shallowness (2 mentions). One BCM passive describes the guides as insufficiently analytical ("The summary seems to be too general, high level, and very repetitive. Critical thinking and analysis seem missing, Discouraged with the quality." [Score: 7, BCM]), and one BCM promoter asks for the sections to be condensed. This runs directly counter to the depth-of-analysis promoter theme and merits separate probing.
+Perceived AI authorship of content (1 mention). One Non-BCM teacher on Mobile App states "It feels that it's written by AI." [Score: 8, Non-BCM]. Prior cycles logged AI as a competitive threat; this is the first instance concerning the perceived provenance of SuperSummary content itself, and it targets the Trusted Expertise positioning directly.
+Sign-in friction (2 mentions). Two respondents describe login and account access difficulty ("Logging in has been complicated." [Score: 7, BCM]).
+
+Requests From Users
+Coded from the "one thing you'd like to see added or improved" question. 80 of 469 respondents answered (17.1%); approximately 45 of those responses were explicit non-requests ("nothing", "n/a", "can't think of anything"), which is itself a satisfaction signal. The groups below cover the substantive remainder.
+Theme: Catalog Expansion and Title Nomination  (6 mentions)
+Requests for more titles, wider author variety, and a mechanism to nominate books for addition. This group connects directly to the catalog-gap signals in detractor and passive text and to the Q4 unfound-title data.
+“I would like to see a greater variety of authors whose books are reviewed.” [Score: 10, BCM]
+“A way to nominate books to be added.” [Score: 7, BCM]
+“a more thorough selection” [Score: 7, BCM]
+Theme: Deeper Critical Analysis and Additional Detail  (7 mentions)
+Requests for stronger interpretive content, finer chapter breakdowns, more quoted material, and additional detail on complex texts. This is the largest request group and sits alongside the annual_plus underperformance.
+“Better critical Analysis/critical thinking and more insights into literature.” [Score: 7, BCM]
+“certain books may need extra deep analysis because there are really complicated but most of the time you were spot on.” [Score: 10, Non-BCM]
+“Possibly more quotes from each book” [Score: 10, Non-BCM]
+Theme: Book Club Facilitation Tools  (3 mentions)
+Requests for activities, games, and physical discussion aids that support running a session rather than preparing for one.
+“More games and things to do for a book club.” [Score: 10, BCM]
+“Ability to print small cards with the questions for my son's book club to read the question to the group before they answer it.” [Score: 9, Non-BCM]
+“More activities” [Score: 8, Non-BCM]
+Theme: Account Access and Sign-In  (3 mentions)
+“Easier way to sign in” [Score: 10, BCM]
+“Quick access to my account.” [Score: 7, BCM]
+Theme: Content Portability — Copy, Print, Export  (3 mentions)
+Requests to move guide content out of the platform and into the respondent's own working context.
+“Ease of copying pages.” [Score: 10, BCM]
+“Ability to copy into ipad” [Score: 10, Non-BCM]
+Theme: External Reviews and Similar-Book Recommendations  (3 mentions)
+Requests to surface critical reception and adjacent titles alongside the guide.
+“A sentence or two from Reviews by reputable sources like the NYorker, Times” [Score: 9, Non-BCM]
+“Suggestions for similar books.” [Score: 10, BCM]
+Single-mention requests
+Homework support tied to the book ("I would like to add more help with homework based on the book." [Score: 10, Non-BCM]).
+Emphasis on character-relationship development over major plot events ([Score: 10, BCM]).
+Condensing repetitive sections ("I find the various sections repetitive. Please condense the data." [Score: 10, BCM]).
+Lower price ([Score: 5, BCM]).
+Unfound-Title Analysis (Q4)
+13 of 469 respondents answered the unfound-title question (2.8%), against 14 of 374 (3.7%) in June. Of the 13, six named specific titles and seven gave non-specific or negative answers. Eight distinct titles were named, every one a single mention.
+Low-volume flag. All eight titles are single mentions, so no title reaches a prioritisation threshold and this table cannot rank catalog additions. Three respondents gave directional rather than specific answers, which is more informative than the title list itself: "They are too numerous to list." [Score: 10, BCM]; "Yes several. It is usually newer books or ones less read by the best seller crowd." [Score: 10, BCM]; "some books in foreign languages." [Score: 10, Non-BCM]. Two of the eight named titles are Spanish-language, consistent with that last observation.
+Capture remains recall-based and therefore thin. The standing recommendation to instrument unfound-title capture at the point of search, rather than through survey recall weeks later, carries forward unchanged and is the only route to usable demand data on this question.
+
+Strategic Recommendations
+Ranked by (1) number of respondents affected, (2) alignment with the BHAG (become as essential to reading as the book itself) and 3HAG (become the platform Book Club Members use daily), and (3) feasibility signal present in the data.
+Diagnose the Mobile App decline with behavioural instrumentation, not survey data. Affects 197 respondents, the largest platform base, and represents a 12.7-point drop against a rising overall score. The available qualitative evidence is two navigation complaints, which is insufficient to establish cause. Because Mobile App is the surface on which the 3HAG depends, this ranks first despite the thin qualitative signal. Recommended next step: session replay and funnel analysis on app navigation paths for July, paired with a targeted in-app intercept for app detractors and passives. The high app passive share (19.8%) is the specific population to probe.
+Close the billing and cancellation gap. The only established detractor theme, with four Non-BCM mentions and one BCM mention, and three of those respondents scored zero. Students carry 42.9% of Non-BCM detractors and the highest concentration of billing complaints. The failures described are operational rather than product-deep: cancellation not taking effect, charges without recognised subscription, and absent renewal notices. Feasibility is high — renewal reminders and a verifiable cancellation confirmation address most of the reported cases without a product build.
+Build a premium analytical layer and re-establish the annual_plus value increment. Seven requests for deeper critical analysis constitute the largest request group, and annual_plus now trails annual_essentials by 3.2 points with a 20.0% passive share against 11.8%. The passive concentration on the premium tier indicates adequacy without differentiation, which is precisely the near-term commercial problem. Requests point to concrete content: stronger interpretive analysis, finer chapter breakdowns, more quoted material, and critical reception from external sources. Feasibility signal is strong because the requested increment is content depth, which is the established differentiator.
+Ship a title-nomination mechanism and treat it as demand instrumentation. Six catalog requests, four catalog-gap mentions in detractor and passive text, and all Q4 evidence converge here, and one respondent explicitly asked whether a nomination path exists. Direct BHAG alignment: a reader cannot treat the platform as essential when the book in hand is missing. A nomination mechanism serves the request and simultaneously replaces recall-based Q4 capture with a continuous demand signal, making it the highest-leverage item relative to build cost.
+Extend book club support from preparation into facilitation. Book club preparation is the dominant promoter theme at 29 mentions, and three requests ask for activities, games, and printable discussion cards — that is, tools for running a session rather than preparing for one. Four Non-BCM respondents also report book club use, indicating addressable demand outside the segment the BCM surveys capture. This is the strongest 3HAG alignment of any item and builds on demonstrated rather than hypothesised value.
+Investigate the Non-BCM student segment. At 38.2 (n=34) with a 26.5% detractor share, students are the lowest cut in the cycle and the only segment in the red band alongside Non-BCM × Mobile Web. Their detractor text concentrates on billing rather than content, which suggests the problem is commercial mechanics rather than product fit. Sample size supports a directional read but not fine segmentation; a dedicated intercept is warranted.
+Reduce sign-in and account-access friction. Three requests plus two passive mentions. Low volume, but the cost of the fix is low and access friction suppresses the daily-use behaviour the 3HAG requires. Ranked last on evidence volume, not on feasibility.
+Research Gaps
+Detractor free-text response rate. Only 13 of 42 detractors left free text (31.0%), and BCM detractors are the weakest case at 7 of 21. No BCM detractor theme reached the three-mention threshold, so the cycle cannot explain BCM dissatisfaction from this instrument. This has been a chronic limitation across cycles and is now the binding constraint on the most important open question in the report — the Mobile App decline. A dedicated detractor follow-up mechanism, triggered on submission of a score of 6 or below, would address it.
+Unexplained platform divergence. Mobile App fell 12.7 points while Mobile Web rose 16.3 points in the same period. The two surfaces draw on separate surveys and separate respondent pools, and respondent volume rose 25.4% overall, so the divergence may reflect a change in who was sampled rather than a change in experience. Before acting on the app decline, verify that survey targeting, trigger events, and delivery volumes were unchanged between June and July.
+Platform precision. iPad and some desktop Safari sessions report OS as "Mac OS", and iPad sessions using non-app browsers report as "iOS", so a share of both Desktop and Mobile Web is tablet traffic. July user-agent strings confirm iPad devices under both values. Tablet experience is therefore not separately measurable, despite plausibly differing from both phone and desktop.
+Subscription plan coverage. Only 36.5% of respondents carry a non-legacy planId, up from 25.9% in June. The plus-versus-essentials inversion is the most commercially consequential finding in the cycle, and it rests on 158 annual-tier records. Migrating legacy plan identifiers would raise confidence in tier analysis materially.
+Q4 capture. Unfound-title capture reached 2.8% of respondents with every named title at a single mention. The question cannot prioritise catalog investment in its current form. Point-of-search instrumentation remains the standing recommendation.
+Perceived content provenance and quality. One Non-BCM respondent described the content as AI-written, and one BCM passive described it as general and repetitive with analysis missing. Both cut against the Trusted Expertise positioning and the depth-of-analysis promoter theme. Volume is far below the theme threshold, but the strategic exposure justifies a dedicated probe rather than waiting for the signal to accumulate.
+Book club behaviour outside the BCM segment. Four Non-BCM respondents report book club use, and one Non-BCM-source respondent carries audienceCategory = book_club_member. The BCM survey constraint may under-capture book club behaviour, which would mean the segment central to the 3HAG is measured on an incomplete base.
+Methodology
+Data source. Sprig MCP against the Production environment (BWedE9AHIM). Survey existence and question identifiers were confirmed with get_surveys before extraction; question identifiers differ per survey, so open-text questions were matched by question text rather than by id. Responses were pulled with get_responses using with_meta and with_snapshots, paginated by cursor to exhaustion. Page size was capped at 100 for Website surveys and 70 for Mobile App surveys to stay within the 1MB tool limit; 120 and 150 both exceeded it. Visitor event arrays were discarded on ingest, retaining only attributes and meta.
+Window. July 1, 2026 00:00:00 UTC inclusive to August 1, 2026 00:00:00 UTC exclusive, expressed as millisecond bounds [number] and [number].
+Deduplication and validity. Sprig returns one row per question-answer. Rows were deduplicated on (responseGroupUid, question_id) and then collapsed to respondent level keyed on responseGroupUid, which is the unit of the validated count. Records were retained only where subscriptionDate is populated.
+Score derivation. NPS = (% Promoters − % Detractors), with Promoters 9–10, Passives 7–8, and Detractors 0–6 derived from the raw 0–10 score on the NPS-type question. Sprig provides no pre-computed category field.
+Classification. Audience was assigned by source survey (BCM versus Non-BCM), with audienceCategory used only as a cross-check. Platform was derived from meta.os and meta.browser: Mobile App where the OS contains Android or iOS and the browser contains WebKit or Chrome WebView; Mobile Web where the OS is mobile but the browser is not an app browser; Desktop otherwise. Subscriber classification follows the May 2026 rule, using status and subscriptionDate and disregarding isSubscribed.
+Qualitative coding. Themes were coded from the "main reason for your score" question using raw text alongside the per-response Sprig theme labels, which arrive embedded on open-text rows and require no separate call. A theme requires three mentions across distinct respondents; anything below that is reported as an emerging signal. Every quotation is attributed with its respondent's raw NPS score and audience.
+Traceability. Every statistic in this report is computed from the extraction described above and is traceable to individual records. Segments below n=30 are flagged; segments below n=5 are flagged and carry no conclusions. Prior-month values are carried forward from earlier cycle reports and were verified against the June build record before use.
+OS value | Browser | Assigned platform | Respondents
+iOS | WebKit | Mobile App | 163
+iOS | Mobile Safari | Mobile Web | 61
+Mac OS | Safari | Desktop | 53
+Windows | Chrome | Desktop | 38
+Android | Chrome WebView | Mobile App | 34
+Android | Chrome | Mobile Web | 24
+Mac OS | Chrome | Desktop | 24
+Windows | Edge | Desktop | 19
+iOS | GSA | Mobile Web | 18
+iOS | Chrome | Mobile Web | 17
+Windows | Firefox | Desktop | 11
+Mac OS | Firefox | Desktop | 3
+Android | Firefox | Mobile Web | 1
+Android | Samsung Internet | Mobile Web | 1
+Android | Silk | Mobile Web | 1
+iOS | Facebook | Mobile Web | 1
+Metric | Dec 2025 | May 2026 | Jun 2026 | Jul 2026 | Δ Jun → Jul
+Overall NPS | 72.9 | 57.5 | 63.4 | 65.9 | +2.5
+BCM NPS | — | 66.0 | 68.2 | 69.8 | +1.6
+Non-BCM NPS | — | 41.6 | 52.6 | 57.8 | +5.2
+Mobile App NPS | — | 68.9 | 81.7 | 69.0 | −12.7
+Desktop NPS | — | 65.6 | 67.3 | 71.6 | +4.3
+Mobile Web NPS | — | 21.7 | 37.7 | 54.0 | +16.3
+Non-BCM × Mobile Web | — | −6.2 | 12.8 | 40.0 | +27.2
+Segment | n | Promoters | Passives | Detractors | NPS
+All respondents | 469 | 351 (74.8%) | 76 (16.2%) | 42 (9.0%) | 65.9
+Segment | n | Promoters | Passives | Detractors | NPS
+BCM | 315 | 241 (76.5%) | 53 (16.8%) | 21 (6.7%) | 69.8
+Non-BCM | 154 | 110 (71.4%) | 23 (14.9%) | 21 (13.6%) | 57.8
+Segment | n | Promoters | Passives | Detractors | NPS
+Non-BCM / librarian  [n<30] | 8 | 7 (87.5%) | 1 (12.5%) | 0 (0.0%) | 87.5
+Non-BCM / teacher | 38 | 30 (78.9%) | 5 (13.2%) | 3 (7.9%) | 71.1
+Non-BCM / parent_of_student  [n<30] | 23 | 16 (69.6%) | 5 (21.7%) | 2 (8.7%) | 60.9
+Non-BCM / other | 50 | 34 (68.0%) | 9 (18.0%) | 7 (14.0%) | 54.0
+Non-BCM / student | 34 | 22 (64.7%) | 3 (8.8%) | 9 (26.5%) | 38.2
+Non-BCM / book_club_member  [n<5] | 1 | 1 (100.0%) | 0 (0.0%) | 0 (0.0%) | 100.0
+Non-BCM category | n | Promoters | % of Non-BCM promoters | % of Non-BCM detractors
+other | 50 | 34 | 30.9% | 33.3%
+teacher | 38 | 30 | 27.3% | 14.3%
+student | 34 | 22 | 20.0% | 42.9%
+parent_of_student | 23 | 16 | 14.5% | 9.5%
+librarian | 8 | 7 | 6.4% | 0.0%
+book_club_member | 1 | 1 | 0.9% | 0.0%
+Segment | n | Promoters | Passives | Detractors | NPS
+Subscribers | 469 | 351 (74.8%) | 76 (16.2%) | 42 (9.0%) | 65.9
+Segment | n | Promoters | Passives | Detractors | NPS
+legacy / other | 298 | 228 (76.5%) | 48 (16.1%) | 22 (7.4%) | 69.1
+annual_essentials | 68 | 53 (77.9%) | 8 (11.8%) | 7 (10.3%) | 67.6
+annual_plus | 90 | 65 (72.2%) | 18 (20.0%) | 7 (7.8%) | 64.4
+monthly_plus  [n<30] | 7 | 3 (42.9%) | 1 (14.3%) | 3 (42.9%) | 0.0
+monthly_essentials  [n<30] | 6 | 2 (33.3%) | 1 (16.7%) | 3 (50.0%) | −16.7
+Segment | n | Promoters | Passives | Detractors | NPS
+Desktop | 148 | 119 (80.4%) | 16 (10.8%) | 13 (8.8%) | 71.6
+Mobile App | 197 | 147 (74.6%) | 39 (19.8%) | 11 (5.6%) | 69.0
+Mobile Web | 124 | 85 (68.5%) | 21 (16.9%) | 18 (14.5%) | 54.0
+Segment | n | Promoters | Passives | Detractors | NPS
+BCM × Desktop | 97 | 79 (81.4%) | 11 (11.3%) | 7 (7.2%) | 74.2
+BCM × Mobile App | 149 | 111 (74.5%) | 30 (20.1%) | 8 (5.4%) | 69.1
+Non-BCM × Mobile App  [n<30] | 48 | 36 (75.0%) | 9 (18.8%) | 3 (6.2%) | 68.8
+Non-BCM × Desktop | 51 | 40 (78.4%) | 5 (9.8%) | 6 (11.8%) | 66.7
+BCM × Mobile Web | 69 | 51 (73.9%) | 12 (17.4%) | 6 (8.7%) | 65.2
+Non-BCM × Mobile Web | 55 | 34 (61.8%) | 9 (16.4%) | 12 (21.8%) | 40.0
+OS | n | Promoters | % of all promoters | % of all detractors
+iOS | 260 | 191 | 54.4% | 54.8%
+Mac OS | 80 | 63 | 17.9% | 14.3%
+Windows | 68 | 56 | 16.0% | 16.7%
+Android | 61 | 41 | 11.7% | 14.3%
+Segment | n | Promoters | Passives | Detractors | NPS
+Subscribers × Desktop | 148 | 119 (80.4%) | 16 (10.8%) | 13 (8.8%) | 71.6
+Subscribers × Mobile App | 197 | 147 (74.6%) | 39 (19.8%) | 11 (5.6%) | 69.0
+Subscribers × Mobile Web | 124 | 85 (68.5%) | 21 (16.9%) | 18 (14.5%) | 54.0
+Title named | Quantity | Respondent
+The Raven: A Biography of Sam Houston (Marquis James) | 1 | Score: 10, Non-BCM
+Corrections in Ink | 1 | Score: 10, BCM
+The Beach House | 1 | Score: 10, BCM
+The Bird Artist | 1 | Score: 10, BCM
+Pitch Hit | 1 | Score: 8, Non-BCM
+Paradiso 17 | 1 | Score: 7, BCM
+Ciudad Láser | 1 | Score: 7, BCM
+The Bad Habit | 1 | Score: 7, BCM

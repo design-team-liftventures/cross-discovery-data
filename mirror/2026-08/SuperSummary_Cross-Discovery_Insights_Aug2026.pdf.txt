@@ -1,0 +1,1047 @@
+CROSS-DISCOVERY · AUGUST 2026 CYCLE
+
+
+
+Seventeen insights from six
+sources of user evidence
+What 2,500 cancellations, 950 support tickets, 1,100 survey responses and 11
+usability studies tell us about where SuperSummary is losing and winning readers —
+and what it means for Q4 planning. Part 1 consolidates the ten core insights; Part 2
+adds seven findings not covered in the previous review.
+
+Prepared by the Design Team, Lift Ventures · September 17, 2026
+For: Leadership and Q4 planning · Period covered: August 1–31, 2026
+
+
+
+
+Sources evaluated
+
+Source                               Volume (Aug 2026)             What it tells us
+
+Chargebee cancellation flow          2,503 cancel sessions         Stated reason, plan, tenure, return likelihood,
+(Brightback)                                                       free text
+
+Money-Back Guarantee form            338 refund requests (295      Sub-reasons and 'what would have made you
+                                     refunded)                     stay?'
+
+Freshdesk                            ~950 inbound customer tickets Support themes, keyword-classified
+
+Sprig NPS (4 surveys)                550 validated subscribers     NPS by audience, platform, plan; themes
+
+Sprig PMF (8 surveys)                533 responses                 Sean Ellis 'very disappointed' score per feature
+
+Sprig Growth Exp / product surveys   11 surveys, n = 3–92 each     Exit-intent barriers, intent, Book Brief, DQG,
+                                                                   quiz
+
+Lyssna (11 reports)                  n = 1–50 per study            Funnel Revamp, JTBD Payoff v1–v4, Book
+                                                                   Hub, Book Clubs
+Executive summary
+August 2026 was the largest evidence base the team has assembled in a single cycle. Read together, the
+sources point to one dominant story and three supporting ones.
+
+1. Billing clarity is the biggest lever we have. Nearly half of all cancellations (45%) happen within seven
+days of subscribing, and a further 28% happen at annual renewal. The two moments share a root cause: users
+do not understand what they are buying or when they will be charged. “7 days free” is read as a free trial but
+works as a refund window; annual renewals arrive without warning; the Essentials/Plus split and the
+annual-by-default selector produce mistaken purchases. Insights 1, 2 and 8 describe this problem from three
+angles. Together they account for roughly 40% of stated cancel reasons, the majority of support volume, and
+the only recurring detractor signal in NPS.
+
+2. Usage is episodic — and our model is not. “I only needed SuperSummary for a short time” is the single
+largest cancel reason (38%) and these users report the highest likelihood of returning. Students and parents,
+who make up half of cancellations and carry the weakest NPS, embody this pattern. Insights 3 and 6 argue for
+products built around the real usage cycle (single-guide passes, pause, easy reactivation) rather than for
+retaining users who have no continuous need.
+
+3. Book Club Members are the healthy core. BCM NPS is 68.5, “book club preparation” is the dominant
+promoter theme every cycle, and the reference-layer features (Character List, Story Recap, Author Insights)
+show strong product-market fit. Insights 4, 5, 9 and 10 describe where to invest in content depth, catalog, the
+Book Hub and the Book Clubs product for that core.
+
+4. Mobile Web is the weakest surface. NPS on Mobile Web fell to 42.4 with a 20% detractor share — double
+Desktop and nearly four times the app. Insight 7 flags it as a platform risk that deserves a dedicated audit.
+
+Beyond the previous review (Part 2). A second pass on the raw data surfaced seven findings that the earlier
+key insights did not cover: a third of “cancellations” happen within 24 hours of purchase and are largely
+defensive renewal opt-outs; renewal churn is the least recoverable and turns into chargebacks; failed-payment
+emails trigger cancellation rather than recovery; login and identity friction quietly drives refunds; the cancel flow
+is blind to avid readers; a third of users find the discussion questions themselves lacking; and several research
+instruments cannot explain our weakest segments.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                              2
+Part 1 — The ten core insights at a glance
+#    Insight                                       Primary evidence                           Q4 lever
+
+1    “7 days free” is read as a trial, not a refund 45% of cancels in first 7 days; 13% of    Checkout copy + MBG
+     window                                         tickets cite trial                        mechanics
+
+2    Annual renewal without notice drives late     28% of cancels at 365+ days; 353 “no       Pre-renewal email +
+     churn and disputes                            auto-renew”                                one-click pause
+
+3    Usage is episodic; leavers want to come       960 “short-term need”; return likelihood   Single-guide pass / pause /
+     back                                          5.1/10                                     reactivation
+
+4    Perceived depth and trust fall short of       MBG #1 reason (39%); accuracy/AI           Editorial QA, citations, AI
+     positioning                                   complaints                                 provenance
+
+5    Catalog gaps are the #1 subscriber            NPS 19 mentions; 167 cancels               Request-a-guide +
+     request                                                                                  pre-purchase availability
+
+6    Students and parents churn most; BCM is       48% of cancels; NPS 45–47 vs BCM           Focus investment on BCM
+     the core                                      68.5
+
+7    Mobile Web is the weakest surface             NPS 42.4; 20% detractors                   Mobile Web
+                                                                                              access/entitlement audit
+
+8    Plan architecture confuses and retention      19% of tickets; 8 of 2,503 offers          Plans page, Plus gating,
+     offers are inert                              accepted                                   cancel flow
+
+9    PMF is strong in the reference layer, weak Character List 79.7% vs games 35–44% Book Hub scope
+     in games
+
+10   Appetite for “better discussions”;            84% prompted vs 43% unprompted             Funnel copy, Book Clubs,
+     mechanism not yet legible                     recall; DQG 48% top-2                      DQG quality
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                       3
+Part 2 — Seven new insights at a glance
+#    Insight (new in this review)                  Primary evidence                          Q4 lever
+
+11   A third of cancellations happen within 24h    29% <24h; 18% <1h; 9% <10 min             Non-renewing option at
+     and are largely defensive                                                               checkout; separate churn
+                                                                                             from opt-out
+
+12   Renewal churn is the least recoverable        Return likelihood 3.6 at 365+; 138        Pre-renewal notice with
+     and turns into disputes                       dispute tickets                           one-click opt-out
+
+13   Failed-payment emails trigger                 35 replies, nearly all “cancel”           Redesign dunning with
+     cancellation, not recovery                                                              context and exit path
+
+14   Login and identity friction quietly drives    119 access-only tickets; 15 MBG “can’t    Identity unification, reliable
+     refunds                                       find customer”                            reset, self-serve cancel
+
+15   The cancel flow is blind to avid readers; no 18% fallback sessions; 8 of 2,503 offers   Reason-based cancel flow;
+     offer variant works                                                                     avid-reader treatment
+
+16   For a third of users, discussion-question     DQG 30% rate 1–2; ChatGPT cited as        Divergent-perspective
+     quality is the gap                            source                                    questions; club social rules
+
+17   Our instruments cannot explain the            MBG drill-down fields 100% empty; 3       Fix MBG form; detractor
+     weakest segments                              texts from 18 detractors                  follow-up on Mobile Web
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                         4
+INSIGHT 01 · BILLING CLARITY
+
+“7 days free” is read as a free trial, but works as a refund window —
+and that gap is now the largest source of early churn, tickets and
+refunds
+
+  45%                             344                           61%                           295
+  of all August cancellations     cancellations for “I didn’t   of inbound support tickets
+  occur within 7 days of          expect to be charged” —       are cancellation or refund    refunds processed through
+  subscribing (54% within 30      51% of them in the first 7    requests; 13% explicitly      the Money-Back Guarantee
+  days)                           days                          mention the trial             form (~US$11k)
+
+
+
+Cross-source evidence
+• Chargebee: the early-churn cohort is dominated by students (424 of 1,134 cancels under 7 days), but the
+  confusion appears in every audience, including BCM and teachers.
+• Freshdesk: refund requests repeatedly describe an expectation of a card-free or charge-later trial; some
+  escalate to chargebacks filed as “fraud”.
+• Lyssna, Funnel Revamp (Complete and Compact flows, n=15 each): “will I be charged now or after the
+  trial?” was the single most repeated uncertainty; post-signup expectations split three ways (trial access /
+  billing page / welcome screen).
+• Sprig exit-intent on the payment page: 3 of 10 answers are trial-and-cancellation concerns.
+In users' words
+
+    “The 7-day free trial should be made more clear. It’s not really a free trial, just a 7-day refund window.”
+    — Chargebee cancellation flow, avid reader
+
+
+    “A 7-day free trial and 7-day money back guarantee are completely different.”
+    — Money-Back Guarantee form
+
+
+    “yea is it a 7 day free trial or are they charging me but within 7 days I can get [a refund]”
+    — Sprig exit-intent, payment page
+
+
+    “I would probably prefer to have the 7 day trial without putting in payment info where it would just delete my
+    account if I didn’t sign up.”
+    — Lyssna, Funnel Revamp usability test
+
+
+    “I saw free trial, but then was charged for an entire year before the free trial even started.”
+    — Freshdesk ticket
+
+
+Recommended action for Q4
+Rewrite the checkout and post-signup copy so it states plainly what happens next — when the charge occurs,
+what the guarantee covers, and how to cancel — or test a genuine no-charge trial. This is the cheapest lever
+with the largest expected effect on churn, support load and chargebacks.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     5
+INSIGHT 02 · BILLING CLARITY
+
+Annual renewal without notice creates the second churn wave —
+and turns customers into detractors and disputes
+
+  61%                             28%                           353                          16%
+                                  of all cancellations happen   cancellations for “I don’t
+  of cancellations are annual     at 365+ days of tenure —      want my subscription to      of inbound tickets mention
+  plans (1,532 of 2,503)          the renewal moment            renew automatically”         renewal
+
+
+
+Cross-source evidence
+• Chargebee: at renewal, the leading reasons are “short-term need” (306), “no auto-renew” (136) and “didn’t
+  expect to be charged” (115). Users cancelling for the renewal reason still report above-average likelihood of
+  returning (4.7 vs 4.0).
+• Freshdesk: Braintree chargebacks classified as “fraud” are, in practice, forgotten renewals; several tickets
+  state the user believed they had already cancelled.
+• NPS: “access and billing friction” is the only detractor signal that recurs in every tracked cycle, spanning
+  both audiences; two of five mentions this month are renewals without notice.
+In users' words
+
+    “I received ZERO emails about this renewal and quite honestly forgot all about this website.”
+    — Chargebee cancellation flow, student
+
+
+    “Didn’t know I’ve been being charged for this for 4 years”
+    — NPS detractor, score 0, Non-BCM
+
+
+    “If I had known that this account was set to automatically renew, I would have cancelled already.”
+    — Freshdesk ticket
+
+
+    “Giving a heads-up that auto-renewal was happening, so I wouldn’t have paid for a subscription that I have
+    never used.”
+    — Chargebee cancellation flow, BCM
+
+
+Recommended action for Q4
+Send a pre-renewal notice 7–14 days before annual billing with one-click cancel, pause or switch-to-monthly.
+Expect a short-term dip in passive renewals offset by fewer refunds, chargebacks and zero-score detractors —
+and a healthier base of subscribers who chose to stay.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     6
+INSIGHT 03 · BUSINESS MODEL
+
+Usage is episodic by nature: “I only needed it for a short time” is the
+#1 reason to leave — and these users want to come back
+
+  38%                                        5.1 / 10                                  6 of 19
+                                             average return likelihood in this group
+  of cancellations (960) cite a short-term   — the highest of any reason; 29% rate     returning non-converters say they
+  need, across every audience                it 7+                                     “only need it once in a while”
+
+
+
+Cross-source evidence
+• Chargebee: short-term need leads both early cancellations (345 under 7 days) and renewal-time
+  cancellations (306 at 365+ days).
+• Chargebee and MBG free text: unprompted requests for a single-guide purchase or a cheaper occasional
+  option appear from students, teachers and book club members alike.
+• Sprig subscribe-intent survey (returning non-converters, 6+ guide views): price (7) and occasional need (6)
+  are the two main barriers; 4 say they plan to subscribe but haven’t.
+• MBG: several leavers explicitly say they will return when the next need arises.
+In users' words
+
+    “Too bad you cannot just buy one book summary.”
+    — Chargebee cancellation flow, BCM
+
+
+    “Create a one off plan for people who only need to purchase for a single book. I was impressed with what I
+    discovered for the book I presented on but the cost does not justify the single use.”
+    — Chargebee cancellation flow, teacher
+
+
+    “I don’t want to pay a monthly or annual fee for something I’ll only use once or twice”
+    — Sprig subscribe-intent survey
+
+
+    “I no longer need it, but i will definitely come back when I need the teaching resource.”
+    — Money-Back Guarantee form
+
+
+Recommended action for Q4
+Explore a single-guide pass or short-term access product, a “pause” option in the cancel flow, and frictionless
+reactivation for lapsed accounts. This is a redesign of the model around the real usage cycle — not a retention
+tactic for users who have no continuous need.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                      7
+INSIGHT 04 · CONTENT & TRUST
+
+Perceived depth and reliability of the content fall short of the
+“Trusted Expertise” positioning
+
+  39%                                        236                                        10
+  of Money-Back Guarantee requests:          Chargebee cancellations for “not           NPS requests for deeper, more
+  “the content did not meet my               helpful enough” or “didn’t feel accurate   consistent analysis — the #2 request
+  expectations” (131 of 338)                 or trustworthy”                            group
+
+
+
+Cross-source evidence
+• Recurring complaints across Chargebee, MBG and Freshdesk: summaries that read as outlines; no
+  chapter-by-chapter or scene-level analysis; missing citations and page numbers; misspelled character
+  names; and a perception that text is AI-generated with little review.
+• NPS: a new theme this cycle — inconsistent quality across guides — raised by promoters, one of whom
+  attributes it to the contracting model. AI provenance is salient in both directions: one promoter cites the
+  absence of AI writing as a reason for a 10.
+• The upside is equally clear: depth and thoroughness is the #2 promoter theme among BCM (20 mentions),
+  and the Book Hub prioritization gave chapter summaries and analysis 100% demand.
+In users' words
+
+    “The character analysis in particular was quite poor. It was more of a description than an analysis, which
+    was the entire reason why I subscribed”
+    — Chargebee cancellation flow, student
+
+
+    “CITATIONS. PAGE NUMBERS. Anything that shows where and what you’re referencing!”
+    — Chargebee cancellation flow, teacher
+
+
+    “Spellcheck your synopses and analyses. I found several mistakes that made me feel like the text was AI
+    generated with minimal review”
+    — Chargebee cancellation flow, parent
+
+
+    “My only concern is that the quality of the summaries varies because you contract out to so many different
+    analysts”
+    — NPS promoter, score 10, BCM
+
+
+    “Detailed and thoughtful. More than a simple plot summary”
+    — NPS promoter, score 9, BCM
+
+
+Recommended action for Q4
+Institute an editorial QA pass (names, spelling, consistency across titles), add citations with chapter/page
+anchors, and make human authorship visible where it is true. Be deliberate about how AI appears in the
+product: it is read as a trust signal by some and as a quality risk by others.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                          8
+INSIGHT 05 · CATALOG
+
+Catalog gaps are the #1 request from subscribers and a direct cause
+of cancellation
+
+  19                                         151                                       16
+                                             Chargebee cancellations for “I couldn’t
+  NPS mentions of catalog expansion —        find content for the book(s) I’m          MBG refund requests because the
+  roughly double the next request group      reading”                                  desired study guide was unavailable
+
+
+
+Cross-source evidence
+• NPS: catalog gaps appear in detractor, passive and request text, and account for every named title in the
+  missing-books question. Requests span new releases, non-fiction, lesser-known and international authors,
+  and a way to nominate titles.
+• Chargebee: users who leave for this reason report above-average return likelihood (4.5), suggesting they
+  would come back if the title existed.
+• Freshdesk and MBG: a share of early refunds comes from users who subscribed before confirming the book
+  was covered.
+In users' words
+
+    “Reserving a 10 for when the library is more expansive.”
+    — NPS passive, score 8, BCM
+
+
+    “There are simply too many books missing that I would need study guides for on this platform for the
+    subscription to make sense to me.”
+    — Money-Back Guarantee form
+
+
+    “More books in the library or a recommendation feature for Guides we would like.”
+    — NPS, BCM
+
+
+    “Include more study guides of contemporary writers.”
+    — Chargebee cancellation flow, BCM
+
+
+Recommended action for Q4
+Add a visible “request a guide” mechanism with a public queue, prioritize new releases and book-club picks,
+and — in the funnel — confirm coverage of the user’s book before purchase to prevent avoidable early churn.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                        9
+INSIGHT 06 · AUDIENCE
+
+Students and parents concentrate churn and the weakest NPS; Book
+Club Members are the healthy core
+
+  48%                                        45.2 / 46.9                            68.5
+                                                                                    BCM NPS; “book club preparation” is
+  of cancellations are students (944) or     NPS for Non-BCM students and           the dominant promoter theme every
+  parents of students (258)                  parents — both in the red band         cycle
+
+
+
+Cross-source evidence
+• Chargebee: students also lead early cancellations (424 under 7 days) and are the largest audience in the
+  trial-confusion cohort.
+• NPS: students and parents supply 61% of Non-BCM detractors from 40% of Non-BCM respondents; the
+  Non-BCM student cell on Mobile Web reads −35.7 (n=14).
+• NPS: BCM promoters describe a repeatable job — arriving at meetings prepared, leading discussion,
+  recalling characters and themes — that maps directly onto the 3HAG.
+• Lyssna Book Hub prioritization: two-thirds of respondents came to prepare for a book club or to understand
+  a book more deeply.
+In users' words
+
+    “I’m in 2 book clubs. As an avid reader, a book I have read in the past is selected. I love the recap and
+    summaries. Also, the character analysis and themes are great for discussion.”
+    — NPS promoter, score 10, BCM
+
+
+    “love this app for when I don’t finish a book and still want to participate with book club”
+    — NPS promoter, score 10, BCM
+
+
+    “The guides weren’t quite at the right level for my children”
+    — Chargebee cancellation flow, parent
+
+
+    “It’s a good program. Just don’t use it very often”
+    — Chargebee cancellation flow
+
+
+Recommended action for Q4
+Concentrate Q4 product investment on Book Club Members and avid readers. Treat students as an episodic
+segment (see Insight 3) rather than an annual-retention target, and reconsider the annual-first default for that
+audience.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     10
+INSIGHT 07 · PLATFORM
+
+Mobile Web is the weakest surface — and where the experience fails
+for readers arriving from search
+
+  42.4                                       20.1%                                  73.1
+                                             Mobile Web detractor share — double
+  Mobile Web NPS, down 11.6 points;          Desktop (9.0%), nearly 4× Mobile App   Mobile App NPS, recovering +4.1 and
+  the only platform in the red band          (5.6%)                                 again the strongest platform
+
+
+
+Cross-source evidence
+• NPS: the Non-BCM × Mobile Web cross-segment fell from 40.0 to 13.7; 18 of the 28 Non-BCM detractors sit
+  on Mobile Web, but only 3 left usable text — the instrument cannot explain the drop.
+• NPS cross-question cluster: three of five billing/access mentions describe entitlement failure — paying and
+  still not reaching content — rather than a billing surprise.
+• Lyssna Funnel Revamp (mobile scenario): users who want to “get straight to the point” abandon quickly and
+  default to Google or an AI assistant; a minority found repeated promotional screens off-putting.
+• Caveat: the alternating Mobile App / Mobile Web movement over two months may partly reflect who was
+  sampled; verify against delivery volumes before treating it as a trend.
+In users' words
+
+    “It Is always hard for me to Get back in”
+    — NPS, score 5, Non-BCM
+
+
+    “I keep having trouble gaining full access even though I subscribe. Frustrating.”
+    — NPS, score 7, Non-BCM
+
+
+    “Within the first one or two seconds. If I were actually looking for information for my book club I probably
+    would have just done a Google search or asked Gemini.”
+    — Lyssna, Funnel Revamp — when they wanted to stop
+
+
+    “There were way too many buttons to click. I like to get straight to the point.”
+    — Lyssna, Funnel Revamp usability test
+
+
+Recommended action for Q4
+Run a dedicated Mobile Web audit covering sign-in, post-purchase entitlement, navigation and promotional
+screen density. Add a short follow-up question for Mobile Web detractors so the next cycle can explain the
+score.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     11
+INSIGHT 08 · PLANS & PRICING
+
+Plan architecture confuses users — Plus gating, annual-by-default
+and a cancel flow whose offers nobody accepts
+
+  19%                                        7 of 13                                   8 / 2,503
+                                             plan-selection exit-intent answers cite
+  of inbound tickets mention plan, tier,     cost as what makes Essentials vs Plus     retention offers accepted in the
+  or annual vs monthly                       hard to decide                            cancellation flow (0.3%)
+
+
+
+Cross-source evidence
+• Chargebee and MBG: users leave because the feature they came for (quizzes, PDF downloads, discussion
+  questions) was only in Plus, or because they selected annual by mistake.
+• Freshdesk: recurring tickets about “wrong plan”, USD pricing surprises, and Essentials users who cannot
+  see what Plus unlocks.
+• Chargebee: 61% of cancellations are annual, and the cancel flow shows a 25–40% one-time discount that is
+  almost never taken — the offer does not address the reasons people give.
+• Sprig payment-page exit intent: “can I use the app with the Essentials plan?” and “I want to see a sample”
+  point to value uncertainty at the moment of decision.
+In users' words
+
+    “I just needed a study guide for 1 book and wasn’t able to access it with the lower subscription”
+    — Chargebee cancellation flow, parent
+
+
+    “Everything I needed required the upgraded subscription”
+    — Chargebee cancellation flow, teacher
+
+
+    “I accidentally clicked annual subscription as I didn’t realise the tab at the top was on annual instead of for 1
+    month”
+    — Money-Back Guarantee form
+
+
+    “The PDF printable and quizzes weren’t available on the lower subscription and I don’t want to pay $60 for
+    the pro plan.”
+    — Money-Back Guarantee form
+
+
+Recommended action for Q4
+Redesign the plans page (default selection, side-by-side comparison, what each tier unlocks), revisit which
+features gate Plus, and rebuild the cancel flow around the reasons users actually give — pause, downgrade, or
+single-guide access rather than a percentage discount.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     12
+INSIGHT 09 · PRODUCT-MARKET FIT
+
+PMF is strong in the reference layer — Character List, Story Recap,
+Author Insights — and weak in games; this should shape the Book
+Hub
+
+  79.7%                                      35–44%                               100%
+  Character List “very disappointed”                                              of Book Hub prioritization participants
+  score (n=158); Author Insights 69.0%;      PMF for the three games; Word Worm   want chapter summaries and analysis
+  Story Recap 68.7%                          (34.6%) is below the 40% benchmark   (essential 4.5/5)
+
+
+
+Cross-source evidence
+• Sprig PMF: Character List’s primary benefit is keeping track of a large cast (48) and quick reference without
+  re-reading (39); the most requested additions are relationship maps (67 of 109) and notable traits (62).
+• Sprig PMF: Story Recap is rated “very useful” for re-contextualizing the story by 76% of respondents; Author
+  Insights users want inspirations, life connections and historical context.
+• Lyssna Book Hub prioritization (n=18): Story Recap, Character List and Themes each at 78% demand;
+  games at 17–28% and lowest essential scores; discussion content is wanted almost exclusively after
+  reading.
+• Sprig PMF games: the main reason for indifference to Word Worm is difficulty; free-text improvement
+  suggestions are near-absent.
+In users' words
+
+    “It helped me keep track of a large cast of characters”
+    — Sprig PMF, Character List — primary benefit, 48 mentions
+
+
+    “Can condense in printable form that I can carry to book club”
+    — Sprig PMF, Character List
+
+
+    “Provide a more comprehensive list that includes short description of minor characters.”
+    — Sprig PMF, Character List
+
+
+    “The game is too difficult”
+    — Sprig PMF, Word Worm — #1 reason for not missing it
+
+
+Recommended action for Q4
+Anchor the Book Hub on chapter summaries, Story Recap, Character List (with relationship maps and traits)
+and Themes; package discussion questions as a post-read module; hold games out of the initial release and
+revisit only against an engagement goal.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                       13
+INSIGHT 10 · DISCUSSION & BOOK CLUBS
+
+There is real appetite for “better discussions” and club tools — but
+the mechanism is not yet legible, and ChatGPT is the competitor for
+discussion questions
+
+  84% vs 43%                                 48%                                     40%
+  prompted vs unprompted recall of the       rate the discussion questions 4–5 out   task success for finding and reacting
+  discussion-questions benefit (JTBD         of 5; 30% rate them 1–2 (DQG survey,    to members’ hot takes in Book Clubs
+  Payoff v2, 2-second test)                  n=92)                                   Concept 1 — the weakest task tested
+
+
+
+Cross-source evidence
+• Lyssna JTBD Payoff v1–v4: the headline lands (“Spark strong discussions” is the dominant recall in v4), but
+  16–20% still read SuperSummary as “just a summary”, and the specific mechanism needs a second beat.
+• Sprig Book Brief: getting talking points for a class or club is the #1 reason subscribers open a Book Brief (17
+  of 31).
+• Lyssna Book Clubs (Concepts 1 & 2, Homepage): sentiment is enthusiastic; poll set-up scored a perfect 5.0
+  ease; hot takes/reactions is the hardest task in both concepts; users ask to save feed items for the meeting
+  and to gate spoilers.
+• Sprig DQG: the top complaint is that questions do not encourage different perspectives; alternative sources
+  are author materials (8), ChatGPT or other AI tools (7), Goodreads (6) and fellow members (6).
+In users' words
+
+    “I like the idea of keeping the focus on the club itself. This version makes it easier for club members to see
+    the arc of their participation in the club over time.”
+    — Lyssna, Book Clubs MVP preference test
+
+
+    “I would like to save them somewhere to use during the meeting… like my own notes and agenda”
+    — Lyssna, Book Clubs Homepage usability test
+
+
+    “It would help me prep some good questions to have a really impactful discussion.”
+    — Lyssna, JTBD Payoff v1
+
+
+    “They didn’t encourage different perspectives”
+    — Sprig DQG survey — #1 reason for low satisfaction
+
+
+    “It looks like a great app. The human element is the best.”
+    — Sprig subscribe-intent survey
+
+
+Recommended action for Q4
+In the funnel, make the mechanism literal (“ready-to-use questions by theme”) and trim competing bullets. In
+Book Clubs, fix hot-takes discoverability, add save-for-meeting and clear visibility/spoiler rules before scaling
+recruitment. In the DQG, raise question quality toward divergent perspectives — the bar is now set by generic
+AI.
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                        14
+Part 2 — New insights beyond the previous review
+The five key insights presented in the last review covered trial semantics, per-title need, depth as a visibility
+problem, discussion-question discoverability and the memory-tools mental model. The seven findings below
+come from a second pass on the raw data with those themes set aside: each is a pattern none of them
+described, or evidence that adjusts one.
+
+INSIGHT 11 · MEASUREMENT & MODEL
+
+A third of “cancellations” happen within 24 hours of purchase — and
+much of it is defensive renewal opt-out, not churn
+
+  29%                                        18%                                    117 / 89 / 48
+  of all cancellations (686 of 2,503)                                               top reasons under one hour:
+  occur less than 24 hours after             occur within one hour; 9% (235         short-term need / didn’t expect charge
+  subscription start                         sessions) within ten minutes           / don’t want auto-renew
+
+
+
+Cross-source evidence
+• Chargebee: tenure computed from subscription start to cancel date. The under-one-hour cohort spans every
+  audience (students 255, avid readers 133, BCM 125, teachers 94 under 24h) and every plan.
+• Freshdesk and MBG: users describe subscribing, checking a guide and cancelling within minutes — some
+  to avoid a renewal they distrust, some because the guarantee copy suggested a trial.
+• Implication for metrics: a material share of reported churn is renewal opt-out by users who keep access for
+  the paid period. Churn goals for Q4 should be set on non-renewal, not on cancel events.
+• Implication for the flow: the cancel experience fires minutes after payment, when a retention offer makes no
+  sense; these users need a “turn off auto-renew” path, not a discount.
+In users' words
+
+    “I just subscribed a few mins ago to look at 1 book and I cancelled my subscription after about 3 mins.”
+    — Freshdesk ticket
+
+
+    “I signed up for the 7day free trial period, but i canceled it within a few hours of signing up.”
+    — Freshdesk ticket
+
+
+    “Definitely a free trial, i decided that I didn’t wanna commit like right away because I hadn’t tested with a free
+    trial”
+    — Chargebee cancellation flow, student
+
+
+    “Cancelled prior to assessing”
+    — Money-Back Guarantee form, support note
+
+
+Recommended action for Q4
+Offer a “subscribe without auto-renewal” option at checkout, route same-day cancellations to a distinct “turn off
+renewal instead” path, and separate “cancelled” from “did not renew” in dashboards before Q4 retention targets
+are set.
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                        15
+INSIGHT 12 · RENEWAL ECONOMICS
+
+Renewal churn is the least recoverable and the most expensive — it
+becomes a dispute, not just a refund
+
+  3.6 / 10                                   138                                     38 / 29
+                                             dispute-related tickets in August: 50
+  return likelihood among users              PayPal cases and 81 Braintree
+  cancelling at 365+ days, vs 4.3–4.8 for    chargebacks with stated amounts         Braintree dispute reasons: “Fraud” /
+  earlier cancellations                      (~US$2.5k)                              “Cancelled recurring transaction”
+
+
+
+Cross-source evidence
+• Chargebee: the legacy US$36 plan concentrates renewal churn — 45% of its cancellations cite short-term
+  need and 19% cite auto-renewal; 32% of all annual cancellations occur at 365+ days.
+• Freshdesk: disputes filed as “fraud” are, on reading, unrecognised renewals; several customers state they
+  believed they had cancelled a year earlier and threaten BBB or Trustpilot reports.
+• Each dispute carries a processor fee on top of the refunded amount and, unlike an MBG refund, is initiated
+  against the company rather than through it.
+• Contrast with early churn: users leaving in the first week report they intend to come back; users leaving at
+  renewal do not.
+In users' words
+
+    “Total FRAUD because no warning you were to bill. No access in account about credit card. Nothing but
+    collect your $$. Yes good material, but FRAUDULENT business practice discredits everything you are.”
+    — Freshdesk ticket
+
+
+    “I have not used this in over a year and I still got charged for 2025 and since it got canceled this year I
+    should not get charged for 2026.”
+    — Money-Back Guarantee form
+
+
+    “No auto renewing without notice — I will be requesting a refund or requesting a chargeback with my CC
+    company since you will be removing my access despite charging for another year.”
+    — Chargebee cancellation flow, teacher
+
+
+Recommended action for Q4
+Send a pre-renewal notice 7–14 days ahead with one-click opt-out, and show the renewal date and amount
+inside the account. Track dispute volume and fees as a retention KPI alongside refunds; this is the churn we
+cannot win back.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                       16
+INSIGHT 13 · LIFECYCLE EMAIL
+
+Failed-payment recovery emails (“Don’t lose your access”) trigger
+cancellation, not recovery
+
+  35                                         ~2                                      several
+                                             of those replies confirm an updated     recipients do not recognise the brand
+  replies to the dunning email in August     card; nearly all others ask to cancel   or the charge at all
+
+
+
+Cross-source evidence
+• Freshdesk: the dunning email reaches dormant annual subscribers whose card has lapsed; for many it is the
+  first contact in a year, and it arrives with no reminder of what SuperSummary is, what they have access to,
+  or when they last used it.
+• The message asks for a new card before offering any way to leave gracefully, so the reply-to becomes the
+  exit.
+• Related pattern: the welcome email (“Thanks for subscribing”) drew 39 replies, most of them cancellation or
+  refund requests — transactional emails are the de-facto cancel channel (see Insight 14).
+In users' words
+
+    “I don’t know who this company is but I have never requested anything. I do not want this a[ccount].”
+    — Reply to “Don’t lose your access”
+
+
+    “What the hell is super summary”
+    — Reply to “Don’t lose your access”
+
+
+    “I cancelled my subscription. My son no longer uses this. Can you remove me from the email”
+    — Reply to “Don’t lose your access”
+
+
+    “Please cancel my account. I am unable to sign in to do so.”
+    — Reply to “Don’t lose your access”
+
+
+Recommended action for Q4
+Treat dunning as a product surface: add context (what the subscription is, last activity, what access is at stake),
+offer pause or downgrade alongside “update card”, and include a one-click cancel so the reply-to stops being
+the exit path.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                        17
+INSIGHT 14 · ACCESS & IDENTITY
+
+Login and identity friction is a hidden driver of refunds: users who
+cannot get in to cancel ask for their money back instead
+
+  119                                        15                                     39 + 20
+  inbound tickets about access only          MBG requests closed as “can’t find     cancellation requests sent as replies
+  (~13%), with no cancel or refund           customer” — the paying account could   to the welcome and MBG emails
+  request                                    not be matched                         rather than through the product
+
+
+
+Cross-source evidence
+• Freshdesk: recurring cases — subscribed via Sign in with Google/Apple while the receipt went to another
+  email; password-reset emails never arrive; paid but the account shows “Free Plan”; Plus upgrade not
+  applied; cannot log in on iPad but can on iPhone.
+• NPS: the only recurring detractor cluster describes entitlement failure (“paying and still not reaching
+  content”) more often than billing surprise.
+• When login fails, the path of least resistance is a refund request or a chargeback, so identity issues are
+  silently counted as churn.
+In users' words
+
+    “I have an existing paid SuperSummary subscription associated with my personal email address. When I try
+    to log in, I am now being required to use “Sign in with Google.””
+    — Freshdesk ticket
+
+
+    “I am being charged for the $36/year essentials subscription. But when I log in, it is unavailable for me to
+    use.”
+    — Freshdesk ticket
+
+
+    “I’d like to update my password. I’ve tried the Forgot Password link, but I never receive any email allowing
+    me to reset the password.”
+    — Freshdesk ticket
+
+
+    “I keep having trouble gaining full access even though I subscribe. Frustrating.”
+    — NPS, score 7, Non-BCM
+
+
+Recommended action for Q4
+Unify identity (link email and social sign-in to one customer), make password reset reliable, put a “manage
+subscription” link in every transactional email, and allow cancellation from a billing-email link without a full login.
+This reduces tickets, refunds and disputes at once.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                       18
+INSIGHT 15 · RETENTION FLOW
+
+The cancel flow is blind to the audience we position for — and no
+offer variant works
+
+  18%                                        133                                   8 / 2,503
+  of cancel sessions (450) fall into the
+  “fallback” experience: avid readers,       avid readers among cancellations      offers accepted across all variants:
+  librarians and “other” have no             under 24 hours — the second-largest   25% one-time, 40% one-time
+  treatment                                  audience in that cohort               (teachers), 25–40% forever
+
+
+
+Cross-source evidence
+• Chargebee “Page attributed”: Students, BCM, Teachers and Parents each have a dedicated Brightback
+  experience; avid_reader (212), other (212) and librarian (26) do not.
+• Acceptance is uniform and near zero regardless of discount size or modal treatment; MBG support retention
+  attempts (20) mostly failed.
+• What users say would keep them is not a percentage: a monthly or cheaper option (81 mentions in MBG),
+  better content (77), the book they wanted (23), a non-renewing plan, or a feature moved to the lower tier.
+In users' words
+
+    “If it was a month to month subscription. I was floored when I saw a $60 charge!!!!”
+    — Money-Back Guarantee form
+
+
+    “Discussion questions included in basic plan”
+    — Money-Back Guarantee form — what would have made you stay?
+
+
+    “Don’t keep offering upgradees”
+    — Chargebee cancellation flow, BCM
+
+
+    “LOWER MONTHLY PRICE OPTION”
+    — Chargebee cancellation flow, parent
+
+
+Recommended action for Q4
+Rebuild the cancel flow around the stated reason — pause, switch to monthly, downgrade, turn off renewal,
+single-guide pass — and add an avid-reader/librarian treatment. Retire the percentage discount as the default
+save offer.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                     19
+INSIGHT 16 · DISCUSSION QUALITY
+
+Evidence that adjusts an earlier insight: for a third of users,
+discussion-question quality — not discoverability — is the gap
+
+  48% / 30%                                  #1                                          7 vs 8
+  DQG survey (n=92): share rating the        reason for low satisfaction: “they didn’t   ChatGPT/AI tools vs author materials
+  questions 4–5 / share rating them 1–2      encourage different perspectives”           as the alternative source of questions
+
+
+
+Cross-source evidence
+• Sprig DQG: the satisfied majority values concision and open-endedness; the dissatisfied third finds the
+  questions convergent, long or complex. The benchmark they compare against is now generic AI.
+• Lyssna Book Clubs (Concepts 1 & 2, Homepage): enthusiasm is high, but a “shared club version” needs
+  social rules that were not in the earlier framing — visibility/anonymity of Hot Takes (expectations split three
+  ways), spoiler gating on Thought Starters and Quotes, reversibility of confirmations and votes, and saving
+  items to bring to the meeting.
+• Lyssna Book Clubs MVP: the “stacks up against your peers” framing was read as competitive and likely to
+  push conformist takes.
+In users' words
+
+    “They didn’t encourage different perspectives”
+    — Sprig DQG survey — #1 reason for low satisfaction
+
+
+    “I wanted info not questions”
+    — Sprig DQG survey
+
+
+    “I would like to save them somewhere to use during the meeting… like my own notes and agenda”
+    — Lyssna, Book Clubs Homepage
+
+
+    “‘see how it stacks up against your book club peers’ has strongly competitive connotations… likely to nudge
+    users toward safe, conformist readings.”
+    — Lyssna, Book Clubs MVP
+
+
+Recommended action for Q4
+Raise question quality toward divergence (contrasting readings, minority views, “argue the other side”) as the
+differentiator against generic AI, and define the club’s social rules — who sees what, when, and what can be
+undone — before scaling recruitment.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                             20
+INSIGHT 17 · RESEARCH OPS
+
+Our instruments cannot explain the weakest segments — data gaps
+worth fixing before Q4
+
+  100%                                        3 of 18                              112
+  of the 338 MBG rows have empty              Non-BCM Mobile Web detractors who    Chargebee sessions recorded as
+  drill-down fields (content / expected to    left usable text — the cohort that   “Unknown” with no reason, plan or
+  find / technical issue / no longer need)    explains the month’s NPS drop        audience
+
+
+
+Cross-source evidence
+• MBG: the form’s conditional follow-ups either no longer fire or are not exported, so the #1 refund reason
+  (“content did not meet expectations”, 39%) has no detail behind it.
+• NPS: no detractor theme reached the three-mention threshold in either audience for the first time; some low
+  scores review the book rather than the platform; “[skipped by user]” placeholders inflate raw response
+  counts.
+• Chargebee: Country is blank for all 2,503 sessions despite clear signs of international users (SEK, euros,
+  “app not available in France”, USD surprise); the competitor field is 71% empty and otherwise mostly
+  “nothing/idk”.
+• Freshdesk: the export has no category field — the “Segmentation” column is the email subject — so support
+  themes can only be approximated by keyword.
+In users' words
+
+    “[skipped by user]”
+    — Sprig NPS — written into 133 open-text cells
+
+
+    “Hard to read; the writing isn’t smooth… I finished only because it was our book club choice this month”
+    — NPS, score 3, BCM — a review of the book, not the platform
+
+
+    “Idk”
+    — Chargebee — the most common non-empty value in the competitor field
+
+
+Recommended action for Q4
+Fix the MBG form and export, add a one-question follow-up for Mobile Web detractors, capture country and
+plan on every cancel session, and add a ticket category in Freshdesk. Without these, the next cycle will again
+end in “we don’t know why” for the segments that matter most.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                                  21
+Emerging signals (thin evidence, worth monitoring)
+Reading level is not signalled.
+Guides are described as “way beyond my current group of middle schoolers”, as “more geared toward high
+school” by a college instructor, and as “too in-depth and complex for a group of very old ladies”. Middle School
+accounts for 287 cancellations, but only a handful of comments name level explicitly. A complexity or age
+indicator per guide would help in both directions.
+
+Proofreading errors read as “AI without review”.
+Misspelled character names, factual slips (“three days a year” vs “per month” in The Hawthorne Legacy) and
+typos appear in roughly 25 Chargebee and MBG comments. Small in volume, disproportionate in damage to
+the Trusted Expertise positioning, and cheap to fix with an editorial QA pass.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                         22
+Reading across the insights for Q4
+The seventeen insights cluster into five decisions leadership can take into planning.
+
+Fix billing clarity first (Insights 1, 2, 8, 12)
+Trial semantics, renewal notices and plan selection are the same problem seen from three angles. Together
+they explain roughly 40% of stated cancel reasons and most support volume, and they are largely copy, email
+and page-structure changes. Expected effects: fewer refunds and chargebacks, lower support cost, fewer
+zero-score detractors, and cleaner data on why people actually leave.
+
+Design for episodic use (Insights 3, 6)
+A single-guide pass, a pause option and easy reactivation would serve the largest leaver cohort — and the
+audience with the weakest NPS — better than annual-first retention. This is a business-model conversation as
+much as a product one, and it should be tested before being assumed.
+
+Invest in the core for Book Club Members (Insights 4, 5, 9, 10, 16)
+Editorial quality and citations, catalog expansion with a visible request queue, a Book Hub built on the
+reference layer, and Book Clubs tooling that makes discussion prep and reactions easy. These are the
+features promoters already credit and the ones the PMF and prioritization data rank highest.
+
+Fix the plumbing behind retention (Insights 11–15, 17)
+Separate renewal opt-out from churn in the metrics, add a non-renewing option and pre-renewal notice,
+redesign dunning and the cancel flow around stated reasons, unify identity and self-serve cancellation, and
+repair the MBG form. These are lower-visibility changes than new features, but together they address the
+tickets, refunds and disputes that currently absorb support capacity and mask the real churn rate.
+
+Treat Mobile Web as a platform risk (Insight 7)
+Audit access and entitlement on Mobile Web, reduce promotional density for search-arriving readers, and
+instrument detractor follow-up so the next cycle can explain the score.
+
+Method and caveats
+• Chargebee reasons are the user’s stated selection in the cancellation flow; tenure is computed from
+  subscription start to cancel date. “Unknown” (112 sessions) is excluded from reason shares.
+• Freshdesk was filtered to inbound customer messages (~950 of 1,540 rows) and classified by keyword;
+  percentages are approximations and categories overlap.
+• Sprig exit-intent and intent surveys have small samples (n=3–44) and are used as qualitative signal, not as
+  rates. Reviews (n=8) and Book Brief (n=23) PMF scores are directional.
+• NPS figures are taken from the August 2026 NPS Continuous Discovery Report (550 validated
+  respondents). Lyssna findings are taken from the eleven study reports in the folder; the Book Clubs MVP
+  preference test has a single participant and is not used for conclusions.
+• Quotes are verbatim, including spelling; only truncation and bracketed clarifications were applied.
+
+
+
+
+SuperSummary · Cross-Discovery Insights · August 2026                                                         23
+

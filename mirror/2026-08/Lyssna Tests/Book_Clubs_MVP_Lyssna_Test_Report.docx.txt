@@ -1,0 +1,59 @@
+Book Clubs MVP
+Usability Test Results — Lyssna
+Test: Content Team | Book Clubs MVP
+Report prepared: September 17, 2026
+
+1. Overview
+This report summarizes the results of a Lyssna usability and preference test for the Book Clubs MVP. The study asked one participant to explore two Figma prototypes representing two different navigation approaches to a book club homepage — a “library-first” concept and an “interaction-first” concept — and then to state which homepage layout they preferred.
+Test status:  Recruiting (link active)
+Total participants:  1
+Responses collected:  1
+Participant location:  United States
+Participant age range:  Unknown
+Recruitment source:  Self-recruited
+Sample size note: this test has recorded only one response so far. Lyssna itself flags the preference result as below its confidence threshold (“fewer than ten responses”). All findings below should be treated as early, directional signal rather than statistically reliable evidence, and should be validated with additional participants before being used to make a build decision.
+2. Test Structure
+Participants were told they would interact with two prototypes of a book club management tool intended to help users manage their book clubs on SuperSummary, and were asked to explore each prototype's navigation approach and share feedback. The study had three parts:
+A moderated exploration of Concept 1 (library-first), followed by an open-ended reaction question.
+A moderated exploration of Concept 2 (interaction-first), followed by an open-ended reaction question.
+A preference test asking participants to choose which of the two homepage concepts they preferred, with a follow-up question asking why.
+Before the preference question, participants were shown a short written explanation of each concept, summarized below.
+Concept 1 — Library-first
+The book is the center of the experience. When a book club is created, the user defines the book the club is currently reading, and that book becomes the main entry point for exploring content and preparing for the next meeting. Each book page includes a description, a Hot Take, a Thought Starter, and links to additional content (study guides, quizzes, games, and other interactive experiences). Hot Takes and Thought Starters are AI-generated and let users share opinions and react to others, but the core journey stays centered on the book itself.
+Concept 2 — Interaction-first
+The book club still centers on the current book, but the homepage leads with a collective, interactive feed rather than the book itself. When a club is created, the homepage is pre-populated with AI-generated Hot Takes and Thought Starters that members can discover and interact with immediately. The club's shelf of books is organized into tabs, with previous books under “Past Reads.” The long-term vision is a feed that starts populated by SuperSummary but could evolve to include member-contributed content, moving from a curated feed toward a community-driven space.
+3. Prototype Test Results
+Concept 1 (Library-first)
+Participant feedback — “What was your initial reaction to this prototype?”
+“I love the ‘hot takes’ concept, but I wonder if we should tweak the language; to me, ‘see how it stacks up against your book club peers’ has strongly competitive connotations, and I think it will lead users to imagine themselves competing to have the ‘best’ take, with ‘winners’ determined by who gets the most ‘likes’ and ‘agrees.’ This framing seems likely to nudge users toward safe, conformist readings. Maybe something like ‘Share your hot take and see how it resonates with your Book Club peers.’”
+All 3 recorded clicks on this prototype were logged as misclicks, and the participant spent 36 seconds exploring — the longer of the two sessions. The feedback is entirely about copy and framing (the competitive tone of the Hot Takes language) rather than navigation or layout issues.
+Concept 2 (Interaction-first)
+Participant feedback — “What was your initial reaction to this prototype?”
+“There doesn't seem to be much that's clickable here. The layout looks intuitive and user friendly. Note that all the content boxes at the bottom of the page (Author Insights, Quizzes, Games, etc.) contain the same text: ‘Test your knowledge about this book's characters.’”
+The participant spent only 7 seconds on this prototype with a single click and no misclicks, and described the layout as intuitive. They also flagged a prototype content issue: several content modules at the bottom of the page (Author Insights, Quizzes, Games, etc.) currently share identical placeholder copy, which should be corrected before further rounds of testing so it doesn't distract or mislead future participants.
+4. Preference Test
+Question: “Which book club homepage do you prefer?”
+Lyssna's built-in note: “concept 2.png is performing better, but the test has received fewer than ten responses, so you should take these results with a grain of salt.”
+Follow-up — “Why do you like this one better?”
+“I like the idea of keeping the focus on the club itself. This version makes it easier for club members to see the arc of their participation in the club over time.”
+5. Key Observations
+The one participant preferred Concept 2 (interaction-first), citing that it keeps the focus on the club itself and makes it easier to see the club's participation history over time.
+Copy/tone risk in Concept 1: the “stacks up against your book club peers” framing for Hot Takes was flagged as overly competitive and likely to push users toward safer, more conformist answers rather than genuine reactions. The participant proposed alternative wording (“Share your hot take and see how it resonates with your Book Club peers”).
+Interaction data should be read cautiously: Concept 1 had a higher click count but a 100% misclick rate, while Concept 2 had far fewer clicks (1) and no misclicks, but also a much shorter session (7s vs. 36s). The shorter time on Concept 2 could reflect a cleaner, more self-explanatory layout, or simply less exploration — the single data point can't distinguish between these.
+Concept 2's prototype currently has a content bug: multiple bottom-of-page modules (Author Insights, Quizzes, Games, etc.) show the same placeholder text, which should be fixed before it affects future feedback.
+6. Recommendations
+Treat this round as a directional pilot, not a decision-making result — recruit additional participants (ideally 8–10+) before drawing conclusions from the preference test.
+Revisit the Hot Takes copy in Concept 1 to reduce competitive framing, testing the participant's suggested alternative or similar language that emphasizes resonance over comparison.
+Fix the duplicate placeholder text across Concept 2's content modules before the next testing round.
+In future rounds, consider a follow-up moderated probe on Concept 2 to understand whether the short exploration time reflects clarity or under-exploration of available content.
+36s
+Avg. time spent | 3
+Total clicks | 100%
+Misclick rate
+7s
+Avg. time spent | 1
+Total clicks | 0%
+Misclick rate
+Homepage concept | Preference | Responses
+Concept 2 — Interaction-first (concept 2.png) | 100% | 1
+Concept 1 — Library-first (concept 1.png) | 0% | 0

@@ -1,0 +1,82 @@
+# Cross Discovery shared taxonomy — owned by Research.
+#
+# Every evidence item gets one primary `area` (and a list of all matching `areas`).
+# Order of precedence when classifying an item:
+#   1. source_map  — an exact source category (e.g. a Chargebee cancel reason)
+#   2. theme       — the source's own theme label (e.g. a Sprig AI theme), matched with keywords
+#   3. text        — the free text, matched with keywords
+# Ties go to the area listed first. Nothing matched -> "other".
+#
+# Keywords are case-insensitive and matched on word boundaries.
+# Edit freely; bump `version` when you change the meaning of an area.
+
+version: 1
+
+areas:
+  - id: billing_charges
+    label: Billing & unexpected charges
+    keywords: [charged, charge, charges, refund, refunded, "money back", "auto-renew", autorenew, "auto renew", renew, renewal, renewed, dispute, chargeback, billing, billed, payment, invoice, receipt, unauthorized, "didn't authorize", "did not authorize", "free trial", trial]
+  - id: pricing_value
+    label: Price & perceived value
+    keywords: [cost, price, pricing, expensive, afford, "not worth", "worth the", cheaper, discount, coupon, "too much money", "subscription fee"]
+  - id: cancellation_request
+    label: Cancellation requests
+    keywords: [cancel, cancellation, cancelled, canceled, unsubscribe, "delete my account", "close my account", "stop my subscription"]
+  - id: short_term_need
+    label: Short-term / one-off need
+    keywords: ["only needed", "short time", "one book", "finished the book", "finished reading", semester, "class is over", "class ended", "no longer need", "don't need it", "dont need", "do not need", "just needed"]
+  - id: content_coverage
+    label: Content coverage (missing books)
+    keywords: ["couldn't find", "could not find", "can't find", "cannot find", "not available", "missing", "more books", "add the book", "request a book", "book request", "don't have the book", nonfiction, "new releases", "wide selection", "more titles"]
+  - id: content_quality
+    label: Content quality, depth & accuracy
+    keywords: [inaccurate, accuracy, accurate, trustworthy, trust, wrong, mistake, errors in, shallow, superficial, depth, detailed, detail, analysis, "not helpful", "wasn't helpful", quality, "ai generated", "ai-generated", insightful, comprehensive, "too short", "too long", vague]
+  - id: navigation_ux
+    label: Navigation & usability
+    keywords: [navigate, navigation, confusing, "hard to find", "hard to use", layout, interface, menu, "search bar", search, "ease of use", "easy to use", usability, design, "user friendly", "user-friendly", clunky]
+  - id: technical_bugs
+    label: Bugs & technical issues
+    keywords: [bug, bugs, error, crash, crashes, crashing, broken, "not working", "doesn't work", "does not work", glitch, "won't load", loading, "technical", freeze, frozen]
+  - id: account_access
+    label: Account & login
+    keywords: [login, "log in", "sign in", "signin", password, "reset my", locked, "access my account", "can't access", "cannot access", "lose your access", "lost access"]
+  - id: book_clubs
+    label: Book clubs & discussion
+    keywords: ["book club", "book clubs", bookclub, "discussion question", "discussion questions", "reading group", "club meeting", "book discussion", "book discussions", dqg]
+  - id: book_hub_discovery
+    label: Book Hub, Book Brief & discovery
+    keywords: ["book brief", "books like", "book hub", recommendation, recommendations, recommend, "what to read", "choose books", "choose a book", "reading journey", "next read", "reading list"]
+  - id: ai_features
+    label: AI features
+    keywords: [ai, "a.i.", chatbot, chatgpt, "ask a question", "ai tool", "ai tools", "ai features", generate, generated]
+  - id: engagement_features
+    label: Games, quizzes & study tools
+    keywords: [quiz, quizzes, game, games, "word worm", "plot scramble", "true or false", "story recap", "character list", flashcard, flashcards, "study guide", "study guides"]
+  - id: format_access
+    label: Formats (audio, print, offline)
+    keywords: [audio, listen, podcast, printable, print, pdf, download, offline, kindle]
+  - id: praise_value
+    label: Praise & value delivered
+    keywords: [love, great, helpful, "saves time", "save time", "time-saving", "time saving", useful, amazing, excellent, awesome, fantastic, convenient, "memory aid"]
+
+# Exact source categories -> area (+ optional theme slug).
+source_map:
+  chargebee_reason:
+    "I only needed SuperSummary for a short time": {area: short_term_need, theme: needed_short_time}
+    "I don’t want my subscription to renew automatically": {area: billing_charges, theme: no_auto_renew}
+    "I don't want my subscription to renew automatically": {area: billing_charges, theme: no_auto_renew}
+    "The subscription didn’t feel worth the cost": {area: pricing_value, theme: not_worth_cost}
+    "The subscription didn't feel worth the cost": {area: pricing_value, theme: not_worth_cost}
+    "I didn’t expect to be charged": {area: billing_charges, theme: unexpected_charge}
+    "I didn't expect to be charged": {area: billing_charges, theme: unexpected_charge}
+    "SuperSummary wasn’t helpful enough": {area: content_quality, theme: not_helpful_enough}
+    "SuperSummary wasn't helpful enough": {area: content_quality, theme: not_helpful_enough}
+    "I couldn’t find content for the book(s) I’m reading": {area: content_coverage, theme: book_not_found}
+    "I couldn't find content for the book(s) I'm reading": {area: content_coverage, theme: book_not_found}
+    "SuperSummary didn’t feel accurate or trustworthy": {area: content_quality, theme: not_accurate_trustworthy}
+    "SuperSummary didn't feel accurate or trustworthy": {area: content_quality, theme: not_accurate_trustworthy}
+    "The site or app was hard to navigate": {area: navigation_ux, theme: hard_to_navigate}
+    "I experienced a technical problem or error": {area: technical_bugs, theme: technical_error}
+  freshdesk_sender_type:
+    payment_dispute: {area: billing_charges, theme: payment_dispute}
+    billing_advocate: {area: cancellation_request, theme: third_party_cancellation}

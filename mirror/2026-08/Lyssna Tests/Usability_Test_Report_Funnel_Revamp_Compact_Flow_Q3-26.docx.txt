@@ -1,0 +1,76 @@
+Usability Test Report
+Funnel Revamp — Compact Flow (Q3'26)
+Study: [Growth Exp] Funnel Revamp Compact Flow Q3'26 — Usability Test (Lyssna)
+Method: Unmoderated live-website test, single task
+Prototype tested: funnel-revamp-v2.vercel.app/?variant=compact
+Participants: 15 (United States) · 86% screen-in rate
+Recruitment source: Panel Order 1 (Lyssna)
+Recordings collected: Aug 8, 2026
+Report prepared for: Growth Experimentation Squad
+
+Executive Summary
+Fifteen U.S. participants completed a single live-website task on the compact variant of the funnel revamp: preparing for a book club discussion on The Great Gatsby using SuperSummary's study guide page. The flow performed well on ease of use — average completion time (3m 10s) landed within the estimated 3–5 minute range, and self-reported effort was very low (mean 1.47 out of 5). Participants were most drawn to the depth and format variety of the content (PDF guides, audio, quizzes, discussion prompts), which several compared favorably to SparkNotes. The main soft spots are consistency, not usability: expectations of what happens right after account creation vary widely (trial access vs. a billing page vs. a generic welcome screen), a minority of participants found the volume of advertising/promotional screens off-putting enough to want to stop, and personalization was felt by some but not by others exposed to the same flow.
+
+Key Themes
+1. Content depth and format variety is the strongest draw
+~12 of 15  participants highlighted breadth of content when asked what caught their attention.
+“The fact that it was much more in depth than SparkNotes which is something I'm familiar with. Also the fact you could listen or download PDFs to help you out.”
+“It offers a deep dive inside about 10,000 books and there are questions exactly what you want regarding the book you are reading, and it will provide a summary etc. about the book.”
+“I like the discussion area and I also like the chapter & character tabs as well.”
+Implication: content depth, multi-format access (PDF/audio), and specific features (discussion prompts, chapter/character tabs) are a genuine differentiator versus competitors and should be foregrounded early in the flow.
+2. What happens after account creation is not a shared mental model
+When asked what they expected next after creating an account, responses split roughly three ways: most expected immediate access to the study guide or a free trial; several expected to be taken straight to a billing/payment page; a few expected a generic “welcome” or onboarding step.
+“After I create an account here, I would think I'm taken to the payment, as it seems like a paid service.”
+“I would expect my trial to start and I would get access to the study guide.”
+“I guess I would go to a welcome page of SuperSummary.”
+Implication: the CTA and surrounding copy don't yet set a consistent expectation. Explicit “what happens next” messaging near the primary CTA (trial vs. paid, what's included, when billing starts) could reduce this ambiguity.
+3. Repeated advertising/promotional screens create friction for a minority
+2 of 15  participants explicitly flagged wanting to stop or found a screen's placement odd.
+“On the third advertising page, yes I wanted to stop. This isn't worth it.”
+“When I got to the reviews I thought I was finished, then it asked more questions. Seemed like an odd spot for reviews.”
+“A lot of advertising about what it promises it will do, with no proof that it can do what it says, before it wants money.”
+Implication: while most participants did not want to skip ahead, the volume and placement of promotional/proof screens (reviews, claims) is a plausible drop-off risk for a meaningful minority and is worth pacing more naturally within the flow.
+4. Personalization is perceived inconsistently
+Roughly half of participants felt the flow adapted to their specific inputs (the book selected, their reading progress, the book-club context); the other half felt the content was general-purpose.
+“Yes, I felt like once I selected that I was halfway done with the book and that I was in book club, the information that followed was specific to my needs.”
+“Not necessarily. The options of why I was interested seemed pretty general for everyone.”
+“Absolutely not. It was a bunch of scrolling screens I think of things that have come up in queries the most. AI driven.”
+Implication: personalization logic may already be present but isn't uniformly legible to users. Reflecting a participant's own selections back to them (e.g., referencing the specific book and stated goal) could make it more visible and build trust.
+5. Task effort is very low — the flow itself is easy to complete
+60% (9/15)  rated effort a 1 (“not much”) on the 1–5 scale; 33% (5/15) rated it a 2.
+Mean 1.47 / 5  overall effort score, with average completion time (3m 10s) within the 3–5 minute estimate.
+Implication: core usability of the compact flow is strong. Effort is not currently a barrier to completing the task, so improvement opportunities here are about clarity and trust rather than friction reduction.
+6. A few small information gaps
+“It showed the price per year annually, but I'm wondering if there are other payment options.”
+“More information on specifics of the cost would be helpful sooner, to rule things out if it was too expensive or not worth it.”
+“Not really, just wondering what that option “Make more time to finish book” meant.”
+Implication: a small number of participants wanted earlier visibility into pricing options and clearer labeling for at least one feature. These are low-effort copy/microcopy fixes rather than structural issues.
+
+Insights → Opportunities
+
+Recommendations
+High priority — Clarify what happens immediately after account creation (trial start, what's included, when billing begins) at or near the CTA. This addresses the most inconsistent mental model found in the study.
+Medium priority — Review the sequence and volume of advertising/promotional screens, particularly around reviews and repeated claims, which produced explicit “want to stop” reactions from a minority of participants.
+Medium priority — Strengthen personalization signals by echoing the user's own selections (book, reading progress, purpose) back to them in later screens.
+Lower priority — Add lightweight clarifications for ambiguous feature labels and surface additional payment/cost options earlier in the flow.
+
+Questions for Further Research
+Does clarifying post-signup expectations change trial-to-paid conversion or reduce support inquiries?
+Does the number or placement of promotional screens correlate with drop-off in the live funnel (beyond this moderated task)?
+Since the task scenario was framed around mobile use, does behavior differ meaningfully between mobile and desktop traffic?
+Would making personalization more explicit increase perceived value or trust in a follow-up test?
+
+Methodology Notes
+Unmoderated live-website usability test conducted via Lyssna; 15 U.S.-based participants; 86% screen-in rate.
+Single task scenario: participants were asked to act as if preparing for a book club discussion on The Great Gatsby, having read about halfway, after landing on SuperSummary's study guide page (compact funnel variant).
+Data collected per participant: screen recording and completion time, a 1–5 effort rating, and five open-ended follow-up questions.
+Sample skewed female (11 of 15) and college-educated (9 of 15 college graduates among visible categories); most were full-time employed (10 of 15) and reported advanced or intermediate technical proficiency (10 advanced, 5 intermediate). All participants reported reading as a personal interest (screener criterion).
+This report is based solely on the data visible on the Lyssna results page reviewed; some demographic categories were partially collapsed (“Show N more”) and were not expanded, and no other pages or sections of the test were accessed.
+
+Prepared from Lyssna test results — vonvtqvbvhzo — for the Growth Experimentation Squad.
+Insight | Opportunity | Impact | Effort
+Content depth & format variety (PDF/audio) is the top attention-grabber | Lead with content breadth and format variety in hero/value-prop copy | High | Low
+Post-signup expectations are inconsistent (trial vs. billing vs. generic welcome) | Add explicit “what happens next” messaging near the primary CTA | Medium | Low
+Repeated advertising/proof screens triggered stop-intent for some users | Audit screen sequence; reduce redundant promotional screens and re-pace reviews/guarantees | Medium | Medium
+Personalization is perceived inconsistently across similar users | Reflect the user's own selections back on later screens (book, progress, goal) | Medium | Low
+Minor gaps in pricing options and one ambiguous feature label | Surface additional payment/cost detail earlier; add microcopy or a tooltip for unclear features | Low | Low

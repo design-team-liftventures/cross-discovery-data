@@ -1,0 +1,72 @@
+USABILITY TEST REPORT
+Funnel Revamp — Complete Flow Q3'26
+Study: [Growth Exp] Funnel Revamp Complete Flow Q3'26 — Usability Test
+Team: Growth Experimentation Squad
+Platform: Lyssna
+Prepared: September 2026
+
+Overview
+This report summarizes results from a 15-participant unmoderated usability test of the Funnel Revamp — Complete Flow (variant: complete), run on Lyssna for the Growth Experimentation squad. Participants were recruited from a general panel (76% screen-in rate) and asked to complete a single live-website task: preparing for a book club discussion of The Great Gatsby by exploring SuperSummary's study guide page for the book, behaving as they normally would. The task was followed by five open-ended questions and one effort rating. All figures below are drawn only from the Lyssna results page for this study.
+Participants
+15 completed responses, recruited in the United States (panel order 1, 76% screen-in rate).
+
+Age: 30–34 (1), 35–39 (4), 40–44 (3), remaining 7 across other bands.
+Gender: 12 female, 3 male.
+Education: 9 college graduate, 4 post-graduate degree, 2 some college.
+Employment: 9 full-time employed, 3 self-employed, 1 part-time, 2 other.
+Annual household income: spread across $40k–$70k (8), $70k–$100k (3), over $100k (4).
+Daily hours online: 9 of 15 report over 6 hours/day; only 1 reports under 1 hour.
+Technical proficiency: 11 advanced, 4 intermediate.
+All 15 listed reading as a general hobby/interest (screener criterion).
+Task: Live Website Test
+Scenario given to participants: they are leading book club discussion of The Great Gatsby next Tuesday, are only about halfway through, and land on SuperSummary's study guide page for the book after searching on their phone the night before. Participants were told to do what they would normally do.
+URL tested: funnel-revamp-v2.vercel.app/?variant=complete
+Average task completion: 3m 11s (estimated range: 3–5 minutes)
+Individual session recordings ranged from 33 seconds to 16m 36s. The wide spread suggests a mix of participants who moved through the flow quickly and a smaller number who explored more slowly or hesitated — consistent with the qualitative feedback below on signup friction.
+Effort Rating
+Follow-up question: “How much effort did that take?” (1 = Not much, 5 = A lot)
+Mean score: 1.87 / 5
+1 (Not much effort): 60% — 9 of 15 participants
+2: 13% — 2 of 15
+3: 13% — 2 of 15
+4: 7% — 1 of 15
+5 (A lot of effort): 7% — 1 of 15
+A strong majority (60%) rated the task as requiring very little effort, and the mean of 1.87 confirms the flow was perceived as low-friction overall.
+Key Findings
+1. The differentiation and value story lands well
+Asked what most caught their attention, participants repeatedly cited the breadth of content relative to competitors (SparkNotes, CliffsNotes), the low price point, and the free trial as the most compelling elements. The recipe guides tied to a book were called out by multiple participants as a distinctive, unexpected feature.
+"The what makes us different which includes 8X more resources than SparkNotes and CliffsNotes... This stands differently because it includes differences that other reading websites may not offer."
+"Free trial to get started and a great low annual price. For $3 a month, who wouldn't try this out."
+"I liked that it included discussion questions and recipes. I think those would be particularly handy for a book club context."
+2. Signup expectations are dominated by payment uncertainty
+When asked what they expected to happen after creating an account, the most common theme was an expectation of being asked for payment or credit card details to start the free trial — and several participants expressed hesitation or a preference to avoid entering card details upfront. One participant described the signup process itself as “daunting.”
+"I would probably prefer to have the 7 day trial without putting in payment info where it would just delete my account if I didn't sign up rather than make me input that right away."
+"The signup process seems a little daunting... I'd prefer the application learn my preferences and what I was looking for over time."
+"I am not sure about at this point is whether I am required to put in credit card information in order to get the free trial or if I can sign up without."
+3. Personalization is noticed, but mostly expected to arrive later
+Several participants noticed the flow referenced The Great Gatsby specifically and read this as light personalization, but most said nothing felt tailored to them yet and assumed personalization (recommended books, tailored guides) would come after they answered onboarding questions about genres, reading frequency, and preferences.
+"Yes, it picked The Great Gatsby. It knew what book I was reading."
+"I don't feel like anything has been customized to my preferences yet at this point. I feel like the preferences I indicated... would come into play later when recommending books or summaries."
+4. Most participants found the flow easy to follow, but a vocal minority hit friction
+Consistent with the low effort score, most participants said they never wanted to stop or skip ahead and found the flow well-paced. However, a few specific pain points recurred: one participant felt there were too many screens/buttons before reaching signup, one considered abandoning within the first couple of seconds (saying they would otherwise just search Google or ask an AI assistant), and one distrusted an on-screen reviews/testimonial element, assuming only positive reviews would ever be shown.
+"There were way too many buttons to click. I like to get straight to the point and get what I need, then I would have to click on and type in three more screens to sign up."
+"Within the first one or two seconds. If I were actually looking for information for my book club I probably would have just done a Google search or asked Gemini."
+"I didn't see any benefit to having the review screen. I don't trust that any company is going to choose to show the negative reviews, so I just completely disregarded it."
+5. Requests for more concrete previews before committing
+A handful of participants said nothing was missing, but a recurring secondary request was for more concrete, low-commitment previews of the actual content — an excerpt of the study guide itself, or example discussion questions — before being asked to create an account.
+"It would have been nice to see an excerpt, like a paragraph or two of what is in the book."
+"Maybe show an example of the questions for a book club."
+Recommendations
+Clarify free-trial payment terms earlier and more explicitly in the flow (e.g., state directly whether a card is required to start the trial) — this was the single most repeated source of uncertainty across the sample.
+Audit the number of steps/screens between landing and signup; consider consolidating or deferring optional preference questions for users who want to move faster.
+Keep the differentiation messaging (breadth vs. SparkNotes/CliffsNotes, recipes, audio guides, low price) prominent — it is consistently what draws attention and builds interest.
+Add a small, concrete content preview (a short guide excerpt or sample discussion questions) before the account-creation step to reduce uncertainty about value before commitment.
+Re-evaluate the reviews/testimonial screen — at least one participant read it as one-sided and disregarded it; consider more credible or specific social proof.
+Set expectations about when personalization kicks in, since several participants assumed it would appear later rather than immediately.
+
+Source: Lyssna results page for “[Growth Exp] Funnel Revamp Complete Flow Q3'26 - Usability Test” (app.lyssna.com/tests/zaxpbik7bpwu/results). Report reflects only the data visible on that page at the time of review.
+7 / 15
+Age 35–44 | 12 / 15
+Female | 13 / 15
+College grad+ | 11 / 15
+Advanced tech proficiency

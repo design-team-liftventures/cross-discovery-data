@@ -1,0 +1,49 @@
+# Cross Discovery Data — pipeline configuration
+#
+# raw_root: folder that holds the monthly raw exports, one subfolder per month
+#   named YYYY-MM (e.g. 2026-08/). Relative paths resolve from the repo root.
+#   Override at run time with the CROSS_DISCOVERY_RAW environment variable.
+raw_root: ".."
+
+# Salt used to hash emails into user_key. NEVER commit it.
+#   Override with CROSS_DISCOVERY_SALT_FILE.
+salt_file: "../_secrets/cross_discovery_salt.txt"
+
+# Month folders are matched with this pattern.
+month_pattern: "^\\d{4}-\\d{2}$"
+
+# Which subfolder of a month belongs to which source adapter.
+# Folder names are matched case-insensitively. CSVs go to the adapter;
+# .docx / .pdf / .md anywhere in the month go to the documents adapter.
+sources:
+  chargebee: ["Chargebee Form", "Chargebee"]
+  freshdesk: ["Freshdesk Tickets", "Freshdesk"]
+  mbg: ["MBG Form", "MBG"]
+  sprig: ["Surveys", "Sprig"]
+  lyssna: ["Lyssna Tests", "Lyssna"]
+  interviews: ["Interviews"]
+
+# Freshdesk senders. Matched against the sender address (lower case).
+freshdesk:
+  exclude_internal_domains: ["liftventures.com", "supersummary.com"]
+  exclude_automated_patterns:
+    - "no-reply"
+    - "noreply"
+    - "no_reply"
+    - "mailer-daemon"
+    - "postmaster"
+    - "@accounts.google.com"
+    - "@google.com"
+    - "activecampaign.com"
+    - "airtableemail.com"
+  sender_types:
+    payment_dispute: ["paypal.com", "braintreepayments.com", "stripe.com"]
+    billing_advocate: ["rocketmoney.com", "truebill.com"]
+    marketplace: ["teacherspayteachers.com"]
+
+# Sprig responses from staff (isStaff attribute = true) are excluded.
+sprig:
+  exclude_staff: true
+
+# Volume alert: flag a source whose rows change more than this vs last run's same month set.
+volume_alert_ratio: 0.5

@@ -1,0 +1,79 @@
+GROWTH EXPERIMENTATION SQUAD · LYSSNA RESEARCH
+JTBD Payoff v3 (Q3’26) — 5-Second Test Results
+“[Growth Exp] JTBD Payoff v3 Q3’26 - 2s Test” · Lyssna
+Report date: September 17, 2026
+Overview
+This test measured how well a candidate “payoff” screen communicates SuperSummary's value within a very short exposure. Participants were placed in a scenario — preparing for a book club discussion of The Great Gatsby and wanting a better, more interesting conversation than usual — and told they had just told SuperSummary “Have better discussions about it” in response to “What can we help you do?” They then saw the candidate screen for 2 seconds and answered two open-text questions and two 5-point rating questions about it.
+The test recruited 50 participants (68% screen-in rate during recruitment) and collected 50 complete response sets.
+Sample
+
+The sample skews toward experienced internet users (35 of 50 rated their own technical proficiency “Advanced”; 34 spend over 6 hours online daily) who self-identify as readers (42 of 50), which fits a study aimed at a reading-focused product.
+Quantitative Results
+Two 5-point linear-scale questions followed the timed exposure:
+Q2.3 — “How clear was it what you were being offered?” (1 = Not at all clear, 5 = Completely clear). Mean: 3.30 / 5.
+Q2.4 — “How much did that screen feel like it was about what you said you wanted?” (1 = Not at all, 5 = Very much). Mean: 3.36 / 5.
+
+Both means land just above the scale's midpoint (3/5). Clarity's single most common rating is “3 – somewhat clear” (46% of participants), and only 38% rated it a 4 or 5, while 16% rated it a 1 or 2. Relevance to the stated want is a little more spread toward the positive end (48% rated it 4 or 5), but still with a substantial middle group. Read together with the open-text answers below, this pattern is consistent with a message that is directionally understood but not yet landing cleanly for a majority within a very short glance.
+Qualitative Themes
+Themes below are drawn from the two open-text questions: “In one sentence, what was that screen telling you?” (Q2.1) and “Based on what you just saw, what specifically would SuperSummary help you do?” (Q2.2). Quotes are a representative sample of the free-text answers visible on the results page.
+1. “More than a summary” is the standout retained message
+The single most frequent takeaway, across a large share of Q2.1 answers, is that SuperSummary offers something beyond a plain book summary. This is a strong signal that the core differentiator survives a 2-second glance.
+"That it's far more than a book summary, and then showed me all the features that is included"
+"The screen said that it's way more than just a summary. It will give me summary guidelines and even more."
+"This screen explained that SuperSummary isn't just about summarizing books, it's built to help readers actually analyze texts, dig into complex material, pick up new perspectives, jog their memory on something they read a while back, and prep for discussions too."
+"They provide way more than a summary. That's as far as I got down the page."
+2. The discussion-prep benefit lands for a meaningful subset
+Several participants connected the screen directly to the stated job — having a better discussion — rather than to summarizing in general.
+"The screen was telling me that the service would provide more in depth ideas about what I am reading that would help provoke deeper conversations about the book"
+"Super Summary would help promote deeper conversation about the books by giving ideas about themes, questions, and theories about the books"
+"be more articulate with the book during discussions"
+"Articulate main plot points and other details like symbolism."
+3. A recurring group says the exposure was too short to process
+A number of responses describe running out of time rather than being confused by the content itself — a useful distinction when deciding what to fix next.
+"Honestly, 2 seconds was very short, I couldnt notice anything specific. Just the button."
+"It was too fast for me to really digest"
+"I'm not sure...it flashed by too quickly"
+"It disappeared so fast"
+"I couldn't read the pointers properly but I can see the chapters or situations explained as index"
+4. Some participants still reflect back a generic “summary” framing
+Even with differentiated copy on screen, a portion of answers summarize the takeaway as simply “a summary,” suggesting the differentiators don't yet outweigh the anchor word “summary” in what gets remembered.
+"make a better summary"
+"SUMMARY OF THE BOOK"
+"Super Summary is an all-in-one summary"
+"It seemed like the screen was trying to offer me a comprehensive summary of a book I am interested in"
+5. A small number of off-target or noisy reads
+A few responses reflect misread details or unrelated recall rather than message comprehension — expected at this exposure length, and useful as a rough ceiling on how much signal a 2-second test can carry.
+"The book is available via audio."
+"Read the book out loud for me"
+"It went too fast but it was like a light red color and something summarized."
+Insights → Opportunities
+Recommendations
+Lead harder with “more than a summary.” It's already the single most retained message even at 2 seconds — give it the largest visual/headline weight so it is the first thing read, not one item among several.
+Make the discussion-prep benefit literal. in the copy, tied explicitly to the user's stated goal — today it is only spontaneously mentioned by a minority of participants.
+Test a longer exposure variant (for example 3–5 seconds) to separate “the message needs more time” from “the message itself is unclear,” since a recurring group of comments cite timing rather than content confusion.
+Reduce the number of competing elements on-screen so that specific, discussion-oriented benefit words (themes, perspectives, talking points) outweigh the generic word “summary” in what participants recall.
+Questions for Further Research
+Would a longer exposure meaningfully raise clarity/relevance scores, or is the limiting factor the screen's content and hierarchy rather than timing?
+Which specific elements do participants look at first? (A click- or attention-based first-impression test would help isolate this.)
+Does this JTBD-payoff message perform differently for other stated jobs (e.g., “get through required reading faster”) versus “have better discussions about it”?
+Methodology Notes
+Source: the Results view of the Lyssna test “[Growth Exp] JTBD Payoff v3 Q3'26 - 2s Test” (General / Growth Experimentation Squad), as it appeared on September 17, 2026. No other Lyssna pages, tabs, or sections (Build, Recruit, individual participant profiles) were consulted for this report.
+Method: a 5-second-test format configured to a 2-second exposure, preceded by a scripted book-club scenario and a self-reported “job to be done” selection.
+Sample: 50 completed response sets; 68% screen-in rate during recruitment.
+Two open-text questions (2.1, 2.2) and two 5-point linear-scale questions (2.3, 2.4) were analyzed. Quoted responses are a representative sample of the open-text answers shown on the results page, not an exhaustive transcript of all 50 responses to each question.
+Percentages and means for the scale questions (2.3, 2.4) are taken directly as reported by Lyssna.
+Dimension | Composition (n=50)
+Location | United States 31 · India 8 · United Kingdom 4 · 7 other countries
+Gender | Female 28 · Male 22
+Age range | 30–34: 14 (largest) · 35–39: 6 · 25–29: 4 · 7 other brackets
+Education level | College graduate 26 · High school graduate 5 · Some college 4 · 1 other level
+Technical proficiency | Advanced 35 · Intermediate 14 · Beginner 1
+Daily hours online | Over 6 hours: 34 · 4–6 hours: 15 · 1–3 hours: 1
+Hobbies & interests | Reading: 42 of 50
+Recruitment source | Panel order 1: 25 · Panel order 2: 25
+Insight | Opportunity | Impact | Effort
+The “more than a summary” differentiator is the most retained takeaway even after a 2-second exposure. | Give it even more visual/headline weight so it stays the dominant, first-read idea. | High | Low
+Clarity (mean 3.30/5) and relevance (mean 3.36/5) sit just above neutral, and clarity's single most common rating is “3 – somewhat clear” (46%). | Simplify the on-screen hierarchy so the core promise is legible within a very short glance. | High | Medium
+A recurring group of participants explicitly said the exposure was too short to process the screen, rather than describing the message itself as confusing. | Run a follow-up test at a longer exposure (e.g. 3–5s) to isolate timing from content as the limiting factor. | Medium | Low
+A subset of participants still describe the takeaway in generic “it's a summary” terms, even though the tested copy leads with “more than a summary.” | Increase contrast/weight on the specific, discussion-oriented benefits (themes, perspectives, talking points) relative to the word “summary.” | Medium | Medium
+The stated job (“have better discussions”) is only spontaneously echoed back by a minority of participants. | Make the link to “better discussions” explicit and literal in the copy, rather than leaving it implied. | High | Low

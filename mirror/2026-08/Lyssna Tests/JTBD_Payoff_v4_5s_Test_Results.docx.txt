@@ -1,0 +1,29 @@
+JTBD Payoff v4 – 5-Second Test Results
+Sep 17, 2026 · @Design Team
+Overview
+This was a 5-second test run in Lyssna on the "JTBD Payoff v4" screen (Growth Experimentation squad). Participants were primed with a scenario: preparing for a book club discussion of The Great Gatsby, wanting a better conversation than usual, and having just told SuperSummary their goal was "Have better discussions about it." They then viewed the payoff screen for 2 seconds and answered two open-text questions and two 5-point rating questions.
+Sample: 25 US-based participants (73% screen-in rate). 12 male / 13 female. Age skewed 30s–40s (30–34: 5, 35–39: 6, 40–44: 7, plus 5 further brackets). Education: 11 college graduates, 5 some college, 2 high school graduates (plus 1 further level). Employment: 15 full-time, 7 self-employed, 3 part-time. 19 of 25 spend 6+ hours online daily, and 16 rate themselves "Advanced" in technical proficiency. All 25 listed reading as a hobby/interest, and all came from a single panel source.
+The screen tested
+The design shown was a mobile screen on supersummary.com with the headline "Spark strong discussions" and subhead "Ready-to-use questions, plus everything else in the Study Guide." Below it, five benefits were listed, each with its own icon:
+Articulate and analyze with clarity
+Navigate complex texts with ease
+Discover new perspectives
+Refresh your memory in minutes
+Feel prepared for every discussion
+A teal "Next" button sat at the bottom of the screen.
+Comprehension: "What was that screen telling you?"
+Of the 25 responses, about 14–15 clearly recalled the core message — that the screen was about sparking, improving, or having stronger discussions about the book (e.g. "Methods to 'Spark Strong Conversations'", "Tips on how to spark better topics or discussions around the book," "How to spark strong discussions about the book"). A further handful gave a correct but generic read, identifying it only as a study guide or discussion-prep tool without naming the specific angle ("It is a study guide," "Prepare for something").
+A smaller group (roughly 5 of 25) missed or diluted the message: two said 2 seconds was simply too fast to register anything ("Two seconds was not long enough," "I needed more time to look at it"), one guessed the screen was about the storyline, and a couple noticed only a formatting detail (a bulleted list) rather than the content itself. One respondent answered at length in a joking, off-topic register, explicitly saying they couldn't recall any detail from the 2-second exposure.
+Perceived value: "What would SuperSummary help you do?"
+Answers split fairly evenly across two themes. About 11 of 25 focused on discussion and conversation prep — generating talking points, discussion questions, or probing questions for book club ("Ask book club members more probing questions to encourage better, in-depth, more engaging conversation," "Bring out the main talking points from the book"). Roughly 10 of 25 focused on comprehension, memory, and summary — refreshing memory, understanding the book better, or getting a study aid ("There will be a memory jogger provided by SuperSummary via quizzes," "SuperSummary can help me analyze and offer clarity to any book I'm reading").
+A few responses (3–4) described only the visual format they recalled (a bulleted list, a list of questions) rather than a functional benefit, and one response was an off-topic joke that didn't engage with the content.
+Quantitative ratings
+Clarity ("How clear was it what you were being offered?") averaged 3.56/5, and relevance ("How much did that screen feel like it was about what you said you wanted?") averaged 3.76/5 — so the screen reads as more relevant than it does clear.
+
+Lyssna results · 25 responses per question
+Key takeaways
+The "Spark strong discussions" headline lands: it was the dominant, correctly-recalled theme even after a 2-second glance, and it's the majority framing participants used when describing the screen's payoff.
+Relevance beat clarity: participants felt the screen matched what they wanted (mean 3.76/5, 68% rating it 4–5) more than they felt certain about exactly what was being offered (mean 3.56/5, 56% rating it 4–5).
+Perceived value split evenly between two distinct benefits — discussion/talking-point prep and comprehension/memory support — suggesting the five supporting bullets are covering multiple jobs without one clearly winning out.
+Roughly a fifth of participants either couldn't process the screen in 2 seconds, gave only a generic "study guide" read, or misread the content, which points to the specific mechanism (ready-to-use discussion questions) not cutting through as fast as the headline.
+Suggested next step: test a variant that leads harder with the single most-recalled benefit (discussion prep / talking points) and trims the five-item bullet list, to see if clarity improves without giving up the relevance score already achieved.

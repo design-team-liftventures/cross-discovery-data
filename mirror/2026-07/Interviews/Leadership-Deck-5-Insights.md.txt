@@ -1,0 +1,209 @@
+# Leadership Deck — 5 Insights from the BCM Interviews
+
+**Slide-by-slide content · English · Findings only, no recommendations**
+Source: 8 interviews with book club members outside SuperSummary, July 2026 · Lead interviewer: Kaitlyn Hurley
+
+> **How to use this doc:** each slide below gives you the **headline** (the insight stated as a full sentence — this is the slide title, don't shorten it into a topic label), the **body** (3–4 bullets max, already trimmed to presentation length), one **evidence quote** (verbatim, verified against transcript), a **data callout** for the corner of the slide, and **speaker notes**. Recommendations are deliberately absent per the brief — Slide 8 hands prioritization back to the room as open questions.
+
+---
+
+## Slide 1 — Title
+
+**Title:** Book club members don't know us. Three of them had already used us.
+
+**Subtitle:** What 8 interviews with book club members outside SuperSummary tell us about why we're invisible in our own niche
+
+**Footer:** UX Research · Cross Discovery · July 2026 · 8 interviews
+
+**Speaker notes:**
+> Set expectations in the first ten seconds: this is a findings-only read-out. I'm not bringing a roadmap ask today. Five things we learned, then the questions I think we need to answer together. The title is the study in one line — the awareness gap is real, but it's not the whole story, and the second half of that sentence is the part that should bother us.
+
+---
+
+## Slide 2 — What this study is (and isn't)
+
+**Title:** Eight conversations with the people we're trying to reach — and four honest limits
+
+**Body — left column: What we did**
+- 8 remote interviews, July 2026, with active book club members and leaders who were **not** SuperSummary users
+- Covered: how their club runs, how they pick books, how they prepare, what tools they use
+- Clubs ranged from 4 close friends to a 400-member paid social club
+
+**Body — right column: Four limits, stated up front**
+- **Recruited from a friend-and-follower network** — biases toward millennial, US, socially-driven clubs
+- **3 of 8 are leaders, not members** — their pain is production labor, not reading labor
+- **Features were pitched before probing in 6 of 8 sessions** — any enthusiasm for a named feature is elicited, not spontaneous
+- **No pricing or willingness-to-pay was tested** — zero participants were asked what they'd pay
+
+**Data callout:** `8 interviews · 4 pure members · 3 leaders · 1 workplace club`
+
+**Speaker notes:**
+> I want the caveats on screen before the findings, not in an appendix, because two of them change how you should read what follows. The demand-effect one especially: in most of these calls the interviewer described Recipe Generator, Story Recap and Hot Takes before asking what the participant thought. So when you hear "she loved it" later in this deck — you won't, I've stripped those out. Everything I'm presenting is either unprompted behavior or a stated objection. That's the material that survives the method.
+
+---
+
+## Slide 3 — Insight 1
+
+**Title:** Awareness isn't our bottleneck. Attribution and activation are.
+
+**Body**
+- **4 of 8 had never heard of SuperSummary.** That's the finding we expected.
+- **3 of 8 had already used the product** — one created an account, one used it repeatedly across two books, one suspects she's used our content without knowing the source. **None of them has a relationship with the brand.**
+- Rashida is the documented case: found us, extracted one set of discussion questions, never returned. The account still exists.
+- Jessica has used the site at least twice this year and does not believe she has an account.
+
+**Evidence quote** — [name], member, on hearing the company name for the first time:
+> "I wonder if I have used it before for like book club questions and just didn't know what it was."
+
+**Data callout:** `4 never heard of us · 3 already used us · 0 converted`
+
+**Speaker notes:**
+> This is the slide I'd most like you to leave with. If the story were purely "nobody knows us," the answer is spend. But three of eight already got value out of us and it produced no recognition, no return visit, and in one case an account that went dormant after a single artifact. Our content may already be doing acquisition work that we get no credit for and can't measure. That's a different problem with a different price tag.
+
+---
+
+## Slide 4 — Insight 2
+
+**Title:** Our only proven organic door is a host in a failure state — and it leaks.
+
+**Body**
+- Both participants who found us on their own arrived the same way: **a Google search for book club discussion questions.**
+- Both were **hosts**, and both were searching because their own process had broken — they hadn't finished the book, or didn't like it enough to write questions about it.
+- The need is episodic. Once the meeting passes, the need disappears — and so does the user.
+- **Members don't use this door at all.** Members don't search for discussion questions.
+
+**Evidence quote** — [name], founder/host, ~2,000 Instagram followers:
+> "I just kind of think of them on my own. And the reason is so funny, the reason I use super summaries, because that's the book I did not like, so I didn't finish it. So I could not come up with questions on my own. So that's kind of what led me down that path."
+
+**Data callout:** `2 of 8 found us organically · both hosts · both mid-failure · both gone`
+
+**Speaker notes:**
+> Worth being precise about what "organic acquisition" means for us in this segment right now: it's a host who couldn't do her job, at 10pm, two days before a meeting. That's a real door and it works — but it opens onto one artifact and it's shaped entirely around hosts. Rashida left without knowing anything else on the platform existed. Jessica judged the entire product on the single page she happened to land on.
+
+---
+
+## Slide 5 — Insight 3
+
+**Title:** The job isn't understanding the book. It's showing up able to talk about it.
+
+**Body**
+- Not finishing is **socially normal** in almost every club we spoke to. Rashida opens every meeting by asking who didn't finish. Savannah's club roasts you but never excludes you. Jen's club treats spoilers as an accepted condition of attending.
+- There are **two distinct triggers**, and only one of them is about not reading:
+  - **Didn't finish** — ran out of time, disliked the book, or was running the event
+  - **Finished, but forgot** — Jen read a book in a week and discussed it six weeks later
+- The cost of the gap is **attendance**, not comprehension. Julia skipped a meeting she wanted to attend, for a book she expected to enjoy.
+
+**Evidence quote** — [name], member, on the meeting she missed:
+> "But I could have had the community this week, but I missed it because I didn't read the book. And maybe an app or a summary or something would have helped me feel better about going."
+
+**Second quote (optional, if the slide has room)** — [name], six weeks after finishing:
+> "I remember liking it. I remember like having some like, whatever feelings about it, but I was like, I couldn't tell you, like, really in depth how I felt about it until we were actually talking about it."
+
+**Data callout:** `Reported in 7 of 8 clubs · 1 confirmed missed meeting`
+
+**Speaker notes:**
+> Two things here. First, the framing we've inherited — help students understand a text — is not the job. The job is arriving at a social event able to participate. Second, and this is the one I didn't expect: the "finished but forgot" case is just as common as "didn't finish," and it happens to the *strongest* readers in the club, because clubs meet six weeks after they pick. One nuance to hold onto: Julia frames finishing the book as her side of a bargain with the group. She left an earlier club rather than under-deliver. So this is a delicate audience for anything that sounds like a shortcut.
+
+---
+
+## Slide 6 — Insight 4
+
+**Title:** Book club culture defines itself as "not school" — on purpose.
+
+**Body**
+- The most experienced leader in the sample designs her meetings **specifically to remove evaluation**, because that's what protects attendance.
+- The same signal appears independently across the sample: Savannah calls formal clubs "a chore" and refuses to join a club that bars you for not finishing. Celeste describes her club as "half girls night out, half book club."
+- This shows up as a **content-quality objection, not just a discovery gap.** Jessica finds one or two usable items per guide and writes her own set anyway. Savannah abandons prepared questions after roughly two.
+- Meanwhile, what does work in the room is **reaction and disagreement** — Jessica's actual opener is "how did everybody feel about the book?"; Veronika went hunting through Goodreads reviews for people who were conflicted, to seed an argument.
+
+**Evidence quote** — [name], founder of Literature Noir, running since 2017:
+> "I don't like that environment. I don't want it to feel like we're in school."
+
+And on why:
+> "I always find that when people join book clubs, they're always intimidated. Intimidated that when they're discussing books that they'll feel stupid or something is a stupid question."
+
+**Data callout:** `Anti-academic register named unprompted in 4 of 8 interviews`
+
+**Speaker notes:**
+> This is the slide with the uncomfortable implication for our current premium set, so I'll state it as a finding and stop there. Features built around assessment — quizzes, comprehension scoring — are not merely low-priority for this audience. In these interviews they read as counter-signals, because the thing the leader is actively managing is members' fear of looking stupid. Note also that this isn't only about how we're packaged: two participants who actually used our discussion questions told us, independently, that the questions themselves didn't fit how their group talks.
+
+---
+
+## Slide 7 — Insight 5
+
+**Title:** We're competing against free tools, inside channels we're not in.
+
+**Body**
+- **Nobody named a paid book club product as an alternative.** What they named: Google, Reddit, ChatGPT, Gemini, SparkNotes, Goodreads reviews, Pinterest, BuzzFeed Tasty.
+- **Two capabilities we already ship were reinvented as chat prompts** by people who'd never heard of us — mid-read catch-up by page number, and *what should I read next if I liked this*.
+- Clubs live in **Instagram, Slack, iMessage, WhatsApp and Facebook groups.** Even purpose-built book club apps are treated as scheduling utilities, not places anyone spends time.
+- And a new app faces a standing veto: Jen liked StoryGraph on trial and stayed on Goodreads anyway, because her library is already there. Savannah's club tried Fable and it didn't stick.
+
+**Evidence quote** — [name], describing colleagues in her book club:
+> "she will ask chat GPT what should I know at this point? And she'll say how many pages you read? Like in case she's like a little lost to try to be like okay, what should I know at this point of the book?"
+
+**Second quote** — [name], on where her club actually lives:
+> "I don't even open my book clubs app unless we have a meeting or something going on. But Instagram is my, my day to day contact."
+
+**Data callout:** `0 of 8 named a paid competitor · 3 named ChatGPT or Gemini`
+
+**Speaker notes:**
+> The Veronika quote is the one I'd read out loud slowly. That is Story Recap, described from memory by someone who has never heard of SuperSummary, being performed in a chat window instead. Same for recommendations. Our differentiator against that is expert-vetted accuracy, and notably the participant who cared most about accuracy was the leader with the most reputational skin in the game. Second half of the slide is the channel reality: these clubs don't have a website habit, they have a group chat habit.
+
+---
+
+## Slide 8 — Closing
+
+**Title:** What we'd need to decide next
+
+**Body — open questions, not recommendations**
+- If our content is already reaching this segment anonymously, **how much of our funnel is currently unmeasured** — and what would it take to find out?
+- The proven door is host-shaped and failure-triggered. **Do we want to widen that door, or open a member-shaped one?** They're different products.
+- Insight 4 sits in tension with part of our current premium set. **Is that a positioning problem or a portfolio problem?**
+- Our strongest single signal — a member skipping a meeting she wanted to attend — is **a sample of one.** What's the cheapest way to test it before we build on it?
+- We have almost no data on **clubs that died**, which two participants have lived through. Is that the next study?
+
+**Speaker notes:**
+> I'm deliberately not bringing a prioritized list today — the brief for this read-out was findings. These are the five questions I think the findings force. My recommendation on process, not product: the fifth one is cheap and I'd like to go do it. Happy to come back with an options paper once you've reacted to these five.
+
+---
+
+## Backup slides (hold in reserve — likely questions)
+
+### Backup A — "What's the actual hardest part of running a book club?"
+
+**Title:** Picking the next book was named as the highest-friction job — not reading, not discussing
+
+- Jen raised it unprompted as the **first and last** thing she said in her interview
+- Every club has a ritual but no method: a 26-title shared note pasted into **Wheel of Names**; a two-round nomination-and-poll funnel; a picker posting three candidates to Slack; a host choosing alone
+- Nobody checks what's in the book first. Savannah's club picked a horror novel off a thumbnail and two members had nightmares — she assessed it as a possible club-ending event
+- Length is a hard feasibility filter: a member eight months pregnant declined a title on page count, and the club chose a shorter book next
+
+> "where I think the most value would be, at least for my group, is, like, easy picking our next book." — [name]
+
+> "we're not usually in the habit of reading the synopsis of the book ahead of time" — [name]
+
+### Backup B — "Would they pay?"
+
+**Title:** We didn't test price — and there are signals in both directions
+
+- **Not tested.** No participant was asked what they'd pay. Several calls ended with an offer of a free subscription, which confounds any stated intent.
+- Signals against: Lisa says "I hate buying books" and borrows everything. Jessica refuses on principle to charge for her club. Rashida notes the club makes her no money. Celeste's single biggest pain isn't content at all — it's payments.
+- Signal for: leaders control large audiences (400+ paying members; 450 registered; 2,000 followers), so value delivered to a leader reaches a club rather than a seat.
+
+### Backup C — Who we talked to
+
+| # | Participant | Role | Club | Awareness |
+|---|---|---|---|---|
+| 1 | [name] | Member | ~15 people, local moms group | None |
+| 2 | [name] | Host | Franchised "book & sip", 400+ paying | Aware, never used |
+| 3 | Lisa O'Brien | Member ×3 | Three clubs from one organizer | None |
+| 4 | [name] | Member | 6–10 friends, meets every 6–8 weeks | None (suspects prior use) |
+| 5 | [name] | Host/founder | 2k IG → 450 registered → ~35/mo | Account created, abandoned |
+| 6 | [name] | Host/founder | Literature Noir, virtual, since 2017 | Repeat user, no account |
+| 7 | [name] | Member | 4 close friends, monthly + mahjong | None |
+| 8 | [name] | Member | Employer HR "Culture Club", Slack | None |
+
+---
+
+**All participant quotes in this deck were verified verbatim against the source transcripts.** Full synthesis, evidence and experience maps: `BCMs-Outside-SuperSummary-Synthesis.pdf`

@@ -1,0 +1,48 @@
+Book Clubs Homepage — Usability Test Results
+Sep 17, 2026 · @Design Team
+Task-by-Task Results
+All six moderated tasks were tested with 7 participants; five had a clear pass/fail goal screen, four of which were reached by 100% of participants.
+
+Lyssna · goal-based tasks, 7 participants
+
+Lyssna · follow-up linear-scale questions, 7 participants
+1. Set the club's current book (Figma prototype)
+All 7 participants reached the goal screen (100%), averaging 33 seconds with a 12% misclick rate — the highest-rated task for perceived ease (mean 5.00/5). The recurring hitch: the empty-state copy "select a book to read" reads to some participants as an invitation to help pick a book, rather than the action for a club whose members already agreed on one.
+2. Explore the pre-meeting prep feed (live site)
+Participants finished exploring in an average of 5m25s — faster than the 6–10 minute estimate — and rated the feed's discoverability (mean 4.29/5) and usefulness for meeting prep (mean 4.14/5) solidly positive. The three feed modules — Hot Takes, Thought Starters, and Quotes — were broadly understood, but expectations diverged on visibility, permanence, and personalization (see Key Themes).
+3. Archive the current book and start a new cycle (Figma prototype)
+This was the outlier: only 6 of 7 participants (86%) reached the goal screen, with the highest misclick rate of the test (47%) and an average time of 37 seconds. Perceived ease was still moderate (mean 4.14/5), but several participants flagged the "Move to Previously Read" label as unclear and not visually weighted like a committed, irreversible action.
+4. Set up a poll between two books (Figma prototype)
+All 7 participants succeeded (100%) in an average of 28 seconds with the lowest misclick rate of the test (10%) and a perfect ease score (mean 5.00/5 — every participant rated it a 5). Six of seven follow-up comments said they would change nothing about this flow.
+5. Cast a vote in the poll (Figma prototype)
+All 7 participants succeeded (100%) in an average of 19 seconds (mean ease 4.71/5), but misclicks were elevated (30%): several participants first reached for the larger book card at the top of the page instead of the smaller poll element, and one wasn't confident their tap had registered a vote.
+6. Close the poll (Figma prototype)
+Participants who completed the flow reached the goal with a mean ease of 4.29/5, though misclicks were again elevated (32%). One participant's low rating was driven by a prototype technical glitch (scrolling/clicking stopped responding) rather than a design issue.
+Key Themes
+Ambiguous action copy causes hesitation
+The clearest thread across tasks: several labels described what an action would produce, not what the user should expect next. "Select a book to read" (Task 1) sounded to one participant like an offer to help pick a book, when the club had already agreed on one — they suggested "Already picked a book? Get set up here." The sharper case was "Move to Previously Read" (Task 3), which several participants called unintuitive and proposed replacing with something like "Archive this to choose the next book," "Mark as discussed by the club," or "We've finished this book," alongside a more committed, prominent visual treatment (closer to "Archive" or "Complete").
+Visual hierarchy competes with the primary action
+In both polling tasks (4 and 5), participants said the poll card felt secondary to the main book card above it and asked for it to sit higher on the page or read as more prominent. In Task 5 this led several participants to first click the larger book card instead of the smaller poll element they actually needed.
+Hot Takes' audience and reveal timing are genuinely unclear
+Feedback on the Hot Takes (Agree/Disagree) module split three ways: some participants assumed answers were private ("I didn't see anyone's [answer]… I think no one can see mine"); others expected to see aggregate results but not who voted; others expected full visibility to the whole club. Two participants separately suggested making the reveal timing configurable — showing results only during the meeting rather than in advance, so no one sees the outcome early.
+Users want to carry feed content into the meeting
+Across Thought Starters, Hot Takes, and Quotes, several participants asked for a way to save or bookmark specific items ("I would like to save them somewhere to use during the meeting… like my own notes and agenda") and to comment on them, rather than only browsing the feed passively.
+Confirmation and reversibility concerns recur
+Participants raised "what if I want to change it after confirming?" in three different contexts: changing the current book after confirmation (Task 1), whether any club member — not just the organizer — could edit the meeting date or archive the book (Task 2/3), and whether a vote had registered correctly, since there was no confirmation step (Task 5).
+Spoiler risk on Thought Starters and Quotes
+Two participants flagged that Thought Starters and Quotes could reveal plot details to members who haven't finished the book yet, and suggested gating that content behind an "already read" signal.
+Sentiment is strongly positive overall
+Closing survey comments were enthusiastic: "This feels like a pretty good MVP for such a rich and important flow! Congrats!" and "My main takeaway is that I love it and that it'll really help book clubs organise!" The poll-setup flow (Task 4) drew a perfect ease score and near-unanimous "nothing to change" feedback, and several participants attributed their remaining friction to prototype artifacts — non-functional buttons, one non-scrolling session — rather than design flaws.
+Recommendations
+Methodology Notes
+Test "[PIN] Book Clubs homepage - internal," run in Lyssna with self-recruited participants via an active link (unmoderated). 7 participants completed the study: 6 in Brazil, 1 in Spain; age range was not captured. The study had 7 sections: five Figma-prototype goal/first-click tasks (1, 3, 4, 5, 6), one open-ended exploration task on a live Vercel staging build (2), and a closing open-text survey (7). Success rates, time on task, misclick percentages, and linear-scale means reported here are Lyssna's own computed figures; the qualitative themes were synthesized from the open-text follow-up answers.
+This report reflects only what is visible on the shared Lyssna results page — it does not draw on the individual session recordings or transcripts for Task 2, which may hold additional detail worth a follow-up pass.
+Priority | Recommendation | Why
+High | Rework the "Move to Previously Read" copy and give it a more committed visual treatment | Task 3 had the lowest success rate (86%) and highest misclick rate (47%) of the test, and this label was the most repeated complaint
+High | Clarify Hot Takes visibility/anonymity rules; consider a configurable reveal timing (before vs. during the meeting) | Expectations split three ways — this is a product decision, not just a copy fix
+Medium | Raise the poll card's visual prominence and position relative to the main book card | Elevated misclicks in both polling tasks (Task 5: 30%) even though completion held at 100%
+Medium | Add a lightweight confirmation or "you voted for X" state after casting a vote | Reduces uncertainty without adding real friction
+Medium | Let members save/bookmark Thought Starters, Hot Takes results, and Quotes for use during the meeting | A specific, recurring ask across 4+ participants
+Low | Reword the Task 1 empty-state copy to distinguish "pick a book" from "confirm the book we chose" | Single-participant issue, easy to bundle with other copy work
+Low | Gate Thought Starters/Quotes spoiler content behind an "already read" signal | Raised by 2 participants; worth validating before investing
+Low | Simplify the first screen's color treatment | One participant found it briefly confusing, but ease score was already the highest in the test (5.00)

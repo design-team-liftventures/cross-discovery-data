@@ -1,0 +1,68 @@
+Book Clubs Concept 2 — Usability Test Results
+Sep 17, 2026 · @Design Team
+Overview
+This report summarizes the results of a Lyssna first-click usability test for [Book Clubs] Concept 2, a Figma prototype of a book club app. The study is complete, with 15 participants recruited from a panel (Panel order 2), all located in the United States.
+Participant mix: 10 female, 5 male; skewed toward full-time employed (11), with some part-time (2) and retired (2); education ranged from high school graduate through postgraduate, with the largest groups holding some college (4) or a college degree (5); household income was concentrated in the $40,001–$70,000 range (6 of 15); technical proficiency was intermediate (8) to advanced (7). All 15 participants listed reading as a hobby/interest, consistent with the study's target audience.
+Participants completed five first-click tasks against the prototype. Each task was followed by three questions: whether they found what they were looking for, how easy or difficult it was, and whether the target was where they expected it to be.
+Task 1: Finding book details
+Prompt: "You're curious about the book itself — the author, the background, what it's about. Where would you tap first to dig into the book?"
+This was the strongest-performing task: every participant reached the goal screen, and all reported finding what they needed exactly or roughly where expected. This is the clearest "win" pattern in the study.
+Task 2: Setting up a vote for the next book
+Prompt: "Your club needs to pick the next book. You want everyone to vote on it. Where would you tap first to set that up?"
+One participant did not reach the goal screen, and misclick rates were the second-highest in the study (14%). No one reported the target being somewhere they did not expect at all, but over half only found it "roughly" where expected — suggesting the entry point for starting a vote is discoverable but not fully obvious.
+Task 3: Preparing to discuss the book
+Prompt: "Your club meets tomorrow night. You want to walk in ready to talk about the book. Where would you tap first?"
+This task shows the weakest follow-up sentiment in the study: 20% said they did not find what they were looking for, and another 20% said the target was not where they expected. This is a signal worth investigating — participants can technically reach a goal screen while still feeling the content that helps them "prepare to discuss" isn't where they'd look.
+Task 4: Reacting to a hot take
+Prompt: "Find the section where members share their hottest opinions about the book, and react to one of them."
+This task has by far the highest misclick rate in the study (29%), the lowest ease score (4.07), and one participant rated it "very difficult" (the only 1-rating recorded anywhere in the test). Locating the opinions/reactions section appears to be the hardest navigation step of the five tasks, even though most participants eventually succeeded.
+Task 5: Looking up a past book
+Prompt: "You're trying to remember the name of a book your club read a few months ago. Where would you tap first to look it up?"
+This is the best-performing task in the entire study across every metric: full success, near-zero misclicks, the fastest average time, and a perfect "exactly where expected" score. A reading-history or past-books feature appears to be highly intuitive in this prototype.
+Summary and recommendations
+Across all five tasks, participants generally located the intended feature (93–100% success), and no task scored below a mean ease of 4.0 on a 5-point scale — overall this concept tests well for basic discoverability.
+Two areas stand out for design attention before this concept moves forward:
+Reacting to a hot take (Task 4) had the highest misclick rate (29%) and lowest ease score (4.07) in the study, including the only "very difficult" rating recorded. The entry point to the opinions/reactions section is likely not visually prominent enough or is competing with other navigation targets.
+Preparing to discuss the book (Task 3) had the weakest "found what they were looking for" result (80% Yes) and the most participants saying the target was not where expected (20%). Even though most participants technically reached a goal screen, this suggests the discussion-prep content itself may not be framed the way users expect when they think about "getting ready to talk about the book."
+By contrast, looking up a past book (Task 5) and finding book details (Task 1) were the standout successes, with near-perfect scores across every metric — these patterns are good reference points for how to structure the weaker flows.
+Metric | Result
+Success rate | 100% (15/15)
+Misclicks | 3%
+Average time to first click | 17s
+Found what they were looking for | 100% Yes
+Ease (1–5 scale) | Mean 4.67
+Location matched expectations | 87% exactly as expected, 13% roughly as expected
+Metric | Result
+Success rate | 93% (14/15)
+Misclicks | 14% (first click), 12% overall path
+Average time to first click | 27s
+Found what they were looking for | 100% Yes
+Ease (1–5 scale) | Mean 4.33
+Location matched expectations | 47% exactly as expected, 53% roughly as expected
+Metric | Result
+Success rate | 93% (14/15)
+Misclicks | 9%
+Average time to first click | 15s
+Found what they were looking for | 80% Yes, 20% No
+Ease (1–5 scale) | Mean 4.20
+Location matched expectations | 60% exactly as expected, 20% roughly as expected, 20% not where expected
+Metric | Result
+Success rate | 93% (14/15)
+Misclicks | 29%
+Average time to first click | 24s
+Found what they were looking for | 93% Yes, 7% No
+Ease (1–5 scale) | Mean 4.07
+Location matched expectations | 47% exactly as expected, 47% roughly as expected, 7% not where expected
+Metric | Result
+Success rate | 100% (15/15)
+Misclicks | 2%
+Average time to first click | 9s
+Found what they were looking for | 100% Yes
+Ease (1–5 scale) | Mean 4.87 (highest of all five tasks)
+Location matched expectations | 100% exactly as expected
+Task | Success | Misclicks | Ease (mean/5) | Where expected
+1. Book details | 100% | 3% | 4.67 | 87% exactly
+2. Vote setup | 93% | 14% | 4.33 | 47% exactly
+3. Prep to discuss | 93% | 9% | 4.20 | 60% exactly
+4. React to hot take | 93% | 29% | 4.07 | 47% exactly
+5. Past book lookup | 100% | 2% | 4.87 | 100% exactly

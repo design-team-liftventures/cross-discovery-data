@@ -1,0 +1,88 @@
+JTBD Payoff v2 — Five-Second Test Results
+Growth Experimentation Squad · SuperSummary
+Lyssna study btc5s3het2qi  •  Report date: September 17, 2026
+
+Executive Summary
+SuperSummary ran a five-second test on Lyssna to check whether a new “payoff screen” communicates its intended value proposition — helping a reader have better book club discussions — immediately after a user says that's what they want. Twenty-five U.S.-based, reading-enthusiast participants viewed the design for 2 seconds and then answered two open-ended recall questions and two 5-point rating questions.
+Overall the screen performs well: both clarity (“how clear was it what you were being offered”) and relevance (“how much did it feel like what you wanted”) scored a mean of 4.04 out of 5, and 84% of participants described the intended discussion-questions benefit in their own words once asked directly what SuperSummary would help them do. The main risk is a residual pull toward SuperSummary's existing “book summary” association: about 1 in 6 participants read the screen as being about summaries rather than discussion questions, and immediate (unprompted) recall was noticeably less precise than prompted recall. A couple of participants also flagged the exposure itself as too fast to be fully confident in their answer.
+Study Overview
+Setup
+
+Scenario shown to participants
+“Imagine you're preparing for your book club's discussion of The Great Gatsby next week. You want the conversation to be better and more interesting than usual — not just everyone saying whether they liked it. You've found SuperSummary and answered a few questions about yourself, the book you were reading (The Great Gatsby) and what you're looking for. You just answered the question “What can we help you do?” with the option “Have better discussions about it.” The next screen is what it showed you.”
+Participants then viewed the payoff design for 2 seconds and answered:
+2.1 — “In one sentence, what was that screen telling you?” (open text, unprompted recall)
+2.2 — “Based on what you just saw, what specifically would SuperSummary help you do?” (open text, prompted)
+2.3 — “How clear was it what you were being offered?” (1–5 scale)
+2.4 — “How much did that screen feel like it was about what you said you wanted?” (1–5 scale)
+Participant Profile
+As reported on the Lyssna results page (categories marked ‘+N more’ had additional, uncollapsed brackets not shown in the source view):
+
+Read: this is a heavily online, tech-comfortable, employed panel of self-identified readers — skewed toward advanced digital proficiency (68%) and heavy daily internet use (76% over 6 hours/day). Results should be read as an indication of how a digitally fluent reading audience reacts, not a general-population baseline.
+Quantitative Results
+
+Both questions land at the same mean (4.04/5), but the shape differs: relevance (2.4) is tightly concentrated in the “4” band with very few low scores (only 1 participant below the midpoint), while clarity (2.3) is more polarized — a large “very clear” group (48% chose 5) sits alongside a bigger “only somewhat clear” group (32% chose 2 or 3). In other words, participants are more unanimous that the offer matches what they wanted than they are that the screen communicated it clearly.
+Qualitative Themes
+Themes below are drawn from the verbatim open-text answers visible on the Lyssna results page: 21 of 25 responses to question 2.1 and all 25 responses to question 2.2 (the platform loads long-text answers progressively; these counts reflect everything rendered while reviewing the page).
+Theme 1 — “It sparks better book club discussions” (top-of-mind takeaway)
+Prevalence: 14 of 21 unprompted responses (67%) to question 2.1.
+Even with only a 2-second look, most participants correctly registered the screen's general intent — that it helps make book discussions better — without yet being able to name the specific mechanism.
+“Spark strong discussions with ready to use questions.”
+“It was inspiring chats about the book.”
+“That it helps have better book discussions — though it was so quick I can't be 100% sure.”
+Implication: the headline-level message (better discussions) is landing at a glance. This is the message the design should keep protecting as details around it change.
+Theme 2 — “Ready-to-use discussion questions, organized by theme” (the specific mechanism)
+Prevalence: 9 of 21 (43%) named this on 2.1 unprompted; 13 of 25 (52%) named it directly on 2.2, and 21 of 25 (84%) landed on a discussion-questions-or-quality benefit once asked directly.
+“The screen told me that I could spark strong discussions by using ready to use questions for each theme, which I could then share with my group.”
+“Using SuperSummary, I could create and use questions about various themes to share with my reading group.”
+“I assume it will help me craft the questions that will advance the book club discussion.”
+Implication: the specific mechanism (theme-based, ready-to-use questions) is SuperSummary's clearest, most differentiated hook — it just needs a second beat (the follow-up question) for most people to state it precisely. That gap between Theme 1 and Theme 2 is the design opportunity: getting more people to the specific mechanism on first glance, not just the general vibe.
+Theme 3 — Residual “book summary” association (off-message)
+Prevalence: 4 of 21 (19%) on 2.1; 4 of 25 (16%) on 2.2.
+“You can get book summaries utilizing AI efficiently.”
+“It basically helps get summaries for your books.”
+“To summarize books in a very condensed format.”
+Implication: a consistent minority default to SuperSummary's pre-existing brand association (book summaries) instead of the discussion-questions value prop being tested. This looks like prior-brand pull rather than screen confusion — worth checking whether these participants are also the ones who scored clarity lower.
+Theme 4 — Exposure-time uncertainty
+Prevalence: 2 of 21 (10%) on 2.1 explicitly said the exposure was too fast to be sure.
+“I could not see the screen clearly. So I am not sure.”
+“...though it was so quick I can't be 100% sure.”
+Implication: a small but real share of participants self-report low confidence purely because of the 2-second window, independent of the design itself — relevant when weighing recall-based findings against the rating questions.
+Insights → Opportunities
+Recommendations
+Ship this direction as the leading candidate for the payoff screen. Both rating questions average 4.04/5, and 84% of participants converge on the intended discussion-focused benefit once asked directly — a strong result for a 2-second exposure.
+Sharpen the mechanism, not just the headline. Since the general “better discussions” message already lands well, the highest-leverage next iteration is making the specific “ready-to-use questions by theme” mechanism visible within the first glance, closing the gap between unprompted (43%) and prompted (84%) recall of it.
+Address the summary-association leakage directly. Consider a copy or visual treatment that explicitly contrasts this feature with SuperSummary's existing book-summary product, since roughly 1 in 6 participants currently default to that association.
+Follow up with a legibility-focused design QA pass on this screen, given clarity scored more polarized than relevance — the issue looks more like presentation than message-fit.
+If further testing is planned, re-run at the standard 5-second exposure as a secondary check, since a small number of participants attributed their uncertainty to the shorter 2-second window rather than the design itself.
+Methodology Notes
+All data in this report comes directly from the Lyssna results page for study btc5s3het2qi, reviewed on September 17, 2026. No other pages or exports were consulted.
+The study is named a “2s Test” and the results page confirms “Participants viewed the design for 2 seconds” — shorter than Lyssna's default 5-second exposure for this question type. Worth double-checking this was the intended configuration before comparing results to other five-second tests run at the default duration.
+Question 2.1 open-text answers: 21 of 25 verbatim responses were visible while reviewing the results (Lyssna loads long-text answers progressively); question 2.2: all 25 were visible. Percentages for 2.1 themes are out of 21; percentages for 2.2 themes are out of 25.
+Several demographic filters on the page showed only their top 3–4 brackets with a “Show N more” control that was not expanded; the profile section above notes this where it applies.
+No response filters were applied — all 25 completed responses are included.
+Field | Detail
+Platform / method | Lyssna — Five Second Test question, configured for a 2-second exposure (the study is named “2s Test”; note this is shorter than Lyssna's default 5-second exposure — see Methodology Notes)
+Test | [Growth Exp] JTBD Payoff v2 Q3'26 — 2s Test
+Participants | 25 completed responses — 74% screen-in rate
+Status | Complete (Recruit order complete)
+Location | 100% United States
+Attribute | Breakdown shown
+Gender | Female 13 · Male 11 · Non-binary 1
+Age range (partial) | 20–24: 1 · 25–29: 2 · 30–34: 3 · +9 more brackets not expanded
+Education (partial) | College graduate: 9 · Some college: 5 · High school graduate: 2 · +2 more not expanded
+Household income (partial) | $40,001–$70,000: 7 · $70,001–$100,000: 7 · $10,001–$40,000: 3 · +1 more not expanded
+Employment | Full-time employed: 19 · Self-employed: 4 · Student: 1 · +1 more not expanded
+Department (partial) | Customer service: 6 · Admin/operations: 5 · Accounting & finance: 3 · +3 more not expanded
+Daily hours online | Over 6 hours: 19 · 4–6 hours: 4 · 1–3 hours: 2
+Technical proficiency | Advanced: 17 · Intermediate: 8
+Hobbies | Reading: 25 (screener criterion — 100%)
+Source | Panel, order 1: 25
+Question | Mean /5 | Top-2-box (4–5) | Bottom-2-box (1–2) | Distribution (1→5)
+2.3 Clarity of offer | 4.04 | 68% (17/25) | 12% (3/25) | 0% · 12% · 20% · 20% · 48%
+2.4 Relevance to stated want | 4.04 | 76% (19/25) | 4% (1/25) | 0% · 4% · 20% · 44% · 32%
+Insight | Opportunity | Impact | Effort | Confidence
+General “better discussions” message lands at a glance (67% unprompted), but the specific “questions by theme” mechanism needs a second beat to surface (43% unprompted vs. 84% prompted) | Strengthen the visual hierarchy so the mechanism (theme-based, ready-to-use questions) reads as clearly as the headline benefit — e.g. a bolder secondary line or a small visual sample of a question card | High | Low | High
+16–19% of participants default to “book summary” instead of “discussion questions” | Test copy/visuals that explicitly differentiate from the summary product (e.g. contrast “not just a summary — questions to talk about it”) to counter the existing brand prior | Medium | Low | Medium
+Clarity (2.3) is more polarized than relevance (2.4) — people agree it's relevant even when they don't find it fully clear | Run a design/copy QA pass focused specifically on legibility and hierarchy of this payoff screen, independent of message content | Medium | Low | Medium
+A small share (10%) cite the exposure time itself as limiting confidence | If iterating further, consider testing the same screen at the platform's default 5-second exposure to separate “memorability under 2s” from “comprehension of the message” as distinct questions | Low | Low | Medium

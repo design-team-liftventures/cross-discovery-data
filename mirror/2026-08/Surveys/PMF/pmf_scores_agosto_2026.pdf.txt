@@ -1,0 +1,118 @@
+S P R I G I N - P R O D U C T S U R V E Y · AU G U S T 2 0 2 6
+
+
+Product-Market Fit Scores
+Share of respondents who would be very disappointed if a piece of content or a feature went away — the
+Sean Ellis top-box measure, across 533 responses collected on supersummary.com in August 2026.
+
+
+  ALL SURFACES                       CONTENT                        FEATURES                       ABOVE 40%
+                                                                                                   BENCHMARK
+  65.9%                              76.7%                          59.9%
+  351 of 533 very                    3 surfaces · 189 responses     5 surfaces · 344 responses     7 of 8
+  disappointed                                                                                     Only Word Worm falls
+                                                                                                   short, at 34.6%
+
+
+
+
+   PMF score by surface
+   Sorted high to low. Dashed line marks the 40% product-market-fit benchmark.
+
+            Character List
+                                                                                                        79.7% · 126 resp.
+            Guide · n=158
+
+           Author Insights
+                                                                                                 69.0% · 60 resp.
+            AI Tools · n=87
+
+              Story Recap
+                                                                                                 68.7% · 101 resp.
+           AI Tools · n=147
+
+                   Reviews
+                                                                                            62.5% · 5 resp.
+                 Guide · n=8
+
+                 Book Brief
+                                                                                           60.9% · 14 resp.
+              Guide · n=23
+
+            Plot Scramble
+                                                                          43.6% · 17 resp.
+            Games · n=39
+
+             True or False
+                                                                         42.2% · 19 resp.
+            Games · n=45
+
+              Word Worm
+                                                                  34.6% · 9 resp.
+            Games · n=26
+
+                               0%                20%               40%               60%               80%                100%
+
+
+      Content         Feature
+
+
+
+
+   Response distribution
+   “How would you feel if you could no longer use this?” on a 1–5 scale, 1 = not disappointed at all.
+
+      1      2       3         4    5 — very disappointed
+
+           Character List                                                                                            x̄ 4.70
+
+          Author Insights                                                                                            x̄ 4.39
+
+             Story Recap                                                                                             x̄ 4.35
+
+                   Reviews                                                                                           x̄ 3.88
+
+               Book Brief                                                                                            x̄ 4.09
+
+           Plot Scramble                                                                                             x̄ 3.54
+
+            True or False                                                                                            x̄ 3.64
+
+             Word Worm                                                                                               x̄ 2.85
+All figures
+One row per surface, August 2026.
+
+ SURFACE                    TYPE     N    PMF SCORE      TOP-2 BOX     MEAN (1–5)     VERY DISAP.    SOMEWHAT         NOT DISAP.
+
+
+ Character List       CONTENT      158         79.7%          95.6%           4.70            126             25              7
+
+ Author Insights       FEATURE      87         69.0%          85.1%           4.39             60             14             13
+
+ Story Recap           FEATURE     147         68.7%          81.6%           4.35            101             19             27
+
+ Reviews              CONTENT         8        62.5%          75.0%           3.88               5                1           2
+
+ Book Brief           CONTENT       23         60.9%          69.6%           4.09             14                 2           7
+
+ Plot Scramble         FEATURE      39         43.6%          59.0%           3.54             17                 6          16
+
+ True or False         FEATURE      45         42.2%          60.0%           3.64             19                 8          18
+
+ Word Worm             FEATURE      26         34.6%          42.3%           2.85               9                2          15
+
+
+
+
+Method. PMF score = respondents answering 5 (“very disappointed”) ÷ all respondents to that question. Top-2 box adds
+the 4s (“somewhat disappointed”). The 40% line is the Sean Ellis threshold commonly read as evidence of product-market
+fit.
+Grouping. The two Author Insights surveys (subscribers and visitors) are pooled into one surface, as are all Book Brief
+responses. Games are reported separately because each ran its own survey.
+Read with care. Reviews (n=8) and Book Brief (n=23) carry wide confidence intervals — treat their positions as
+directional. Four responses carry a 1 September timestamp; they belong to the August wave and are counted in it.
+
+
+
+                   SuperSummary · Product-Market Fit survey (Sprig) · August 2026 · generated 17 September 2026
+

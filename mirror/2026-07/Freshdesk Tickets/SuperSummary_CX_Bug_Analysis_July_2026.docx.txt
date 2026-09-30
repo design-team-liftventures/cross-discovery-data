@@ -1,0 +1,197 @@
+SuperSummary
+CX Bug Analysis — July 2026
+Continuous Discovery Cycle  |  Freshdesk support ticket export  |  Prepared by the Design Team, Lift Ventures
+Executive Summary
+This report analyses SuperSummary support tickets created between 1 and 30 July 2026 to identify technical defects that block users from completing intended actions. The source file contained 1,337 ticket records. Filtering proceeded in five stages: one record with an empty description was dropped; 411 records from the excluded payment and partner senders were removed; 23 records from automated system and no-reply addresses were removed; 91 support-agent outbound messages were removed; and a further 38 records comprising out-of-office autoresponders and vendor solicitations were removed. This left 749 user-originated tickets for classification.
+Applying the two-signal bug test, which requires both a described technical failure and a condition that blocks the user from completing an intended action, produced 194 confirmed bug tickets from 181 distinct users. Bugs account for 25.9 per cent of user-originated contact in July.
+The 194 tickets group into 17 themes. Eleven themes carrying 166 tickets classify as Critical, five themes carrying 27 tickets classify as Major, and one theme carrying a single ticket classifies as Minor. Billing and subscription-lifecycle defects account for 74 tickets. Account-access defects account for a further 68.
+The dominant July finding is new. Twenty-six tickets report signing up for an advertised seven-day free trial and being charged immediately. One ticket reproduces a support-chat reply stating that SuperSummary does not offer a free trial, and a second ticket asks that the webpage be corrected because the offer is a seven-day refund window rather than a trial. The signup surface therefore presents a trial that the billing system does not honour. Under the severity taxonomy, a charge inside a stated free-trial window is always Critical.
+Key Findings
+1. A free-trial promise on the signup surface is not honoured by billing. Twenty-six tickets from 24 users describe an immediate charge after selecting a seven-day free trial, at $36, $60 and $9.95 price points. Supporting evidence inside the tickets indicates no trial exists in the billing configuration, which makes this a mismatch between the acquisition surface and the payment system rather than an isolated processing error. The pattern generates refund demands, chargeback threats and cancellations within minutes of purchase.
+2. Password recovery is the single largest access failure. Twenty-eight tickets from 28 distinct users report that reset emails never arrive, that reset links fail when clicked, or that a password change cannot be completed. Several users confirm they checked spam folders. Because the reset path is the only recovery route for users who cannot sign in, each of these tickets also blocks subscription cancellation, which converts an access defect into a billing-retention risk.
+3. Entitlement state does not reliably follow payment. Three themes describe the same underlying condition from different surfaces: 22 tickets where a paying subscriber cannot reach content, 17 tickets where the account page displays a free plan to an actively billed subscriber, and three tickets where a confirmed charge never activated a subscription. Combined, 42 tickets indicate that the payment event and the entitlement record diverge. PayPal, Apple Pay, card and Google sign-in populations all appear in this group.
+4. Charges arrive without a locatable account. Nineteen tickets from 15 users report a charge they do not recognise, or a charge against an email address that has no account. Eight cite the $36 annual price and four cite the $9.95 monthly price. Three tickets from a single household describe a recurring $9.95 charge on a spouse’s card. This cluster carries legal exposure because four tickets use the language of fraud or dispute, and two state that a bank chargeback has already been initiated.
+5. Post-cancellation billing has fallen sharply against the prior cycle. Charges after a confirmed cancellation account for 10 tickets in July, against 60 in May and 51 in April. The reduction is consistent with a fix having landed on the cancellation propagation path. The theme has not been eliminated and remains Critical, but it is no longer the leading billing defect. Cancellation friction has shifted upstream instead, into the 10 tickets where the cancel control is absent from the account page or the app.
+Bugs Overview
+The table below lists every theme by ticket count, severity and confidence. Each ticket is assigned to exactly one theme on a single-best-fit basis, so counts do not double-count tickets that display more than one symptom.
+
+Bug Themes in Detail
+Password Reset and Password Change Failure
+Reports: 28 tickets from 28 distinct users, 1-29 July.   Severity: Critical   Confidence: High
+Reports divide into three failure modes on one recovery path: the reset email never arrives, the reset link fails when opened, and the password change step does not persist. Several users state they checked spam. Because sign-in recovery is the only route back into an account, every ticket here also blocks subscription management.
+Exemplary evidence
+“Hello - I have tried to cancel my subscription by following your instructions, but I had trouble logging in. I clicked the Reset my password button and your system responded that an email was sent to my email address with instructions. It has been a”
+“Hi, I am unable to log into my account. I have tried several time to have an email sent to the above email address for a link but have not received any emails. I do have an alternate email ([email redacted]) but am fairly sure that I have only used t”
+“Thank you for sending the link to reset my password. However, it did not work. I tried it several times to no avail. If I signed in with Google, the password would be. [email redacted]. I never use this password, but sometimes if it's a Google sign i”
+Segmentation: Google sign-in (1), mobile app, iPad or iPhone (1), educator or school (1).
+Free-Trial Promise Not Honoured - Immediate Charge
+Reports: 26 tickets from 24 distinct users, 4-26 July.   Severity: Critical   Confidence: High
+Users select a seven-day free trial presented on the signup surface and are charged in the same session. Evidence within the ticket set indicates the billing configuration contains no trial and instead applies a seven-day refund window, so the acquisition surface and the payment system state different terms. Classified Critical under the pricing and trial-window rule.
+Exemplary evidence
+“Hi, I thought I was going to get a 7-day free trial, but then my card was charged anyway. I canceled my subscription right after. Is there any way to get a refund? Thank you, *[name]* Co-Founder | Vice President *Rotation Theatre Company* linkt”
+“Hi - I cancelled by subscription. I thought I was completing a free trial and then would be charged if I wanted to continue after free trial was done. I no longer need this service and want to make sure I receive my $60 back. Please assist and thank”
+“Please cancel my subscription,. I was taking advantage of a 7 day trial and you charged me $60. I don't want your product and I would like you to please credit my charge account. Please contact me to confirm you will be issuing me credit.”
+Segmentation: card payment (5).
+Paid Subscription Not Recognised - Access Blocked
+Reports: 22 tickets from 21 distinct users, 1-30 July.   Severity: Critical   Confidence: Medium
+Users who state they have paid cannot reach content, or are returned to a sign-in or upgrade prompt. Reports do not consistently identify the device, browser or account state, so the root cause cannot be separated from the auth-mismatch and free-plan themes without backend verification. Confidence is Medium for that reason.
+Exemplary evidence
+“I have been locked out of my original account and its not the first time. I shoukd be able to use the full subscrittion because that is what I paid for. Further my subscription days that i missed access should be fully restore by adding more days.”
+“It seems as if I've been locked out of my account again. I don't have full accesd and I paid for full access back in December of 2025. Please allow full access. Yahoo Mail: Search, Organize, Conquer”
+“Good afternoon. I'm trying to cancel my SuperSummary Subscription but I'm unable to log in. I'm hoping you can assist? Thank you. Kerin Strader [email redacted]”
+Segmentation: card payment (1).
+Unauthorized Charge with No Associated Account
+Reports: 19 tickets from 15 distinct users, 3-29 July.   Severity: Critical   Confidence: Medium
+Users report a charge they did not authorise, or a charge against an address that has no matching account. Some proportion of these will be forgotten auto-renewals rather than defects, which holds confidence at Medium, but the sub-group that supplies a transaction identifier and states no account exists points to subscriptions created without a corresponding account record.
+Exemplary evidence
+“Hello There was a $36.00 charge put through on my PayPal account. I have no idea who this vendor is and what the transaction is for. Kimberly Cafaro130 Tyrrell StreetStaten Island, NY [email redacted] Transaction ID2F[number]E Seller [email red”
+“Hi - My mother attempted to purchase this in error. I am her power of attorney and working with all of the companies she is making random purchases from to process refunds and cancel subscriptions. Power of attorney is attached - please help me cance”
+“I signed up for the free plan just to check it out, and somehow have been subsequently charged for a subscription in the amount of $36 on 4/20/26. As you can see, I have not used this tool. Please refund the charge. Thank you very much.”
+Segmentation: PayPal (4), Apple or Apple Pay (1), card payment (9), mobile app, iPad or iPhone (2).
+Account Lookup Failure - Email or Auth Mismatch
+Reports: 18 tickets from 18 distinct users, 1-30 July.   Severity: Critical   Confidence: High
+Paid entitlement is attached to one identity while the user authenticates with another: work address against personal address, email against Google, email against Apple private relay. Six tickets name Google specifically and two name Apple private relay. One ticket reports the system stating no subscriber exists for an address that holds a subscription confirmation email.
+Exemplary evidence
+“I was recently charged from your website. My PayPal [email redacted] was charged but none of the ways I tried to sign in the Super summary was successful. Please let me know what email you have associated the this charge or return to money back. Than”
+“I have this problem with both the website and Mobile App: Although I paid $60 on 3/12/2026, when I log into the account, I did so using another email address, so I am unable to log in under [email redacted], which is the one I used when purchasing th”
+“I have changed schools and do not have access to my email. Therefore, I do not have access to my account. My new email is [email redacted]. Can you please change it over to my new email?”
+Segmentation: PayPal (1), Apple or Apple Pay (2), Google sign-in (6), card payment (2), mobile app, iPad or iPhone (3), educator or school (1).
+"Free Plan" Displayed to Paying Subscriber
+Reports: 17 tickets from 17 distinct users, 3-25 July.   Severity: Critical   Confidence: High
+The account page presents free-plan status to a user who is actively billed. Users supply charge dates, amounts and card last-four digits, which makes the state directly verifiable in billing records. The display failure also hides the cancel control, so affected users are billed and unable to self-manage.
+Exemplary evidence
+“Please refund the charges that you have made to my amex card ending in [redacted] According to what I find and see, I have a free account. If that is NOT the case, please send me documentation re 'signing up'' and refund. Thank you, Guila B Greer [em”
+“Hello. My records show I paid you $36 for an annual account on 5/4/26 with my Capital One credit card. Yet your website only shows I have a free account. Can you please clear this up for me? Thank you. Diane Hatcher Sent from Diane's iPhone”
+“I paid for the essentials yesterday but the app acts like I didn't on my iPad. I'm not able to read the full summaries. It says I need to upgrade from free account John Whitehouse”
+Segmentation: PayPal (3), Apple or Apple Pay (3), Google sign-in (4), card payment (5), mobile app, iPad or iPhone (3), educator or school (1).
+Charged After Confirmed Cancellation
+Reports: 10 tickets from 10 distinct users, 1-30 July.   Severity: Critical   Confidence: High
+Billing continues after the user cancelled, in several cases with the account page still showing cancelled status. Volume has dropped from 60 tickets in May to nine, consistent with a fix on the propagation path, but the residual cases still combine financial harm with loss of control.
+Exemplary evidence
+“Hi, I was informed I have been paying for SuperSummary since May. I know for a fact I did in fact cancel my account directly after realizing I was paying for it back in May. Please refund me for the last 2 months as you can see I did not access any s”
+“Hi, I canceled my account in April/May 2026 and I am seeing monthly charges on my credit card statement for $9.95. My account shows canceled on the website. Can you please review and refund the unauthorized charges. Please contact me through email. T”
+“My account was charged $36 for renewing. I did not want to renew and cancelled my subscription but was still charged on June 15 Please refund my CC on file for the $36 Thank you, Sally Dyrdahl”
+Segmentation: card payment (2), mobile app, iPad or iPhone (1).
+Cancel Option Absent or Cancellation Fails
+Reports: 10 tickets from 10 distinct users, 4-29 July.   Severity: Major   Confidence: High
+The cancel control is missing from the account area or the mobile app, or the published instructions do not match the page the user sees. One ticket includes a screenshot showing no cancellation option. Inability to cancel is a financial and regulatory exposure rather than a convenience issue.
+Exemplary evidence
+“I canceled my subscription tody - well within the 7 day free trial. I subscribed on July 2. Today is July 7 - well withing the 7 day free trial. Please acknowledge that you received my cancellation. There was no indication on the website. Honestly, y”
+“Hello, Support! I am attempting to cancel my subscription but the instructions on your website don't reflect what I see on my webpage. The enclosed photo shows no subscription cancellation option when I hover over Account. Please cancel this subscrip”
+“I would like to cancel my subscription. I added it less than a half hour ago and it's not what I'm looking for. I went under Account and was unable to find the Cancel option. Yes, I scrolled down. It was not there. There was only the option to upgrad”
+Segmentation: Google sign-in (1), card payment (1), mobile app, iPad or iPhone (1).
+Checkout and Renewal Payment Failure
+Reports: 10 tickets from 10 distinct users, 8-29 July.   Severity: Critical   Confidence: Medium
+Payment submission fails at checkout, upgrade or renewal. Several users report failure across more than one method in the same session, and one supplies the processor response text. Users confirm valid funds and correct details, which places the failure in the checkout flow rather than the card.
+Exemplary evidence
+“Upgrade my account I wanted to upgrade my account for 12 dollars more but it won't let me, it says payment was declined. I have already tried three different ways but nothing works . Can you help”
+“I am from India, and I am trying to buy the monthly subscription plan. However, in spite of many attempts, the payment is repeatedly failing. I am unable to understand the reason. Please help.”
+“I entered my charge card info as requested, clicked 'done' but nothing seems to happen….”
+Segmentation: PayPal (2), card payment (2).
+PDF Download Blocked by Anti-Abuse Detection
+Reports: 7 tickets from 7 distinct users, 4-30 July.   Severity: Critical   Confidence: High
+Download access is disabled with an unusual-behaviour message after legitimate use. One ticket reproduces the block text verbatim. Reporters include an educator who requires printed guides for classroom use and a retired subscriber. Seven independent reports within one month meet the cluster threshold, which escalates this to Critical.
+Exemplary evidence
+“Cannot download any more PDF's. This is the second time this has happened. Was limit suppose to be reset to unlimited. I'm retired so I like to download pdf's and print them when I get around to reviewing my books. Request my downloads be reset again”
+“Hello, [name] can I not download anymore PDFs? I was stockpiling because I'm gonna go on a long camping trip soon. Please restore download access and I shall limit my rate. -- Regards, CAS”
+“Hi, I have just purchased a subscription and the money has left my back account, however when I try to download a pdf it advises I am still on the free plan.”
+Segmentation: educator or school (1).
+Paid Feature Gating Despite Active Subscription
+Reports: 7 tickets from 7 distinct users, 9-30 July.   Severity: Major   Confidence: Medium
+Active subscribers are shown upgrade prompts for features their plan includes, including chapter summaries, audio, Discussion Questions and Ask SuperSummary. One user is interrupted mid-read by an upgrade prompt. Separating a defect from intended repackaging requires plan-level verification, so confidence is Medium.
+Exemplary evidence
+“Hello, I paid for the SuperSummary Pro subscription; however, when I am logged into SuperSummart, I never have access to the pro info.”
+“I can get to the summary of the book and then halfway through reading it tells me I have to upgrade”
+“I am not able to see the chapter summaries. I do have a full year subscription.”
+Segmentation: no dominant segment.
+Duplicate Subscription and Double Billing
+Reports: 6 tickets from 6 distinct users, 2-28 July.   Severity: Critical   Confidence: High
+Users hold two concurrent subscriptions, are billed on two addresses that resolve to the same account, are billed at annual rate against a monthly selection, or are charged ahead of the stated renewal date. Each case is verifiable against billing records.
+Exemplary evidence
+“I am writing to address a recent billing discrepancy concerning my Super Summary subscriptions. In May of this year, I initiated an annual subscription to Super Summary, for which a payment of $60 was processed through PayPal. However, I have recentl”
+“Hello, [name] name is Joshua Cate. I signed up for an annual plan on your website in August of 2024 and cancelled the subscription after November of 2025. I received today (July 25,2026) a receipt from my bank telling me you charged me the annual subscri”
+“Hello, I originally purchased the annual NOK 499 subscription. I recently wanted to upgrade to the NOK 799 annual plan so I could access the additional features, including listening. However, when I upgraded, I was charged the full NOK 799, even thou”
+Segmentation: PayPal (1), Apple or Apple Pay (1), card payment (2), mobile app, iPad or iPhone (2).
+Signup and Form Validation Rejects Valid Input
+Reports: 4 tickets from 4 distinct users, 9-29 July.   Severity: Major   Confidence: Medium
+Account creation returns an error or loops back to the signup page, and form validation rejects valid telephone numbers. One user reports the same failure across two separate email providers, which rules out an address-specific cause.
+Exemplary evidence
+“I tried creating a SuperSummary Plus account using both my aol and my gmail accounts but both times I got an error message. "An error occurred while creating your account. Already have an account? Click here to log in." I do not have an account. How”
+“I've tried twice to sign up for super summary, but having problems both times. Please call me at [phone redacted]. I'm 80 years old and I'm sure its operator error.....”
+Segmentation: Google sign-in (1), mobile app, iPad or iPhone (1).
+Mobile App and Cross-Platform Access Failure
+Reports: 3 tickets from 3 distinct users, 15-29 July.   Severity: Major   Confidence: Medium
+The app fails to launch after reinstallation and device restart, sign-in succeeds on one device but not another on the same account, and the web experience fails on a non-standard Android browser. Volume is low but each case leaves the user without access on that surface.
+Exemplary evidence
+“I can log into my account but it is not recognizing my subscription. The informations say paid through 2027. I can access it on my ap from my phone, and it does recognize everything but not from the the website. I am using a Mac computer.”
+“Hi, my mobile app is not opening at all. I've tried undownloading and redownloading the app, and completely restarted my phone. I can still login via browser but annoying when the app has worked in the past”
+Segmentation: Google sign-in (1), mobile app, iPad or iPhone (1).
+Payment Processed, Subscription Not Activated
+Reports: 3 tickets from 3 distinct users, 2-26 July.   Severity: Critical   Confidence: High
+A charge settles, confirmed by banking app or attached receipt, while activation does not complete. One user reports the activation screen stalling on its waiting state. This is the clearest verifiable form of payment-to-entitlement divergence.
+Exemplary evidence
+“I tried to activate the $36 per year basic plan this morning. After charging my card (confirmed via my banking app) the website got stuck on the "please wait for a few seconds while we update" screen for several minutes. I clicked on the "my account"”
+“Hello, [name] credit card was charged $36 on 6/20 for renewal of my membership, but it's not showing up on my account. When I first signed up, I used my work email, [email redacted]. However, the site is blocked from my work computer so I called in and c”
+“Dear Sir/Miss, I reached this stage of the payment process and used my touch ID to pay and it became a tick which I assume meant confirmed. However when I exited and logged in to my account, I was still on the free plan. Nor have I received any email”
+Segmentation: Google sign-in (1), card payment (1).
+Group Subscription Provisioning Failure
+Reports: 3 tickets from 2 distinct users, 2-2 July.   Severity: Major   Confidence: High
+Members of a book-club group subscription received invoices without an account-setup link, and a reset link issued for group onboarding did not work. All three tickets arrived on 2 July from one coordinated group, which points to a single provisioning event rather than a recurring condition.
+Exemplary evidence
+“I have a free account set up with Google ([email redacted]). I communicated with Daniela about a group discount and she was very helpful in getting up set up. I received an invoice from her and a separate email with a payment method link. I updated t”
+“We have a group discount set up with Daniela and everyone received separate emails so that we can pay individually. Each email address received an invoice but no link to set up their accounts or any way to make a payment for their accounts. Daniela h”
+“Hi I have tried to reset my password using the link Daniela gave to me thru Tatia Any help would be appreciated Thank you Cathy”
+Segmentation: Google sign-in (1).
+Content Rendering and Audio Playback Failure
+Reports: 1 tickets from 1 distinct users, 5-5 July.   Severity: Minor   Confidence: Medium
+One paying subscriber reports chapter text becoming blurred and unreadable partway through a summary. The content is reachable, so the failure is a rendering defect on a single title rather than an access failure, which places it at Minor.
+Exemplary evidence
+“Hello, I have paid my annual subscription recently but yesterday when I started to read a book summary after a few chapter summaries the words were blurry and unreadable. Please advise- Dawn Thompson [phone] Sent from Yahoo Mail for iPhone”
+Segmentation: mobile app, iPad or iPhone (1).
+Strategic Recommendations
+1. Reconcile the free-trial offer with billing configuration. Twenty-six tickets and 24 users are affected, and the defect strikes at the moment of conversion. Either implement a genuine seven-day trial in the billing system or remove trial language from every acquisition surface and describe the seven-day refund window in its own terms. This is the highest-impact item because it converts new subscribers directly into refund requests and chargeback threats, damaging both revenue and payment-processor standing.
+2. Repair the password recovery path end to end. Twenty-eight tickets make this the largest single theme. Instrument the reset pipeline for send, delivery and click, verify sender reputation and spam classification, and confirm the token remains valid when the link is opened. Because lockout also blocks cancellation, fixing recovery reduces both access complaints and billing disputes.
+3. Make entitlement state a single source of truth across surfaces. Forty-two tickets across three themes trace to divergence between the payment event and the entitlement record. Add a reconciliation job that compares active charges in Chargebee against entitlement records, alerts on mismatch, and backfills. Prioritise the free-plan display case, which additionally hides the cancel control.
+4. Unify identity so one subscription resolves across all sign-in methods. Eighteen tickets involve a paid entitlement attached to one identity while the user authenticates with another. Implement account linking across email, Google and Apple, apply case-insensitive email matching, and give support a merge tool. Apple private-relay addresses need explicit handling.
+5. Surface cancellation on every platform and confirm it in writing. Ten tickets report the cancel control absent from the account page or app, and a further 10 report billing after cancellation. Expose cancellation on web and mobile, align help-centre instructions with the live interface, and send an immediate written confirmation. This reduces dispute volume and regulatory exposure.
+6. Re-tune PDF anti-abuse thresholds and add a self-service appeal. Seven independent reports in one month indicate the threshold is misfiring on legitimate use, notably educators who print guides for classroom use. Raise or segment thresholds by plan and account age, replace the terms-of-service framing with a specific message, and provide a review request path rather than requiring a support ticket.
+7. Close the orphaned-charge loop before disputes escalate. Nineteen tickets describe charges with no locatable account. Build a support-side lookup keyed on transaction identifier, card last-four and payment-processor reference so an agent can resolve a charge without an account match, and audit the signup flow for paths that create a subscription without an account record.
+Research Gaps
+Trial configuration. The ticket evidence indicates no free trial exists in billing while the signup surface advertises one. Direct inspection of the pricing page, the paid-acquisition creative and the Chargebee plan configuration would confirm where the mismatch originates and whether it was introduced by a recent change.
+Reset email deliverability. Tickets establish that emails do not arrive but cannot distinguish a send failure from a spam-classification or reputation problem. Delivery telemetry by recipient domain would separate these, and the concentration of reports on major consumer domains suggests testing there first.
+Entitlement divergence by payment method. PayPal, Apple Pay, card and Google sign-in all appear in the entitlement themes, but ticket volumes are too small to establish whether any method is disproportionately affected. A query comparing active charges to entitlement records, segmented by method, would settle the question raised in prior cycles.
+Boundary between defect and repackaging. Seven tickets report upgrade prompts on features users believe their plan includes, at a time when plan contents appear to have changed. Plan-level entitlement records for these accounts would determine which reports are defects and which reflect intended gating that was not communicated.
+Unreported incidence. Counts reflect tickets, not affected users. Users who abandon the product, resolve the problem themselves, or cannot reach the intake form are absent. Funnel instrumentation on the reset, checkout and cancellation paths would give incidence independent of contact volume.
+Cancellation fix verification. Post-cancellation billing fell from 60 tickets in May to 10 in July. Confirming which change produced the reduction, and whether the 10 residual cases share a distinct cause, would establish whether the theme can be closed or requires further work.
+Methodology
+Source and scope.
+The analysis used the Freshdesk export supplied for this cycle, covering 1,337 tickets created between 1 and 30 July 2026. Column names were mapped on load to the canonical schema of created time, email, subject and description. All rows were read; no sampling was applied.
+Filtering.
+Five stages ran in sequence. Records with an empty description were dropped. Records from the excluded senders, including the PayPal, Braintree, OpenPhone and TeachersPayTeachers addresses and the RocketMoney advocate domain, were removed. Automated system and no-reply senders were removed. Quoted reply history was then separated from user-authored text so that agent language quoted beneath a user message did not cause a genuine ticket to be discarded, and support-agent outbound messages were removed on the basis of the user-authored portion only. Out-of-office autoresponders and vendor solicitations were removed last. Curly punctuation was normalised before pattern matching, without which a substantial number of genuine reports fail to match on contractions.
+Classification.
+A ticket counts as a bug only where both required signals are present: a described technical failure, and a condition that blocks the user from completing the intended action. Single-signal tickets were excluded. Screening on failure vocabulary produced 256 candidates, each of which was then read individually. Sixty-two were reclassified as non-bugs and are listed in the accompanying exclusion file. Remaining tickets were assigned to exactly one theme under priority ordering, so a ticket describing several symptoms counts once against its closest theme. Severity followed the scope, compounding-harm and workaround criteria of the taxonomy; confidence followed the reproducibility criteria. Both were assigned at theme level from the evidence present in the constituent tickets.
+Exclusion boundary.
+Refund and cancellation requests that describe no technical failure were excluded, including auto-renewal surprises, dissatisfaction refunds and requests made under the money-back guarantee. This boundary is the largest single determinant of the reported bug count, and applying it differently moves the total materially. Two tickets reporting that a confusing plan selector led the user to choose an annual plan were also excluded, because the user completed the purchase and was not blocked; both are recorded as issues and warrant separate design attention.
+Comparison basis.
+Cross-month figures for April and May come from prior reporting cycles rather than from a re-run of this pipeline, and no June cycle was completed. May-to-July comparisons therefore skip an intervening month and should be read as directional. The July free-trial theme has no counterpart in prior cycles and appears to be new.
+Limitations.
+Counts measure reported contact rather than incidence. Single-best-fit assignment understates themes that frequently co-occur, most notably password recovery failure and cancellation failure, which appear together in a considerable number of tickets. Theme boundaries between an entitlement defect and an intended packaging change rest on judgement in a small number of cases, and those judgements are stated in the relevant theme rationales.
+Bug Theme | Count | Severity | Confidence
+Password Reset and Password Change Failure | 28 | Critical | High
+Free-Trial Promise Not Honoured - Immediate Charge | 26 | Critical | High
+Paid Subscription Not Recognised - Access Blocked | 22 | Critical | Medium
+Unauthorized Charge with No Associated Account | 19 | Critical | Medium
+Account Lookup Failure - Email or Auth Mismatch | 18 | Critical | High
+"Free Plan" Displayed to Paying Subscriber | 17 | Critical | High
+Charged After Confirmed Cancellation | 10 | Critical | High
+Cancel Option Absent or Cancellation Fails | 10 | Major | High
+Checkout and Renewal Payment Failure | 10 | Critical | Medium
+PDF Download Blocked by Anti-Abuse Detection | 7 | Critical | High
+Paid Feature Gating Despite Active Subscription | 7 | Major | Medium
+Duplicate Subscription and Double Billing | 6 | Critical | High
+Signup and Form Validation Rejects Valid Input | 4 | Major | Medium
+Mobile App and Cross-Platform Access Failure | 3 | Major | Medium
+Payment Processed, Subscription Not Activated | 3 | Critical | High
+Group Subscription Provisioning Failure | 3 | Major | High
+Content Rendering and Audio Playback Failure | 1 | Minor | Medium
+Total confirmed bug tickets | 194 | 166 Critical / 27 Major / 1 Minor | 

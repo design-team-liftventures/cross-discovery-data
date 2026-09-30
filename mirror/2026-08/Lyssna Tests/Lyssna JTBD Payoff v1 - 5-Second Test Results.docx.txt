@@ -1,0 +1,110 @@
+
+GROWTH EXPERIMENTATION SQUAD · LYSSNA 5-SECOND TEST
+Does the "Have Better Discussions" payoff screen land in 2 seconds?
+Results summary — [Growth Exp] JTBD Payoff v1 Q3'26 · 2-Second Test
+
+1. Overview
+What was tested. Participants were placed in a scenario: they're preparing for a book club discussion of The Great Gatsby and want the conversation to be better than usual. After telling SuperSummary that what they need help with is to "Have better discussions about it," they were shown a payoff screen for 2 seconds and asked what they took away from it.
+Recreation of the layout and copy shown for 2 seconds (not the original artwork).
+Questions asked after the 2-second exposure:
+2.1 — "In one sentence, what was that screen telling you?" (open text, required)
+2.2 — "Based on what you just saw, what specifically would SuperSummary help you do?" (open text, required)
+2.3 — "How clear was it what you were being offered?" (1–5 scale, required)
+2.4 — "How much did that screen feel like it was about what you said you wanted?" (1–5 scale, required)
+Sample
+
+Source: Lyssna Participants panel filters, this results page.
+2. Quantitative results
+2.3 — How clear was it what you were being offered?
+Scale: 1 = Not at all clear  →  5 = Completely clear
+Mean: 3.36 / 5  —  56% rated 4–5, 20% rated 1–2
+2.4 — How much did that screen feel like it was about what you said you wanted?
+Scale: 1 = Not at all  →  5 = Very much
+Mean: 3.56 / 5  —  56% rated 4–5, only 8% rated 1–2
+3. What people recalled (2.1)
+"In one sentence, what was that screen telling you?" — 25 responses, coded into four themes.
+Repositioning landed
+"Way more than a summary" suggested detailed discussion guides.
+The screen was telling me SuperSummary provides way more than a summary for a book.
+About an app that is an all-in-one reading platform.
+Specific feature recalled
+The app will help me refresh my memory of what I've read and spark better discussions somehow.
+It gives me options of what I think the book club may want to consider on "how" to discuss the book.
+Message inverted (read as plain summary)
+To get a better summary.
+Develop a better way of summarizing a book.
+I believe it gave me summary templates. I can't be sure.
+Too little time
+All I saw was a summary section. 2 seconds is not enough!
+It was promoting itself that it was better than a summary, then there were blocks below that, but 2 seconds wasn't enough to absorb what they were about.
+4. What people understood it would help them do (2.2)
+"Based on what you just saw, what specifically would SuperSummary help you do?" — 25 responses, coded into three themes.
+Discussion-focused (well matched to the stated job)
+It would help me prep some good questions to have a really impactful discussion.
+Remember the book so I could better discuss it in my book club.
+Spark better conversations or discussions about the books.
+It would help me better recall details about the story and have better discussions about it.
+Generic summary (differentiation missed)
+Summarize the Great Gatsby.
+SuperSummary will help me provide the core gist of the the book.
+Give me a brief summary about the book.
+Ran out of time
+Did not read that far.
+There were several blocks but I cant remember what was in each. I blinked and it was gone.
+
+
+5. Key findings
+The repositioning headline is only partly cutting through. "Way more than a summary" was echoed clearly by 36% of viewers, but a comparable 20% inverted it — walking away describing SuperSummary as a plain summarizer. The word "summary" appears sticky enough to dominate a 2-second glance over the "more than" qualifier meant to reframe it.
+The specific job being tested does land for most people. 52% of respondents named a discussion-related benefit unprompted when asked what the product would help them do — a good signal that "Spark strong discussions" is relevant and legible for users who explicitly said they want "better discussions."
+A meaningful share found 2 seconds too short to process the page. Around 1 in 5 responses across both open questions explicitly flagged running out of time or only registering "blocks" without retaining their content — plausible given the page carries a headline, subhead, and three feature cards at once.
+The audio/"Listen on the go" card is nearly invisible. It drew no more than one loose mention across 25 responses, versus meaningful recall for the discussion and memory-refresh cards.
+Clarity and relevance scores are moderate, not strong. Mean clarity is 3.36/5 and mean relevance-to-stated-want is 3.56/5; roughly half the sample scored 4–5 on each, while 12–20% scored low and, on relevance, over a third were neutral (3/5).
+6. Recommendations
+Test a headline that leads with the discussion benefit rather than opening on the word "summary," to reduce the share of viewers who read the message as "just a summary tool."
+Lead with (or isolate) the "Spark strong discussions" card for users who have stated this specific job, instead of a generic three-card sequence, so the most job-relevant content isn't competing for a share of a 2-second glance.
+Re-evaluate the "Listen on the go" card on this variant. It earned no meaningful recall here and may be diluting attention from the two cards that matter more to this segment.
+Treat these scores as a floor, not a verdict. With ~1 in 5 participants saying the exposure felt too short, pair this test with a longer-exposure or live-traffic read (where users can scroll and read normally) before deciding whether the messaging itself needs to change versus simply needing more reading time.
+Run a follow-up single-message variant — one clear benefit, fewer competing cards — to see whether it improves both clarity and discussion-specific recall relative to this three-card version.
+Source: Lyssna results page for "[Growth Exp] JTBD Payoff v1 Q3'26 - 2s Test" (Growth Experimentation Squad), all 25 completed responses. Quotes are lightly excerpted from participant free-text answers; theme counts are this report's coding of open-ended responses and are approximate. Report prepared September 17, 2026.
+Study | JTBD Payoff v1 Q3'26 – 2s Test
+Method | Lyssna five-second test, 2s exposure
+Participants | 25 completed (89% screen-in rate)
+Audience | US readers who chose "Have better discussions about it"
+Report date | September 17, 2026
+Prepared for | Growth Experimentation Squad
+Way more than a summary
+Your all-in-one reading companion
+25
+Completed responses (25 of 25 recruited) | 89%
+Screen-in rate during recruitment | 100%
+Identify reading as a hobby (screener criterion)
+Attribute | Breakdown
+Location | United States (25 of 25)
+Gender | Female 16 · Male 9
+Age range | Skews 35–59 (18 of 25); remainder spread 25–34 and 65–79
+Education | College graduate or higher 14 · Some college 3 · Other 1
+Household income | Mostly $40k–$100k+ (18 of 25)
+Employment | Full-time employed 19 · Self-employed 3 · Part-time 2
+Daily hours online | Over 6 hours: 17 of 25 (heavy internet users)
+Technical proficiency | Advanced 15 · Intermediate 10
+Rating |  | Share | n
+1 | ███░░░░░░░░░░░░░░░░░░░░░░░ | 12% | n=3
+2 | ██░░░░░░░░░░░░░░░░░░░░░░░░ | 8% | n=2
+3 | ██████░░░░░░░░░░░░░░░░░░░░ | 24% | n=6
+4 | ███████████░░░░░░░░░░░░░░░ | 44% | n=11
+5 | ███░░░░░░░░░░░░░░░░░░░░░░░ | 12% | n=3
+Rating |  | Share | n
+1 | █░░░░░░░░░░░░░░░░░░░░░░░░░ | 4% | n=1
+2 | █░░░░░░░░░░░░░░░░░░░░░░░░░ | 4% | n=1
+3 | █████████░░░░░░░░░░░░░░░░░ | 36% | n=9
+4 | ███████████░░░░░░░░░░░░░░░ | 44% | n=11
+5 | ███░░░░░░░░░░░░░░░░░░░░░░░ | 12% | n=3
+Both means sit just above the midpoint of the scale. Roughly half the sample came away with a clear, relevant impression — but a consistent 12–20% minority found the screen unclear or off-target for what they said they wanted, and over a third gave a neutral "3" on relevance.
+Repositioning message landed ("more than a summary") | ███████░░░░░░░░░░░░░ | 36% · n=9
+Specific feature recalled (discussion, memory, audio) | █████░░░░░░░░░░░░░░░ | 24% · n=6
+Message inverted — read as "just a summary" tool | ████░░░░░░░░░░░░░░░░ | 20% · n=5
+Too little time / vague impression | ████░░░░░░░░░░░░░░░░ | 20% · n=5
+Discussion-focused benefit (talking points, engaging the group, prep questions) | ██████████░░░░░░░░░░ | 52% · n=13
+Generic "it's a summary" — no differentiated benefit named | █████░░░░░░░░░░░░░░░ | 24% · n=6
+No real comprehension / ran out of time | ███░░░░░░░░░░░░░░░░░ | 16% · n=4
+The "Listen on the go" / audio card drew essentially no unprompted recall across either question — at most one loosely related mention in 25 responses — making it the weakest-performing of the three cards for this audience and this job.

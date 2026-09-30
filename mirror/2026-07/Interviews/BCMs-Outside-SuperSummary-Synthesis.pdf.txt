@@ -1,0 +1,919 @@
+SUPERSUMMARY · UX RESEARCH · CROSS DISCOVERY
+
+
+
+Reaching Book Club Members Who Don't Know Us
+Cross-interview synthesis · "BCMs Outside SuperSummary" · July 2026
+8 interviews · Lead interviewer: Kaitlyn Hurley · Analysis focus: awareness & acquisition, book club jobs-to-be-done, barriers & objections
+
+
+
+
+The one-paragraph version
+
+Book club members are already doing the jobs SuperSummary was built for — they are just doing
+them with Google, ChatGPT, Reddit, Pinterest and their own memory of high-school English. The
+problem is not that SuperSummary lacks the content; in several cases the content has already
+reached these people and left no trace. It is that SuperSummary is invisible at the two moments
+clubs actually feel pain (picking the next book and arriving able to talk about it), it is absent
+from the surfaces clubs actually live on (Instagram, Slack, iMessage, WhatsApp, Facebook
+groups), and its academic inheritance actively repels a culture that defines itself as not school. The
+fastest path in is not a new app — it is (1) a shareable, club-shaped artifact that a leader can paste
+into the channel she already runs, and (2) re-pointing existing assets at the “book club is Thursday
+and I didn’t finish it” moment.
+
+
+
+
+Method caveats — read before acting on any of this
+
+These are real and they change how much weight each finding carries.
+
+  CAVEAT                               DETAIL
+
+  Recruitment is a friend-and-         Julia, Lisa, Jen, Savannah and Veronika are personal contacts or Instagram-story respondents of the interviewer.
+  follower network                     Celeste and Jessica came from Instagram outreach. This biases toward millennial, US, socially-driven, tech-
+                                       comfortable clubs — which is arguably the intended target, but it is not a representative sample.
+
+  3 of 8 are leaders, not              Rashida, Jessica and Celeste are founders/hosts. Their pain is production labor, not reading labor. Savannah and Lisa
+  members                              are members who do host-adjacent work. Only Julia, Jen and Veronika are pure members.
+
+  The interviewer pitched              Reactions to Recipe Generator, Story Recap, Hot Takes and voting are elicited, not spontaneous. Treat every
+  features before probing in 6         positive reaction to a named feature as directional interest at best. Enthusiasm quotes are flagged ⚑ below.
+  of 8 sessions
+
+  Two sessions were very short         Veronika ~12 min, Celeste ~15 min.
+
+  The interviewer was also             Several calls end with an offer of a free premium subscription in exchange for joining a “book club council.” Stated
+  recruiting                           willingness to try is confounded by a free-stuff offer.
+
+
+What survives these caveats: the awareness data, the behavioral descriptions of how clubs
+actually run, the unprompted workarounds, and the objections. Those are the backbone of this
+report.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                                                                     Page 1 / 16
+Part 1 — Awareness & Acquisition
+
+
+1.1 The awareness picture is worse and more interesting than “nobody knows us”
+
+  PARTICIPANT                     ROLE                              AWARENESS STATE
+
+  [name]                    Member                            Never heard of it
+
+  Lisa O’Brien                    Member (3 clubs)                  Never heard of it
+
+  [name]               Member (8 yrs of clubs)           Never heard of it
+
+  [name]                  Member (workplace club)           Never heard of it
+
+  [name]                   Member                            Never heard the brand — suspects she has used the content
+
+  [name]                    Host, 400+ members                Aware via peers, never tried
+
+  [name]                 Host, 450 registered / 2k IG      Signed up once, extracted one thing, never returned
+
+  [name]                  Host, 9 yrs running               Repeat user, no account, “reference checkpoint” only
+
+
+The interviewer’s own read is worth quoting because it framed the study:
+
+
+     “every single interview I’ve done so far, no one has heard of Super Summary. And I was like, I
+     think that’s actually better. Like I think it actually gives us more information on like how do we
+     find new people.” — interviewer, Veronika session
+
+
+But the sharper finding is the bottom half of that table. Three of eight had already touched the
+product — one had an account. None of them has a relationship with the brand. That reframes the
+problem:
+
+
+     This is not (only) a reach problem. It is an attribution and activation problem.
+
+
+Jen states the attribution gap in one line, on hearing the name for the first time:
+
+
+     “I wonder if I have used it before for like book club questions and just didn’t know what it was.”
+
+
+If the guides are already ranking for book-club intent and delivering value anonymously, the highest-
+leverage work is not more awareness spend — it is capturing the visit that already happens.
+
+
+1.2 The one proven organic door is “book club discussion questions” via Google — and it leaks
+Both participants who found SuperSummary on their own found it the same way, and both were
+hosts in a failure state.
+
+Rashida:
+
+
+     “I was trying to come up with book club questions and I did a Google search and it led me to
+     your page.”
+
+
+And the reason she was searching:
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                                               Page 2 / 16
+     “the reason I use super summaries, because that’s the book I did not like, so I didn’t finish it. So
+     I could not come up with questions on my own.”
+
+
+Jessica, same door, same job, no account at all:
+
+
+     “what I do is just to look at like what other questions you guys are suggesting to ask or like
+     something that I may have not thought of while I was crafting out questions… I don’t think I have
+     an official account, to be honest.”
+
+
+Three things follow.
+
+1. Acquisition today is failure-triggered, not exploration-driven. The trigger is a host who
+     cannot write questions — usually because she didn’t finish or didn’t like the book. That is a
+     narrow, episodic need. Once resolved, the need disappears and so does the user. Rashida is the
+     documented case: arrive → extract one artifact → never return.
+2. The landing experience does nothing to widen the visit. Rashida left without knowing
+     anything else existed. Jessica evaluated the entire platform on the one artifact she happened to
+     land on, and it was the weakest one for her use case (more on that in 3.6) — while noticing,
+     almost in passing, that the summaries were better than she expected: “I do like the summary.
+     Like, you guys summarizing stuff that was pretty cool.”
+3. The door is host-shaped. Members do not search for discussion questions. Members search —
+     when they search at all — for recall.
+
+
+1.3 Discovery in this segment travels through people, not platforms
+Nobody in this sample discovered a reading tool through advertising or app-store browsing. Every
+mechanism named is social.
+
+Trusted-taste chains. Veronika describes the entire discovery pipeline for her personal reading:
+
+
+     “someone I whose taste I trust reads a book, they tell me to read it and then I talk to them about
+     it, and then if I tell someone else to it and they read it, then we talk about it”
+
+
+And her acquisition channel is a curated bookseller email, not a ratings site: “because it’s through
+my local bookstore, they’ll do emails and they’re like, hey, bookseller recommended things.”
+
+Club fission from a single organizer. Lisa belongs to three clubs — all three trace to one woman
+she met at an apartment-complex event. One organizer generated three clubs, three formats
+(monthly / seasonal / weekly-serialized) and the entire membership of each, within months.
+
+Referral offered unprompted, within minutes. Julia volunteered two referrals during her call
+(including Savannah, who became interview #7). Savannah, minutes after hearing the brand name
+for the first time, offered to poll her four-person group chat, send screenshots of all four responses,
+and recruit a friend from an adjacent club. Lisa offered to text her organizer.
+
+
+     Implication: the acquisition unit is not a user. It is a club. And the entry point into a club is one
+     person — the organizer, or the one member who does logistics.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                      Page 3 / 16
+1.4 Leaders are distribution, and the leverage is enormous
+
+  LEADER             AUDIENCE THEY CONTROL
+
+  Rashida            ~2,000 Instagram followers → ~450 registered on Bookclubs → ~35 attendees/month
+
+  Celeste            400+ paying members → 80–90 attendees per event, 3–4 events/month
+
+  Jessica            15–20 regulars (up to 40 in Q1) + Instagram community, 9 years of accumulated trust
+
+
+Adoption by a member is one seat. Adoption by Celeste is a QR code and a printed handout in front
+of 80–90 women at a rooftop bar, every month. Rashida is already, demonstrably, a willing link-
+poster — she posts links after every meeting — and SuperSummary gives her nothing to post and no
+reason to credit it.
+
+Two constraints on this, though, both important:
+
+     Jessica guards curatorial trust above all. “I’m buying their trust and when I do that, I know
+     they’ll trust me to pay for other things that I have set up for them.” Anything she puts in front of
+     members carries reputational risk. That raises the accuracy bar on anything AI-generated far
+     above what a casual reader would demand — and it is also exactly why SuperSummary’s expert-
+     vetted positioning is the right wedge with leaders.
+     Leaders will not absorb new labor. See 3.3.
+
+
+1.5 Clubs live in channels SuperSummary is not in
+
+  CLUB                 OPERATING SURFACE
+
+  Julia                Facebook group (+ monthly date poll)
+
+  Lisa                 WhatsApp (Android/iPhone mix forced the move)
+
+  Jen                  iMessage group chat
+
+  Savannah             Shared note + Instagram group chat + Wheel of Names
+
+  Celeste              Bookclubs app + Stripe + printed PDF + QR code
+
+  Rashida              Instagram (daily) + Bookclubs (only on meeting days) + Eventbrite + Buy Me a Coffee
+
+  Jessica              Bookclubs + Discord (+ Instagram)
+
+  Veronika             Slack channel, entirely
+
+
+Rashida is unambiguous about which surface is real:
+
+
+     “I don’t even open my book clubs app unless we have a meeting or something going on. But
+     Instagram is my, my day to day contact.”
+
+
+And note that even the purpose-built book club app is only an organizational utility, not an
+engagement layer:
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                            Page 4 / 16
+     “It’s really. The app is just me blasting out information to them.”
+
+     Implication: a destination competes with the club’s existing channel and loses. An artifact — a
+     post-shaped image, a paste-able question set, a link that renders well in a group chat, a printable
+     PDF, a QR code — travels through the channel and wins. Celeste already hand-builds exactly two
+     of these every month. Rashida rebuilds a reading schedule by hand every cycle for Instagram
+     Stories.
+
+
+
+1.6 The competitive set is free, general-purpose, and already open in another tab
+Nobody named a paid book club product as an alternative. What they named:
+
+     Google → Rashida’s and Jessica’s entry path
+     Reddit → Julia’s default recall aid
+     SparkNotes → Lisa’s one prior use of a study guide (a competitor whose equity is academic —
+     she reached for the school brand because that is where the category is filed in her head)
+     ChatGPT / Gemini → Lisa for structuring her notes; Celeste for questions (“Some may come
+     from Chad”); two of Veronika’s colleagues for mid-read catch-up
+     Goodreads reviews → Veronika, retrospectively, to find disagreement to fuel discussion
+     Pinterest / BuzzFeed Tasty → Lisa for themed food
+
+Celeste is the clearest statement of why awareness has not converted to trial: her free, improvised
+stack is good enough.
+
+
+     “I’ll do a little bit of everything, so might come up myself. Some I look up online that are already
+     available. Some may come from Chad.”
+
+
+Sign-up therefore requires a capability her improvised stack cannot produce — not a nicer version
+of what it already produces.
+
+The most important competitive datapoint in the study is Veronika describing her colleagues:
+
+
+     “she will ask chat GPT what should I know at this point? And she’ll say how many pages you
+     read? Like in case she’s like a little lost… And then similarly like if I liked this book, what else
+     should I. What else would I like?”
+
+
+Those are Story Recap and recommendations. SuperSummary ships both. The user reinvented them
+in a chat prompt because she had no idea they existed. The competitor for SuperSummary’s
+best features is a blank chat box. The counter-argument SuperSummary has is expert-vetted
+accuracy — and Jessica, who cares most about accuracy, is the leader most likely to value it.
+
+
+
+
+Part 2 — What Book Clubs Actually Need (Jobs To Be Done)
+
+The club lifecycle, and where the pain actually sits. Note how little of it is “help me understand this
+book.”
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                       Page 5 / 16
+Job 1 — Pick the next book (named as the highest-friction job)
+Jen opened and closed her interview on this, unprompted:
+
+
+     “how we choose our books is something that, like, from the sounds of it would be something like,
+     great to explore because I think that’s where we spend like the most time kind of going back and
+     forth” … “where I think the most value would be, at least for my group, is, like, easy picking our
+     next book.”
+
+
+Selection is where every club has a ritual but no method:
+
+     Celeste: two-round funnel — open nominations (15–20 titles) → volunteer committee shortlists 4
+     → community poll. The committee’s only quality signal is a Goodreads proxy: “We try to never
+     read a book that’s below, like, a 3.5 rating on Goodreads.”
+     Savannah: ~26 titles in a shared note, pasted into Wheel of Names and spun. “it’s like
+     gibberish. Like, half the time we don’t even remember what the book is, how it got on there.”
+     Veronika: the picker posts three candidates to Slack; ~20 vote; ~3 read.
+     Rashida: picks alone, deliberately choosing books she has not read — absorbing all the risk.
+     Julia / Jen / Savannah: all three have a no-repeats rule — Julia’s is the strictest (“it has to be a
+     book that no one at the table has read, which is really hard because there’s like, 15 of us, and
+     they’re all really avid readers”), and she notes the perverse effect: “we’ve been reading obscure
+     books that are, like, outside of anyone’s genre of interest, because if they were within the genre
+     of interest, then you would have read them already.”
+
+Four distinct sub-jobs fall out, and every one of them is a place SuperSummary content could sit:
+
+1a. Know what’s actually in the book before committing. This is the most under-served and
+highest-stakes need in the study. Savannah:
+
+
+     “we’re not usually in the habit of reading the synopsis of the book ahead of time”
+
+
+Which produced the horror incident — Sarah picked The Southern Book Club’s Guide to Vampire
+Slaying off a black-and-white Kindle thumbnail with peaches and the word “Southern” on it:
+
+
+     “Jamie and I start reading it and are having nightmares… my husband, like, looked at my Kindle
+     and saw what I was reading, and he goes, are you reading horror? And I said, no one told me it
+     was a horror book.”
+
+
+She explicitly assessed this as a potential club-ending event: “this is either going to destroy this
+book club or we’ll laugh about it and bounce back.” Veronika’s club hit the same wall from the other
+direction — The Man Who Died Nine Times had content several members would not read past:
+“there’s a lot of people like couldn’t get past the incest. I’m like, yeah, this discussion topic we’re
+going to bring.” The content became the discussion by default.
+
+A spoiler-free tone/content/intensity signal at the pick moment is a club-cohesion feature, not a
+discovery feature. Book Briefs are the closest existing asset and neither person knew it existed.
+
+1b. Know how long it will take. Jen, explicitly:
+
+
+     “even honestly give, like, oh, it’s 270 pages, like, average reading time or something like that.”
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                    Page 6 / 16
+Grounded in a real exclusion: “[Yesteryear] I didn’t think was long, but a lot of people in the group
+were like, yeah, I’m like eight months pregnant. I’m not. I don’t have time to read a book like that.
+And our next one’s like 215 pages or something.” Page count is a feasibility filter tied to life stage,
+not enrichment. Jessica is planning the opposite direction — 500+ page epics — and needs the same
+signal.
+
+1c. Know whether it will sustain a two-hour conversation. Celeste’s committee uses a 3.5
+Goodreads rating as a proxy because no discussion-quality signal exists anywhere.
+
+1d. Know who in the club already read it / wants to read it. Jen already reverse-engineers this
+manually in Goodreads and named the pattern she wants, from a restaurant app:
+
+
+     “if you go to a restaurant’s page, any of your mutuals, it’ll be like, they also have marked it as
+     want to try. So it’s like, I feel like as simple as that. It’s like, oh, like three of my friends have also
+     marked interest in reading this book.”
+
+
+
+Job 2 — Survive the gap between picking and getting the book
+This is a structural, months-long dead zone that nobody serves. Julia:
+
+
+     “we put our book for July on hold in March because it was such a long wait. And then it was, you
+     know, towards the end of last month in June, when I put on my Instagram story, does anybody
+     have this book? Because I need to read it by July 16, and I am still, like, 400th in line for this.”
+
+
+She sourced a physical copy from an Instagram follower and ended up with six days to read a book
+she normally takes a month to read. Savannah’s club is structurally reorganized around the same
+problem:
+
+
+     “we usually request all of our books from Libby. And if we pick a book that’s too popular and has
+     like a three or four month wait, then in the months we are waiting for the book, we either talk
+     about the other books we’ve read and we play Moshe during it.”
+
+
+Two openings here: (a) something to do during the wait, and (b) instant availability as a competitive
+claim against a hold queue. Also worth noting — Savannah’s club holds meetings with no shared
+book, which is a content need SuperSummary has no answer for at all (cross-book / thematic-bridge
+conversation).
+
+
+Job 3 — Show up able to talk (not: understand the book)
+This is the job SuperSummary is closest to already owning, and it has two completely different
+triggers that need different framing.
+
+Trigger A — Didn’t finish. Universal and, in most of these clubs, socially fine:
+
+     Rashida’s meetings literally open with it: “My first question of every meeting is, who didn’t finish
+     the book?” — and she answers it herself too.
+     Jen: “People come whether they read the book or not or whether they’ve gotten, like, halfway
+     through it. And they’re just like, I’m open to spoilers. So it’s kind of an agreement.”
+     Savannah: “If someone doesn’t read the book, we don’t kick anyone out, but we do roast them for
+     not finishing the book.” (She quit Intermezzo at 40 pages and still went.)
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                          Page 7 / 16
+     Celeste names the audience herself: “this could definitely be helpful for the girlies who maybe
+     that month they didn’t have time to read the full book, but still want to be part of the
+     conversation.”
+     Celeste is also in this group as the host: “there’s times where I do read the books, there’s times
+     where I don’t finish the books” — because running four events a month crowds it out.
+     Veronika’s club: ~20 vote, ~3 read.
+
+And the single most valuable quote in the study, from Julia, who skipped a meeting she wanted to
+attend:
+
+
+     “But I could have had the community this week, but I missed it because I didn’t read the book.
+     And maybe an app or a summary or something would have helped me feel better about going.”
+
+
+Note why she skipped — not comprehension. Spoiler risk plus a felt breach of obligation:
+
+
+     “My end of the bargain is that I will read this book and I will show up ready to participate in the
+     discussion. And I left the book club.”
+
+
+This means catch-up content protects attendance, which protects the club. That is a much
+bigger claim than “helps you keep up.”
+
+Trigger B — Finished, but forgot. Equally common and completely unaddressed:
+
+     Jen finished Yesteryear within a week of selection and discussed it six weeks later: “I remember
+     liking it. I remember like having some like, whatever feelings about it, but I was like, I couldn’t
+     tell you, like, really in depth how I felt about it until we were actually talking about it.” The cause
+     is schedule lag, not weak reading — and because the meeting date is known in advance, this
+     need is predictable and schedulable.
+     Julia’s club includes a librarian who “reads like a book a day… she’ll forget what the book was
+     even about by the time we meet.”
+     Lisa’s one prior study-guide use was recall, not catch-up: “I hadn’t read the book in, like, five
+     years.”
+     Julia already does spoiler-bounded recall manually, switching between print and audio: “I went on
+     airplane mode in my brain and I did not listen to that chapter. So now I’m gonna read it.”
+
+Story Recap maps onto Trigger B almost perfectly. Nobody knew it existed.
+
+
+Job 4 — Prep the meeting, if you’re the picker or the host
+In Lisa’s clubs there is an unwritten rule: choosing the book means owning the discussion.
+
+
+     “my assumption is the expectation is if you pick the book, you are also signing up to moderate
+     and lead the conversation”
+
+
+And the one meeting she reports as a failure failed at exactly that handoff — the picker prepped
+nothing and the organizer had to cover. This is a precise trigger moment: the obligation is created at
+the moment of selection, weeks before it is felt.
+
+Three sub-jobs:
+
+4a. Questions. Every host assembles them by hand from scraps. Celeste from three sources.
+Veronika from memory of school: “Just nerdy high school… IB trained.” Jessica writes her own then
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                    Page 8 / 16
+gap-checks. Rashida writes her own — and her process breaks exactly when she didn’t finish. Lisa
+has already specified the transformation she wants, using her own notes as input:
+
+
+     “if I was going to take my notes and throw them into Gemini or ChatGPT and say, hey, can you
+     summarize these into less of just my raw thoughts and more of, like, can you group these
+     thematically? Can you help me create kind of a document to bring that would help me?”
+
+
+4b. Atmosphere and themed food — the highest-effort, most-visible prep task. Lisa spent
+more unassisted effort here than on anything else, and her search degraded into unrelated
+categories because nothing book-specific exists:
+
+
+     “I looked through Buzzfeed Tasty. I looked through Pinterest. I looked through, like, all these
+     different things… I started looking up, like, RN nursing parties because the main character’s a
+     nurse. And I was like, okay, maybe if I can’t find anything for, like, Shadow Daddy, then I guess
+     I’ll bring cotton swab pretzels.” “All I want is a Shadow Daddy mocktail with black food dye. How
+     hard is this to find, right?”
+
+
+Savannah’s club collects themed-food inspiration and never executes: “we will send these to each
+other and be like, guys, what if we did this and we never do it.” Celeste does bookmarks, stamps,
+cards and dice. ⚑ Caveat: both Lisa’s and Savannah’s enthusiasm for the Recipe Generator came
+after the interviewer described it. The underlying behavior — extensive unassisted effort, ending in
+failure or abandonment — is unprompted and solid. The purchase intent is not.
+
+4c. Reading schedules. Rashida rebuilds one by hand every single cycle:
+
+
+     “I do a reading schedule. So I break the book down into what chapters you need to read each
+     week in order to be done by the time we meet again.”
+
+
+Nothing in SuperSummary converts a book + a target date into a paced group schedule. Lisa’s
+weekly club needs the same thing from the member side — and when she looked at a guide, she
+immediately mapped it to her cadence: “[it breaks] out by chapters, which is nice too, because that
+means I could stick to our… This is actually pretty consistent with how we were breaking it out to
+read it weekly too.”
+
+
+Job 5 — Keep the club alive between meetings
+Demand here is explicit and unmet, and it is blocked by host labor, not by member disinterest.
+Rashida:
+
+
+     “a couple of members have asked me to create like a group me or a WhatsApp chat or something
+     where they can chat about the book during the four to six weeks that we’re reading. Like they
+     don’t always want to wait till the end to discuss. I have not done that because it’s just another
+     app and stuff to maintain and this is not making me any money and I work and raise kids and
+     whatnot.”
+
+
+Same pattern elsewhere: Jessica’s Discord goes seasonally dead (“kind of like, dead” in summer);
+Veronika’s Slack channel is “pretty sparse”; Lisa’s WhatsApp carries logistics only, by norm.
+
+Note the design constraint Rashida stated: a mid-read discussion space only works if it requires
+zero moderation from her. That is the explicit condition of her refusal.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                      Page 9 / 16
+Job 6 — Remember what the club did
+Every club generates structured data every cycle and loses all of it.
+
+     Jen’s club does a five-star rating with a spoken rationale from every member, every
+     meeting — four years of it — and the only archive is the group text: “obviously, if I scrolled back
+     far enough in, like, the group text. Yes. But that’s it.”
+     Rashida’s app has a ratings feature she doesn’t use, because nothing closes the loop: “I don’t
+     always complete it and I don’t force them to.”
+     Savannah maintains the archive by hand in a shared note (with Ori’s ultrasound in it) and
+     articulated the want unprompted:
+
+
+     “it would be so cool to be able to have a look at all of the books we had read for forever, what all
+     of our little ratings are, and funny things someone said, and if it was private, so we could keep
+     that and be able to be like, oh, Sarah really fucking hated this book. But Sarah would probably
+     not want that blasted on Instagram.”
+
+
+Savannah also produced the only fully unprompted feature request in the entire study, and it
+is a good one:
+
+
+     “we all peek at each other’s ratings before we meet, which maybe, like, that could be a cool
+     feature of it. Hides your friends ratings until the meeting.”
+
+
+Why that matters more than it looks: she inflates Goodreads ratings to five stars “because I don’t
+want to hurt an author’s feelings” and routes honest ratings to StoryGraph “because I feel like
+authors are not lurking on there as much as they are on Goodreads.” A club-private ratings space
+solves the leak (reactions discharged over text before the meeting) and the honesty problem (author
+visibility) in one move — and it’s a thing no tracker offers, so it doesn’t compete with Goodreads.
+
+
+
+
+Part 3 — Barriers & Objections
+
+
+3.1 The academic inheritance is an active repellent, not neutral baggage
+This is the positioning barrier, and it is stated as a design principle by the most experienced leader
+in the sample. Jessica, on why her meetings are deliberately loose:
+
+
+     “I don’t like that environment. I don’t want it to feel like we’re in school.”
+
+
+Her reason is retention: “I always find that when people join book clubs, they’re always intimidated.
+Intimidated that when they’re discussing books that they’ll feel stupid or something is a stupid
+question.” Attendance is protected by removing evaluation, not adding rigor.
+
+Corroborating:
+
+     Savannah on formal clubs: “it feels like a chore to me.” She refuses to join her friend Lauren’s
+     12-person club where “if you haven’t read the book, you’re not allowed to go” — she calls it
+     “straight up terrifying.”
+     Celeste’s club identity: “half girls night out, half book club.”
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                    Page 10 / 16
+     Lisa reached for SparkNotes — the school brand — because that’s where the whole category is
+     filed mentally.
+
+
+     Direct consequence: quizzes, comprehension scoring, and essay prompts are not just low-
+     priority for this segment — they are counter-signals. Anything that reads as assessment will be
+     filtered out before it is evaluated. This is the single largest gap between SuperSummary’s
+     current Plus feature set and this audience’s culture.
+
+
+
+3.2 App fatigue and logging redundancy — the near-universal veto
+Every participant who discussed reading apps described the same wall.
+
+     Savannah, on why Fable failed with her club: “I already logged my books in Goodreads and
+     Storygraph. I don’t need one more app.” She also couldn’t tell what Fable was: “we didn’t
+     understand if we were supposed to like read our books on Fable or if it was really supposed to be
+     more like storygraph.”
+     Jen: “it just already exists with all my information. So unfortunately, I’m just, like, not willing to
+     spend the time to move all of my books over… But I liked Storygraph when I tried it.” She liked
+     the better product and stayed anyway.
+     Julia: same — opened a StoryGraph account, abandoned it, because Goodreads auto-logs from
+     Kindle/Libby and everyone else is there.
+     Celeste is a lapsed tracker entirely, because she rotates between audio, e-book and print: “I’m
+     not the best at keep like staying on top of Goodreads.”
+
+Two hard rules fall out:
+
+1. Preference and retention are decoupled in this category. Differentiating on interface quality
+   will not move anyone. (The interviewer reached the same conclusion in-session, repeatedly: “I
+     don’t want to be a prettier Goodreads.”)
+2. Never depend on the user having logged their progress. Celeste and Julia won’t have. Any
+   progress-aware feature needs a zero-friction input — “what chapter are you on?” — not a synced
+     library.
+
+
+3.3 Host labor is the gate on every leader-side feature
+Rashida declined a feature her own members requested because it added maintenance. That is
+the clearest possible statement of the constraint: member demand does not translate into host
+adoption unless the feature removes work.
+
+Same signal from Jessica, who runs selection, prep, moderation, community management, two
+platforms, side quests, author brunches, audiobook walks and travel retreats — alone. Her scarce
+resource is time, not comprehension. Positioning SuperSummary to her as a way to understand
+books better addresses a need she does not have.
+
+
+3.4 Willingness to pay is weak, and in places principled
+     Lisa: “I hate buying books.” She borrows via Libby and uses Libro.fm to route around Amazon. A
+     subscription that replaces neither the book nor the purchase has to justify itself against someone
+     who declines to pay for the books.
+     Jessica refuses to charge for her club on principle: “I don’t necessarily believe in charging
+     people for something that could honestly be free.” She monetizes adjacent premium experiences
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                     Page 11 / 16
+     instead. A personal subscription works directly against her stated economics; value delivered to
+     her members or to her credibility as a curator is the tradeable currency.
+     Rashida: “this is not making me any money and I work and raise kids.” She rejected her app’s
+     dues feature and built a Buy Me a Coffee page — she wants optional giving, not fees.
+     Celeste’s single biggest headache isn’t content at all: “I would say the main thing is just
+     payments.” Stripe and the Bookclubs app don’t talk to each other. This bounds how urgent
+     content tooling is for her.
+
+
+     The paths that don’t fight this: seed leaders free and let the club be the funnel (which is exactly
+     what the interviewer improvised in these calls with the “book club council” offer); or price to the
+     member for the attendance-insurance job, where the alternative is missing a meeting she wanted
+     to attend.
+
+
+
+3.5 “Isn’t reading supposed to be a break from my phone?”
+Julia’s objection, worth taking seriously because she works in community building:
+
+
+     “the idea of having an app is, like, hard for me to grasp because I’m like, aren’t we reading books
+     because we, like, want a break from, like, our phones? And this gives us the opportunity to be
+     real, present with people.”
+
+
+She resolves it herself, and the resolution is the design instruction: value belongs before and after
+the meeting, not during it. In-meeting phone activities will meet resistance from this profile.
+(Notably, Celeste’s in-meeting mechanics are deliberately analog — printed PDFs, cards, dice — with
+the QR code as backup.)
+
+
+3.6 Content register is a real quality objection, not just a discovery gap
+Two independent, unprompted complaints about the questions themselves:
+
+     Jessica: “they have one or two questions that I like” per guide — and she still writes her own set
+     from scratch. She evaluated the whole platform on this one artifact.
+     Savannah: “I think discussion questions would actually be very helpful” — paired with consistent
+     abandonment: “Every time we try it, we’ll do like the first two questions and then just kind of like
+     go, oh, okay. And then what about this part?”
+
+The failure isn’t that prompts don’t exist. It’s the shape: a sequential list to work through, versus
+fuel for the overlapping, tangential conversation these groups actually have. Compare what actually
+works in the room:
+
+     Jessica’s real opener: “how did everybody feel about the book?” — reaction before analysis, and it
+     determines where she goes next.
+     Jen’s club: a five-star rating plus a short rationale from each person.
+     Veronika deliberately hunted Goodreads for disagreement to seed conversation: “I wanted the
+     look at reviews to see if… other people were conflicted. And so that was a discussion point.”
+     Celeste’s questions serve social onboarding, not literary analysis: “the people who are using
+     those questions are mainly, like, newer girlies who obviously don’t know anybody. So that’s like,
+     the perfect kind of, like, icebreaker.”
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                    Page 12 / 16
+     Questions optimized for analytical rigor solve a problem these clubs do not have. Questions that
+     surface reaction, disagreement and comparison are the register that lands. (This is the
+     honest, unprompted case for the Hot Takes concept — Veronika, Jen and Jessica all described
+     hunting for controversy manually. Their reactions to the feature were elicited; the underlying
+     behavior wasn’t.)
+
+
+
+3.7 Genre relevance
+Julia, on her club’s actual appetite (contemporary romance and “smut”), and what the analytical
+apparatus is worth against it — readers of those books, she says, don’t “care about the Character’s
+development that much.” Meanwhile Lisa’s erotic-fiction club read Lights Out, which is on
+SuperSummary — and she had no idea. Coverage exists; perceived relevance doesn’t.
+
+
+3.8 Not-reading is sanctioned socially — but reading is moralized individually
+The one place to be careful. Rashida, Jen and Savannah all confirm non-completion carries no real
+penalty. But Julia frames finishing as a bargain she owes the group, and left an earlier club rather
+than under-deliver: “I don’t read at this pace. Sorry.”
+
+
+     Positioning must read as “participate fully”, never “skip the book.” An offer framed as a
+     substitute for reading collides head-on with this self-concept — in the very person who
+     articulated the strongest acquisition trigger in the study.
+
+
+
+
+Part 4 — How SuperSummary Gets In
+
+Ordered by leverage against the awareness problem, with the evidence each rests on and what has
+to be true.
+
+
+Tier 1 — Do these first
+1. Fix the door that already exists: capture and widen the “book club questions” search
+visit. Two of eight found SuperSummary through this exact query. Both left with one artifact.
+Rashida had an account and never came back; Jessica never made one. Before spending anything on
+new awareness, make that landing experience (a) show a host what else is there — Book Brief,
+chapter summaries, recipes, reading schedule — and (b) capture at the actual moment of need, mid-
+prep. This is a conversion and merchandising fix, not a build. Evidence: Rashida, Jessica, Jen’s
+attribution gap. Lowest cost, highest certainty in this list.
+
+2. Re-point existing assets at “book club is Thursday and I didn’t finish it” — and frame it
+as attendance, not comprehension. Study guides, chapter summaries, Story Recap and audio
+narration already do this job. The gap is entirely framing and discovery. The claim to make is Julia’s,
+in her words: you don’t have to miss the night. Guardrail from 3.8: participate fully, never skip the
+book. Guardrail from 3.5: pre-meeting, not in-meeting. Evidence: Julia (skipped a meeting she
+wanted), Celeste (names the audience herself, and is in it), Savannah, Jen, Rashida’s opening
+question, Veronika’s 20-vote/3-read funnel. No new features required.
+
+3. Get Book Briefs to the moment a club picks a book — as a cohesion signal, not a
+discovery feature. Blind selection is universal here, and it has already nearly broken one club
+(Savannah’s horror incident) and hijacked another’s discussion (Veronika’s). Add the three signals
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                 Page 13 / 16
+people actually asked for: tone/content intensity (spoiler-free), length + average reading time
+(Jen’s explicit request, Jessica’s 500+-page plans), and some read on whether it will sustain a
+discussion (Celeste’s committee is using a 3.5 Goodreads rating as a stand-in today). Evidence:
+Savannah, Veronika, Jen, Celeste, Rashida picking blind. Content largely exists; the work is
+packaging and placement.
+
+4. Ship artifacts into the channels clubs already run, and make leaders the distribution.
+Nobody will move their club to a new destination. But Celeste hand-builds a printable multi-page
+PDF and a QR page every month; Rashida hand-builds a reading schedule for Instagram Stories
+every cycle. Give leaders post-shaped, paste-able, printable outputs with SuperSummary attribution
+on them, and one leader carries the brand to 80–400 people. Pair with the “book club council”
+seeding the interviewer already improvised — free premium to leaders, in exchange for nothing but
+usage. Evidence: Celeste, Rashida, Jessica’s reach; Veronika’s Slack-only club; the unprompted
+referrals from Julia, Savannah and Lisa. Constraint: must reduce host labor, per 3.3.
+
+
+Tier 2 — Strong evidence, more build
+5. Reshape Book Club Questions from a list into openers. Reaction first, disagreement second,
+comparison to other reads third; selectable, reorderable, editable. This is a genuine quality gap,
+independently reported by the two people who used the questions most. Evidence: Jessica (1–2
+usable per guide), Savannah (abandons after two), Celeste (icebreaker function), Jessica’s actual
+opener.
+
+6. Reading-schedule generator: book + meeting date → weekly chapter blocks. Rashida does
+this by hand every cycle; Lisa’s weekly club needs the member-side version and already read a
+guide’s chapter structure as matching her cadence. Directly removes host labor, which is the only
+kind of leader feature that gets adopted. Evidence: Rashida, Lisa.
+
+7. A private club record — with ratings hidden until the meeting. The only unprompted
+feature request in the study, and it solves three problems at once: the pre-meeting reaction leak, the
+author-visibility honesty problem, and the total absence of club memory. It complements Goodreads
+rather than competing with it, which is the only way past the 3.2 veto. Evidence: Savannah (explicit
+request + manual workaround), Jen (4 years of ratings + rationales lost in a group text), Rashida
+(won’t collect data that doesn’t close a loop).
+
+8. Serve the hold-queue interval. Months elapse between picking and getting the book, and
+Savannah’s club holds bookless meetings to cover it. Two plays: something to do during the wait,
+and instant availability as a claim against a 400-person queue. Also the one context where “what do
+we talk about with no shared book” becomes a content need. Evidence: Julia (March hold for a July
+meeting, 400th in line, 6-day read), Savannah (3–4 month holds, meets anyway).
+
+
+Tier 3 — Watch, validate, don’t build yet
+     Recipe/cocktail generator as an acquisition wedge. The behavioral evidence is excellent
+     (Lisa’s failed multi-platform search; Savannah’s collect-and-never-execute pattern; Celeste’s
+     bookmarks and dice). The enthusiasm is ⚑ elicited in both cases. It is plausibly the lowest-stakes
+     first contact with the brand — themed food is high-friction and zero-risk — but validate with an
+     unprompted participant before prioritizing. Note Lisa’s real need is generation from a specific
+     title’s motifs, not a sweet/savory selector.
+     Selection support from the club’s reading history / TBR overlap. Jen supplied both the
+     behavior (checking who bookmarked what in Goodreads) and the model (Beli’s mutuals pattern)
+     — but the interviewer raised the underlying idea. Strong signal, partially contaminated.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                               Page 14 / 16
+     Hot Takes / aggregate voting. Real underlying behavior (Veronika hunting reviews for conflict,
+     Jen’s ratings ritual, Jessica’s reaction-first opener) but every direct reaction to the feature was
+     pitched first. Also the natural answer to Rashida’s zero-moderation between-meeting demand and
+     Veronika’s vote-then-vanish drop-off — worth a real test.
+     Structuring a member’s own notes. Lisa specified input, transformation and output precisely.
+     Sample of one, and it puts SuperSummary in direct competition with ChatGPT on ground where
+     ChatGPT is already open.
+     Payments / dues. Celeste’s top pain, Rashida’s donation workaround. Outside SuperSummary’s
+     core and probably a distraction — logged, not recommended.
+
+
+
+
+Part 5 — What This Study Can’t Tell You
+
+Gaps worth closing before betting real roadmap on any of the above:
+
+1. No pricing or value-perception testing happened. Zero participants were asked what they’d
+   pay. Every “I’d use that” in these transcripts followed either a feature pitch or a free-subscription
+     offer.
+2. Members are under-sampled relative to leaders. Only three pure members (Julia, Jen,
+   Veronika), and Veronika’s club is an HR initiative, not a self-organized one. The 3HAG target —
+     the daily-use book club member — is thin here.
+3. No non-millennial, non-US, or male participants. No older clubs, no library-affiliated clubs,
+   no church or school clubs, no clubs where the book is the point.
+4. The clubs that died are the most instructive and least explored. Savannah has lost two
+   (Zoom fatigue, life-stage mismatch); Jessica sat alone in Zoom rooms for years. Retention
+   research on failed clubs would say more about what a book club platform must do than another
+     interview with a healthy club.
+5. The strongest unprompted acquisition trigger — Julia’s skipped meeting — is a sample
+   of one. It should be the first thing tested, in a message test rather than another interview.
+6. Nobody was shown the product and observed using it. Every judgment of SuperSummary’s
+     content quality here (Jessica’s “one or two questions”) comes from unaided recall of a past visit.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                Page 15 / 16
+Appendix — Participants at a glance
+
+  #    PARTICIPANT          ROLE              CLUB                                    AWARENESS                TOOLS
+
+  1    [name]         Member            ~15 people, Liberty MO moms             None                     Goodreads, Libby, Reddit, abandoned
+                                              group; monthly meet / bi-monthly                                 StoryGraph
+                                              book
+
+  2    [name]         Host              Franchised “book & sip” chapter,        Aware, never used        Bookclubs app, Stripe, ChatGPT, lapsed
+                                              Chicago; 400+ paying, 80–90/event,                               Goodreads
+                                              3–4 events/mo
+
+  3    Lisa O’Brien         Member ×3         Three clubs from one organizer,         None                     Audible, Libro.fm, Libby, hand-drawn
+                                              Phoenix; monthly / seasonal /                                    bullet journal, ChatGPT/Gemini,
+                                              weekly-serialized                                                SparkNotes
+
+  4    [name]        Member            6–10 friends, Chicago; every 6–8        None (suspects           Goodreads, Spotify audiobooks, Kindle
+                                              weeks at coffee shops                   unattributed use)        Unlimited, Audible, iMessage, Beli
+
+  5    Rashida              Host/founder      Metro Detroit; 2k IG → 450              Account created once,    Instagram (daily), Bookclubs,
+       Walters                                registered → ~35/mo, in-person +        abandoned                Eventbrite, Buy Me a Coffee
+                                              virtual
+
+  6    [name]       Host/founder      Literature Noir, virtual, BIPOC-        Repeat unauthenticated   Bookclubs, Discord, Instagram
+                                              centered, since 2017; 15–40/mo,         user, no account
+                                              quarterly themes
+
+  7    Savannah             Member            Wives Club, 4 close friends, since      None                     Shared note, Wheel of Names, Libby,
+       Kannberg                               Nov 2023; monthly + mahjong                                      Kindle, Goodreads + StoryGraph, tried
+                                                                                                               Fable
+
+  8    Veronika             Member            Employer HR “Culture Club”,             None                     Slack, Libro.fm, bookseller emails,
+       Wuest                                  cannabis distributor; 25 in Slack, ≤4                            Goodreads (once)
+                                              attend
+
+
+Sources: 8 interview transcripts and per-interview snapshots, Cross
+discovery/2026/July/Interviews . Recordings and transcripts linked in the source CSV.
+
+
+
+
+BCMs Outside SuperSummary · Cross-interview synthesis · July 2026                                                                              Page 16 / 16
+

@@ -1,0 +1,816 @@
+CROSS-DISCOVERY · AUGUST 2026 CYCLE
+
+
+
+What readers are asking us
+to build and publish
+Feature and content requests extracted from 2,500 cancellations, 340 refund
+requests, 950 support tickets, the NPS and PMF surveys, product surveys and 11
+usability studies — consolidated into a full list (Part 1) and a shortlist of the seven
+most promising (Part 2).
+
+Prepared by the Design Team, Lift Ventures · September 17, 2026
+For: Product leadership and Q4 planning · Period covered: August 1–31, 2026
+How requests were collected
+Source                             Field mined                                      Notes
+
+Chargebee cancellation flow        “How could we improve?” + “Other reason”         377 substantive comments of 2,503
+                                   free text                                        sessions
+
+Money-Back Guarantee form          “What would have made you stay?” +               277 substantive answers of 338
+                                   missing title
+
+Freshdesk (inbound only)           Ticket body                                      Keyword-classified; counts are
+                                                                                    approximate and inflate generic terms
+
+Sprig NPS                          Q3 “one thing to add or improve”; Q4 missing 89 usable of 550; 42 are “nothing”
+                                   book
+
+Sprig PMF (8 surveys)              Improvement questions and multiple-choice        Character List n=109, Author Insights
+                                   additions                                        n=15+23
+
+Sprig product surveys              Book Brief, DQG, quiz bounce, exit-intent,       Small samples (n=3–92)
+                                   subscribe intent
+
+Lyssna (11 reports)                Open-ended follow-ups                            Funnel Revamp, Book Clubs, Book
+                                                                                    Hub prioritization
+
+Mention counts below combine Chargebee (CB), MBG, Freshdesk (FD) and NPS unless stated otherwise; PMF figures are respondent
+counts on multiple-choice questions. Quotes are verbatim, including spelling.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                                   2
+Part 1 — The full list
+Requests fall into three groups. Content requests are what readers want us to publish or deepen; feature
+requests are product capabilities; commercial requests concern how we sell. The third group is included
+because it appears in every source and often as the stated condition for staying.
+
+A. Content requests
+
+1. More titles in the catalog
+~46 mentions (CB 17 · MBG 14 · NPS 9 · FD 6) · #1 request in NPS · 167 cancellations and refunds cite an unavailable title
+• Recent releases and bestsellers (“not all new books are in review”, “Just keep the new titles coming”)
+• Non-fiction: science, history, biology; genres beyond the classics: fantasy, contemporary fiction
+• Lesser-known and Canadian authors; complete series (“The alphabet murder series”)
+• English-literature course texts: Tom Jones (Fielding), Evelina (Burney), Framley Parsonage (Trollope)
+• Books in other languages: Portuguese, Spanish, Japanese (The Eternal Zero)
+• Named as missing: The Marseille Caper, Keeper of the Lost Children, The Only Woman in the Room, Dog Man,
+   Beneath the Lion’s Gaze, Limberlost, Too Much Lip, Cold Enough for Snow, Murder by Memory, The Other Side,
+   Linguistics for Everyone, Who Moved the Stone
+• Associated feature: a “request a guide” / wishlist mechanism
+
+     “More books in the library or a recommendation feature for Guides we would like.”
+     — NPS, BCM, score 8
+
+
+     “When I search a title to add into a wish list”
+     — Chargebee cancellation flow
+
+
+     “Reserving a 10 for when the library is more expansive.”
+     — NPS, BCM, score 8
+
+
+
+
+2. Chapter-by-chapter and deeper analysis
+~59 mentions (MBG 28 · FD 22 · CB 6 · NPS 3) · #1 refund reason (“content did not meet expectations”, 39%)
+• Chapter-by-chapter summaries and scene- or page-level analysis
+• More on symbolism, literary style, imagery and character development; fuller introductions
+• Counter-request from casual readers: a simpler, shorter version (“I don’t need such complex information. I’m a
+   casual user”)
+
+     “I would like chapter and/or page by page analysis. For example I wanted to see analysis on a particular
+     scene that happened in a chapter.”
+     — Money-Back Guarantee form
+
+
+     “Better summaries, deeper analysis of imagery, conversations, character development”
+     — Money-Back Guarantee form
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                                 3
+     “The quotes could be improved. Discussion on literary style would be great.”
+     — NPS, BCM, score 10
+
+
+
+
+3. Quotes, citations and page numbers
+~21 mentions (FD 8 · CB 6 · MBG 6 · NPS 1)
+• Citations and page numbers for every reference; more quotes with analysis
+• Highlight the quoted text when a passage is being explained
+• Quotes organised by theme (exit-intent on study guide pages: “quotes that relate or match a theme”)
+
+     “CITATIONS. PAGE NUMBERS. Anything that shows where and what you’re referencing!”
+     — Chargebee cancellation flow, teacher
+
+
+     “Highlight text in summary or quote text used when explaining lines or paragraphs.”
+     — Chargebee cancellation flow
+
+
+
+
+4. Discussion Questions: more, better, and in Essentials
+~24 mentions (FD 17 · MBG 3 · CB 2 · NPS 2) · DQG survey: 30% rate current questions 1–2 of 5
+• Include discussion questions in the Essentials plan
+• Questions per chapter rather than per group of chapters; a fuller, easier-to-find standard set
+• Questions with answers or facilitator notes (“More ways to lead a discussion”)
+• Questions that provoke divergence (“They didn’t encourage different perspectives”); shorter and less complex for
+   some
+
+     “Discussion questions included in basic plan”
+     — Money-Back Guarantee form — what would have made you stay?
+
+
+     “More titles - easier discussion questions - with AI now we don’t seem to have a standard list of questions or
+     at least I cannot find it - and questions with answers would [help]”
+     — NPS, BCM
+
+
+     “More comprehensive questions per chapter rather than groupings of chapters.”
+     — Money-Back Guarantee form
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                          4
+5. Author Insights: which insights to add
+PMF multiple choice · subscribers n=15, visitors n=23
+• Inspirations for characters, settings or events — 12 subscribers + 8 visitors
+• Connections to the author’s life experiences — 11 + 9
+• Historical or cultural context behind the book — 10 + 8
+• Writing process and drafting decisions — 5 + 4
+• Critical reception at publication (Book Hub prioritization) and author interviews
+
+     “I always enjoy looking at interviews with authors after reading their books. It gives the book more meaning
+     for me- understanding the context & greater insight to the author”
+     — PMF Author Insights
+
+
+     “I would appreciate a section on the book’s critical reception when it was first published.”
+     — Lyssna, Book Hub prioritization
+
+
+
+
+6. Character List: requested additions
+PMF multiple choice n=109 + 72 free-text answers · Character List PMF score 79.7%, the highest in the product
+• Relationship maps / character tree — 67
+• Notable character traits — 62
+• First appearance (chapter) — 32
+• Include all characters, including minor ones; group families; order of introduction
+• One-sentence descriptions to bring to the meeting; what happened to each character; physical description or
+   images
+• Printable, condensed version for book club
+
+     “for big complex books like COVENANT OF WATER, even an avid reader like me gets lost. I would like a
+     character tree”
+     — PMF Character List
+
+
+     “Provide a more comprehensive list that includes short description of minor characters.”
+     — PMF Character List
+
+
+     “Can condense in printable form that I can carry to book club”
+     — PMF Character List
+
+
+     “a simple 1 sentence description that I can use to remember them for book club meetings”
+     — PMF Character List
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                        5
+7. Book Brief: requested additions
+Sprig Book Brief surveys (n=36 + 13) and PMF Book Brief (n=23)
+• Less brief: a bigger summary (“Maybe make it less brief”, “if it had a more bigger summary”)
+• Reviews broken down by perspective: loved it / mixed / not a fan
+• A path to turn a Book Brief into a full Study Guide; more fun facts; activities for groups; printable to-be-read list
+
+     “a breakdown between why the people who loved it vs mixed vs not a fan. not just a general review but a
+     review for each of these perspectives”
+     — Sprig Book Brief, subscriber
+
+
+     “The chance to get it turned into a full study guide.”
+     — Sprig Book Brief, subscriber
+
+
+
+
+8. Teacher and classroom materials
+~40 mentions, mostly Freshdesk (32) · teachers are 13% of cancellations
+• Printable worksheets and ready-to-use activities; teaching guides with reproducibles for every title
+• Vocabulary section; more varied, sortable quizzes and tests; one-page cheat sheet for teacher and student
+• Printable poster-style graphic summary (compared to Course Hero)
+
+     “I was hoping for more worksheets and activities to print. I am teaching 3 different grade levels. I needed
+     more ready to use activities.”
+     — Chargebee cancellation flow, teacher
+
+
+     “many books weren’t listed, a vocabulary section, more varied quizzes/tests and a way to sort quiz
+     questions, better job at symbolism, a one page cheat sheet for teacher and student”
+     — Chargebee cancellation flow, teacher
+
+
+
+
+9. Content for other levels, audiences and languages
+~10 reading-level mentions · ~9 language mentions · thin but consistent
+• Guides and questions for younger readers / middle school
+• A simpler version for casual clubs (“too in-depth and complex for a group of very old ladies”)
+• Guides in Spanish (for Spanish class) and Portuguese
+
+     “Lower level guides and questions for younger children. The guides weren’t quite at the right level for my
+     children”
+     — Chargebee cancellation flow, parent
+
+
+     “If you had information in Spanish as well for Spanish class”
+     — Money-Back Guarantee form
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                              6
+10. Other content requests (single mentions)
+NPS, Chargebee, MBG, Lyssna
+• Maps of the book’s locations; genre classification to help recommend the book
+• “Books similar to this one” (Books Like); chapter annotations
+• Access to the full text of the work; audio for all sections, not only Overview
+
+
+B. Feature requests
+
+11. PDF, printing and downloads
+Most-cited feature in Freshdesk (~75) · also CB 4, MBG 6 · cancellations cite “pay extra to download PDFs”
+• Download and print without an upsell; make the download limit visible before it is hit
+• Fully downloadable guides; printable Character List and discussion questions for the meeting
+• Lower price for downloads
+
+     “Being able to print without upselling me to something else.”
+     — Money-Back Guarantee form
+
+
+     “My download pdf has been suspended. However as I did not see that there was a limit to download
+     available on one account I downloaded all the files for the books I wanted to read as I prefer to print the
+     guide”
+     — Freshdesk ticket
+
+
+
+
+12. Audio
+~16 mentions (FD 10 · NPS 4 · CB 2)
+• Audio summaries and more narration (“Audible would be nice”)
+• Audio for every section — a Plus subscriber reports playback only on Overview
+
+     “The ability to have audio summaries.”
+     — NPS
+
+
+     “I paid $60 to hear all sections. It won’t play audio for anything but Overview.”
+     — Freshdesk ticket
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                       7
+13. Search and navigation
+~34 mentions (FD 23 · CB 5 · MBG 5 · NPS 1)
+• Search by idea or theme, not only by title; quote search by theme
+• Easier navigation in the app and site; less cluttered interface
+
+     “Being able to search general ideas, if you don’t know what book you are exactly looking for.”
+     — Money-Back Guarantee form
+
+
+     “More detailed summaries. Easier app navigation.”
+     — Chargebee cancellation flow, BCM
+
+
+
+
+14. Quizzes, Timeline and games
+PMF games and quiz-bounce survey · Chargebee
+• More quizzes per chapter; varied and sortable quiz questions; the Timeline quiz is praised
+• Games: more key points per round (7–8), images or cartoons, words connected to the book (Word Worm)
+• Quiz must open reliably; users want to take it after reading the summary
+
+     “When you have more of the books I read. I loved the timeline quiz.”
+     — Chargebee cancellation flow
+
+
+     “Have more key points, like 7-8?”
+     — PMF Plot Scramble
+
+
+
+
+15. Ask SuperSummary and AI
+~9 explicit mentions in each direction
+• More questions before the paywall; the question limit currently ends in an error
+• An agent that finds quotes and literary devices on request
+• Counter-request: fewer AI features and visibly human authorship
+
+     “if i could talk to the bot a little longer without paying”
+     — PMF Book Brief
+
+
+     “Having access to the original source and an agent that can help identify quotes and literary devices based
+     on ones request.”
+     — Money-Back Guarantee form
+
+
+     “If the summaries were read by actual humans”
+     — Money-Back Guarantee form
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                       8
+16. Account, access and devices
+119 access-only tickets in Freshdesk · NPS access cluster
+• Persistent sign-in for subscribers; change email and login method (Google/Apple ↔ email)
+• Same account across iPad and iPhone; app availability in France; sharing access with a child
+• Account deletion
+
+     “Easier or permanent sign in while having a subscription”
+     — NPS
+
+
+     “I want to install this on my ipad. The user account on the iPad does not match and I see no way to reconcile
+     without starting over.”
+     — Chargebee cancellation flow
+
+
+
+
+17. Book Clubs (from usability tests)
+Lyssna Book Clubs Concept 1, Concept 2 and Homepage (n=15, 15, 7)
+• Save or bookmark feed items (Hot Takes, Thought Starters, Quotes) to use in the meeting; comment on them
+• Control when Hot Take results are revealed (before vs during the meeting); clear anonymity rules
+• Spoiler gating for members who have not finished; confirmation and reversibility for book, date and vote
+• Clearer archive label and an empty state for clubs that already chose a book
+
+     “I would like to save them somewhere to use during the meeting… like my own notes and agenda”
+     — Lyssna, Book Clubs Homepage
+
+
+     “Already picked a book? Get set up here.”
+     — Lyssna participant’s suggested empty-state copy
+
+
+
+
+18. Funnel and onboarding (from usability tests)
+Lyssna Funnel Revamp Complete and Compact (n=15 each); exit-intent surveys
+• Trial without card; a real sample of the guide or example discussion questions before account creation
+• Explicit “what happens next” after sign-up; pricing options visible early
+• Fewer promotional screens; more credible social proof; visible personalization (echo the chosen book and goal)
+
+     “It would have been nice to see an excerpt, like a paragraph or two of what is in the book.”
+     — Lyssna, Funnel Revamp
+
+
+     “A true sample option instead of just scrolling 25% down a page before being blocked out”
+     — Money-Back Guarantee form
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                         9
+19. Notifications
+~30 mentions of a renewal reminder (CB 13 · FD 16 · MBG 1)
+• Reminder before renewal; expiry or access notice; confirmation of cancellation
+
+     “Remind about billing”
+     — Chargebee cancellation flow, parent
+
+
+     “Never got an expiring email reminder.”
+     — Freshdesk ticket
+
+
+
+
+C. Commercial requests
+Not features in the product sense, but the most frequent stated condition for staying. Listed for completeness
+and because the shortlist in Part 2 addresses the underlying job in product terms.
+
+
+20. Billing model and plan structure
+~34 monthly-option mentions · ~18 single-guide mentions · ~6 explicit “real trial” mentions
+• Monthly or flexible billing (2-, 4-, 6-month options); a fixed rate that does not increase automatically
+• Single-guide purchase or one-time pass instead of a subscription
+• A cheaper, simpler recap-only tier (“a $3.00/mo option for simple chapter summaries”)
+• Move discussion questions, quizzes and PDF to Essentials; a more generous free tier as the hook
+• Local pricing (Australia, India, Europe); a genuine trial instead of the money-back guarantee; no auto-renewal by
+   default
+
+     “I would love an option to purchase access to individual guides. I don’t need or want another subscription but
+     I would happily pay to download just the guides I’m interested in.”
+     — Money-Back Guarantee form
+
+
+     “Maybe a $3.00/mo option for simple chapter summaries. I just need a recap feature so i can resume books
+     better”
+     — Chargebee cancellation flow, avid reader
+
+
+     “give more for free, the ai features and quotes are big selling points, you could hook users in with free (less
+     detailed) summaries and leave the quotes and ai features to be paid.”
+     — Chargebee cancellation flow
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                           10
+Part 2 — The seven most promising
+Selection criteria: cross-source demand, fit with the healthy core (Book Club Members and the 3HAG), effect
+on churn or conversion, and relative effort. Ordered by promise.
+
+#   Request                              Demand signal                Why it is promising                         Effort
+
+1   Relationship maps, traits and        67 / 62 / 32 of 109 (PMF);   Extends the strongest feature;              Medium
+    first appearance in the              PMF 79.7%                    memory-tool positioning; hard for
+    Character List                                                    generic AI to match
+
+2   Public “request a guide” queue       #1 NPS request; 167          Prevents avoidable early churn;             Low
+    + availability check before          cancels/refunds              turns complaints into editorial
+    purchase                                                          demand data
+
+3   Single-guide purchase or             ~18 explicit; 960            Serves the largest leaver group;            Medium
+    short-term pass                      “short-term need” cancels    captures revenue lost to refunds
+
+4   Discussion Questions in              ~24 mentions; DQG 30%        The BCM core job; gating pushes             Low–Medium
+    Essentials, per chapter, built for   low satisfaction             buyers to refund; divergence beats
+    divergence                                                        ChatGPT
+
+5   Save-for-meeting in Book Clubs       Repeated in all Book         Turns a passive feed into a                 Medium
+    + visibility and spoiler rules       Clubs tests                  facilitation tool; prerequisite for daily
+                                                                      club use
+
+6   PDF and print without upsell,        Top Freshdesk category;      Policy and copy, not a build;               Low
+    with explicit limits                 cancel reason                removes a “paywall inside the
+                                                                      paywall”
+
+7   Pre-renewal reminder with            ~30 direct asks; 353     Best impact-to-effort ratio in the              Low
+    one-click opt-out                    auto-renew cancels; ~130 dataset
+                                         disputes
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                                   11
+SHORTLIST 1 OF 7
+
+Relationship maps, notable traits and first appearance in the
+Character List
+
+  79.7%                                     67                                   62 / 32
+  Character List PMF score (n=158) —
+  the highest of any surface                of 109 want relationship maps        want notable traits / first appearance
+
+
+
+Why it is promising
+This extends the feature readers already say they would miss most, in exactly the directions they name. It
+reinforces the memory-and-orientation positioning that the PMF data supports, and structured relationship data
+is difficult for a generic AI summary to reproduce reliably.
+
+Evidence
+• Primary benefit today: keeping track of a large cast (48) and quick reference without re-reading (39).
+• Free-text asks cluster on minor characters, family grouping, order of introduction and a printable one-page
+  version for the meeting.
+• Book club facilitators, including a librarian, name it as the tool their club uses every time.
+In users’ words
+
+    “for big complex books like COVENANT OF WATER, even an avid reader like me gets lost. I would like a
+    character tree”
+    — PMF Character List
+
+
+    “Major and Minor characters are very important... maybe connect them and how they influence each other or
+    the plot events.”
+    — PMF Character List
+
+
+    “I think that you need to keep the characters lists. My book club uses them all the time.”
+    — PMF Character List
+
+
+Suggested scope
+Add a relationship map per guide (family and alliance grouping), a traits line per entry, and chapter of first
+appearance; ship a printable one-page version. Start with the top 200 book-club titles.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                              12
+SHORTLIST 2 OF 7
+
+Public “request a guide” queue and availability check before
+purchase
+
+  19                                        167                                    4.5 / 10
+  NPS mentions — the largest request        cancellations and refunds citing an    return likelihood of users leaving for
+  group, double the next                    unavailable title                      this reason — above average
+
+
+
+Why it is promising
+Catalog gaps are both the #1 request and a direct cause of avoidable early churn: several refund requests
+come from users who subscribed before confirming the book existed. A visible request queue converts
+complaints into demand data for editorial, and an availability check in the funnel prevents the refund in the first
+place.
+
+Evidence
+• Requests span new releases, non-fiction, lesser-known authors and course texts; twelve specific titles were
+  named in August.
+• Users explicitly ask for the mechanism (“wish list”, “a recommendation feature for Guides we would like”).
+• Freshdesk and MBG show “I should have confirmed before purchase that you had the book” as a recurring
+  refund story.
+In users’ words
+
+    “I will definitely come back if/when I have another summary need. In this case, I should have confirmed
+    before purchase that you had the book that I needed.”
+    — Money-Back Guarantee form
+
+
+    “Barely any of the books that I searched for were on the site, so it didn’t prove all that helpful for my book
+    club.”
+    — Chargebee cancellation flow
+
+
+    “More books in the library or a recommendation feature for Guides we would like.”
+    — NPS, BCM
+
+
+Suggested scope
+A “Request this guide” action on empty search results and Book Brief pages with a public vote count and
+status; a “we have this book” confirmation step before checkout when the user arrives from a search.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                                13
+SHORTLIST 3 OF 7
+
+Single-guide purchase or short-term pass
+
+  960                                        5.1 / 10                                ~18
+  cancellations for “I only needed
+  SuperSummary for a short time”             return likelihood in that group — the   explicit asks for a one-time or
+  (38%)                                      highest of any reason                   per-guide option
+
+
+
+Why it is promising
+It is the only response that fits the largest group of leavers without trying to retain them in a model that does not
+match their use. Today that revenue is lost to refunds or never converted; a per-guide pass captures it and
+creates a re-entry point for the many who say they will return.
+
+Evidence
+• Subscribe-intent survey: “I only need it once in a while” is the #2 barrier among returning non-converters (6
+  of 19).
+• Asks come from every audience: students, teachers, book club members and avid readers.
+• Risk is cannibalisation of annual plans; price the pass so that roughly three guides equal Essentials annual,
+  and test before committing.
+In users’ words
+
+    “I would love an option to purchase access to individual guides. I don’t need or want another subscription but
+    I would happily pay to download just the guides I’m interested in.”
+    — Money-Back Guarantee form
+
+
+    “Create a one off plan for people who only need to purchase for a single book. I was impressed with what I
+    discovered for the book I presented on but the cost does not justify the single use.”
+    — Chargebee cancellation flow, teacher
+
+
+    “Too bad you cannot just buy one book summary.”
+    — Chargebee cancellation flow, BCM
+
+
+Suggested scope
+Test a 7- or 30-day single-guide pass (full guide, PDF, discussion questions) offered on the plan page and
+inside the cancel flow, with an upgrade credit toward an annual plan.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                           14
+SHORTLIST 4 OF 7
+
+Discussion Questions in Essentials, per chapter, built for divergent
+perspectives
+
+  ~24                                        30%                                   7
+  requests across CB, MBG, FD and            of DQG respondents rate the current   cite ChatGPT or other AI tools as their
+  NPS                                        questions 1–2 of 5                    alternative source
+
+
+
+Why it is promising
+Discussion preparation is the dominant promoter theme among Book Club Members in every cycle. Gating the
+questions behind Plus pushes buyers who came for them into the refund flow, and the quality complaint that
+remains — questions that do not open up different readings — is exactly where a curated product can beat
+generic AI.
+
+Evidence
+• “Discussion questions included in basic plan” appears verbatim as the condition for staying in the MBG form.
+• DQG: satisfied users value concision and open-endedness; dissatisfied users cite convergence, length and
+  complexity.
+• Book Brief survey: getting talking points for a club or class is the #1 reason subscribers open one (17 of 31).
+In users’ words
+
+    “Discussion questions included in basic plan”
+    — Money-Back Guarantee form
+
+
+    “They didn’t encourage different perspectives”
+    — Sprig DQG — #1 reason for low satisfaction
+
+
+    “More comprehensive questions per chapter rather than groupings of chapters.”
+    — Money-Back Guarantee form
+
+
+Suggested scope
+Move a base set of discussion questions into Essentials; restructure by chapter; rewrite toward divergence
+(contrasting readings, minority views, “argue the other side”); keep facilitator notes and shareable club versions
+in Plus.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                                 15
+SHORTLIST 5 OF 7
+
+Save-for-meeting in Book Clubs, with visibility and spoiler rules
+
+  3 of 3                                    5.0 / 5                                 3 ways
+  Book Clubs studies where participants     ease score for poll set-up — the club   expectations split on who sees Hot
+  asked to save or bookmark feed items      mechanics already work                  Take answers and when
+
+
+
+Why it is promising
+Promoters describe building outlines and arriving prepared; the Book Clubs feed already generates the raw
+material (Hot Takes, Thought Starters, Quotes) but only for passive browsing. Letting members collect items
+into a meeting agenda turns the feed into the facilitation tool they describe — the behaviour the 3HAG depends
+on. The social rules are a product decision that must precede scale.
+
+Evidence
+• Hot takes/reactions was the hardest task in both concept tests (40% success in Concept 1); the label and
+  placement need work regardless.
+• Two participants asked for configurable reveal timing so results are not visible before the meeting; two
+  flagged spoiler risk in Thought Starters and Quotes.
+• Reversibility questions (change the book, edit the date, confirm a vote) recurred in three tasks.
+In users’ words
+
+    “I would like to save them somewhere to use during the meeting… like my own notes and agenda”
+    — Lyssna, Book Clubs Homepage
+
+
+    “My main takeaway is that I love it and that it’ll really help book clubs organise!”
+    — Lyssna, Book Clubs Homepage
+
+
+    “‘see how it stacks up against your book club peers’ has strongly competitive connotations… likely to nudge
+    users toward safe, conformist readings.”
+    — Lyssna, Book Clubs MVP
+
+
+Suggested scope
+A “Save to meeting” action on every feed item that builds a shareable agenda; club settings for Hot Take
+visibility (private / aggregate / named) and reveal timing; “finished the book” gating for spoiler-bearing modules.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                             16
+SHORTLIST 6 OF 7
+
+PDF and print without upsell, with explicit limits
+
+  #1                                         3                                   Several
+                                             PMF Character List asks for a
+  feature category in inbound Freshdesk      printable version to bring to the   cancellations and refunds citing “pay
+  tickets (~75 mentions)                     meeting                             extra to download PDFs”
+
+
+
+Why it is promising
+Teachers and facilitators print by habit. The current experience — an upsell at the print step, a download cap
+discovered only when hit, and PDFs confined to Plus — reads as a paywall inside the paywall and generates
+tickets, refunds and cancellations. Most of the fix is policy and copy rather than engineering.
+
+Evidence
+• Users hit the download limit without warning and lose access to files they had already downloaded.
+• Printable Character List and discussion questions are the two most-requested print artefacts.
+• The PDF/audio format variety was the strongest attention-grabber in the Funnel Revamp tests — it sells,
+  then frustrates.
+In users’ words
+
+    “Being able to print without upselling me to something else.”
+    — Money-Back Guarantee form
+
+
+    “didn’t like that i had to pay extra to download pdfs”
+    — Chargebee cancellation flow, student
+
+
+    “Fully downloadable study guides would be great”
+    — Money-Back Guarantee form
+
+
+Suggested scope
+Show the download allowance up front and in the account; allow print of Character List and base discussion
+questions on Essentials; make the PDF cap and reset date explicit in copy.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                             17
+SHORTLIST 7 OF 7
+
+Pre-renewal reminder with one-click opt-out
+
+  ~30                                       353                                    ~130
+  direct asks for a reminder before         cancellations for “I don’t want my     payment disputes in August, most of
+  billing                                   subscription to renew automatically”   them unrecognised renewals
+
+
+
+Why it is promising
+It is the request with the best impact-to-effort ratio in the whole dataset. Renewal churn is the least recoverable
+(return likelihood 3.6) and the most expensive (chargeback fees, zero-score detractors, BBB and Trustpilot
+threats). A notice with a one-click opt-out converts an angry dispute into a neutral non-renewal — and some of
+those users will simply stay.
+
+Evidence
+• 28% of all cancellations occur at 365+ days; “no auto-renew” is the #2 reason at that point.
+• The NPS access-and-billing cluster includes “Auto renewal with no reminders” at score 0.
+• The dunning email already reaches these users — but only after payment fails, and it triggers cancellation
+  rather than recovery.
+In users’ words
+
+    “Remind about billing”
+    — Chargebee cancellation flow, parent
+
+
+    “Please advise before renewing or rebilling”
+    — Chargebee cancellation flow
+
+
+    “Giving a heads-up that auto-renewal was happening, so I wouldn’t have paid for a subscription that I have
+    never used.”
+    — Chargebee cancellation flow, BCM
+
+
+Suggested scope
+Email 14 and 3 days before annual renewal with the amount, date, last-used guide and three links: keep,
+switch to monthly, turn off renewal. Show the renewal date inside the account.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                             18
+Left off the shortlist, and why
+• Expanded audio. Real demand (~16) but high production cost, and the audio card drew almost no recall in
+  the JTBD payoff tests.
+• Teacher materials. A segment with high churn and “I have plenty of my own resources”; worth a separate
+  teacher-product decision rather than a feature.
+• Semantic search and unlimited Ask SuperSummary. Interesting but dispersed demand; revisit once the
+  Book Hub reference layer ships.
+• Middle-school level and other languages. Thin evidence (~10 and ~9 mentions); monitor.
+• Monthly billing and a cheaper tier. A pricing decision rather than a product one; shortlist item 3 addresses
+  the same job in product terms.
+
+
+
+Method and caveats
+• Mention counts are keyword-based approximations across free text; Freshdesk inflates generic terms (app,
+  PDF, quiz) and its counts are reported as ranges or reinforcement only.
+• PMF figures are respondent counts on multiple-choice questions; Author Insights and Book Brief samples
+  are small.
+• Lyssna findings are taken from the eleven study reports; the Book Clubs MVP test has a single participant
+  and is used for copy feedback only.
+• Quotes are verbatim, including spelling; only truncation and bracketed clarifications were applied.
+
+
+
+
+SuperSummary · User Feature & Content Requests · August 2026                                                  19
+

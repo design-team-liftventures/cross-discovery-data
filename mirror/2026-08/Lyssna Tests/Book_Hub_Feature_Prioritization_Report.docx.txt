@@ -1,0 +1,78 @@
+Book Hub Feature Prioritization
+Lyssna Test Results — Research Report
+Method: Online survey (Lyssna)  |  Participants: 18  |  Date: September 2026
+Prepared for: SuperSummary Design & Research
+Executive Summary
+Eighteen self-recruited participants completed the Book Hub feature-prioritization survey, rating 19 candidate features on whether each would help them, when in their reading journey it would be most useful, and how essential it felt. The clearest signal is that reference-style, comprehension-focused content — chapter summaries and analysis, story recaps, character lists, themes, and character analysis — drew both the highest demand (72–100% “yes”) and the highest essential ratings (4.2–4.5 out of 5). Discussion- and reflection-oriented content (quotes, discussion questions, book club questions, essay topics) was valued nearly as highly but is used almost exclusively after finishing a book. Gamified formats (Plot Scramble, True or False, Word Worm) were consistently the least wanted and least essential across the panel. These results suggest a Book Hub built around a core reference layer, with discussion tools layered on for the after-reading moment, and games left out of the initial release.
+Participant Overview
+Why participants were on SuperSummary that day:
+Two-thirds of respondents were there either preparing for a book club discussion (33%) or looking for in-depth content to understand a book (33%), which frames much of the demand seen below — particularly for discussion-oriented features.
+Feature Results
+Each feature was tested with three questions: would it help (yes/no), when it would be most useful (pre / during / after reading), and how essential it would be on a 1–5 scale. Results below are ordered by “yes” rate; shading marks rough demand tiers (green ≥ 70%, amber 45–69%, red < 45%).
+Key Themes
+1. A core reference layer has near-universal demand
+Chapter summaries and analysis was the only feature every single participant (18 of 18) said would help them, and it carries the highest essential score of any non-niche feature (4.50). Story Recap, Character list, and Themes each cleared 78% demand with essential scores above 4.2. Together these read as the load-bearing content of a Book Hub, not optional add-ons.
+2. Reflection and discussion content is valued, but is a post-read behavior
+Important quotes, book club questions, discussion questions, and essay topics all show a strong after-reading skew (67–89% of participants who wanted the feature said “after reading”). Essay topics stands out: only 39% wanted it at all, but among those who did, it earned the single highest essential score in the study (4.71) — a small but highly convicted audience, plausibly students.
+3. Some features are flexible across the reading journey
+Plot summary and the Story Recap Tool are the only two features with demand split roughly evenly between pre-reading and after-reading use, suggesting they serve two distinct jobs (deciding whether/how to start a book, and refreshing on one already read) rather than a single moment.
+4. Gamified formats are the clearest de-prioritization candidates
+Plot Scramble Game and Word Worm Game tied for the lowest demand (17% each) and the lowest essential scores (3.33 each); True or False Game was only slightly ahead (28% / 3.80). All three skew heavily after-reading, meaning they compete with the discussion/reflection features above for the same moment, with weaker results.
+Insights → Opportunities
+Recommendations
+Ship a core reference module first: chapter summaries and analysis, Story Recap, Character list, Themes, and Character analysis. These five have the strongest combination of demand and perceived essentialness and should anchor the initial Book Hub layout.
+Design a distinct “after you finish” surface for Discussion Questions and Book club questions, aimed at the book-club segment that made up a third of this panel, rather than surfacing them alongside pre-read content.
+Treat Essay topics as a targeted, opt-in feature (e.g. behind a “for school/study” entry point) rather than a default module — low reach, but very high conviction among the audience that wants it.
+Hold gamified formats (Plot Scramble, True or False, Word Worm) out of the initial release; they scored lowest on every measure and would be better validated later against an engagement/retention goal rather than a comprehension goal.
+Design Plot Summary and Story Recap as flexible entry points usable both before starting a book and as a refresher, since both showed even pre/after demand rather than a single moment of use.
+Open-Ended Feedback
+Participants were asked if there was any feature they'd like to see that wasn't included in the test. The large majority had no suggestion (“No” / “no answer given”); two gave concrete ideas worth noting:
+“I would appreciate a section on the book's critical reception when it was first published.”
+“A list of other books similar to this one could be interesting.”
+One respondent noted simply “everything's great,” and one entry appeared to be a stray keystroke (“Noi”).
+Questions for Further Research
+This panel skewed heavily U.S.-based (16 of 18) and did not capture age; a follow-up should confirm these priorities hold across international and age-diverse readers.
+Book-club preparation and comprehension were the two dominant use cases here — worth testing whether a self-recruited panel underrepresents casual or first-time SuperSummary visitors.
+The two open-ended suggestions (critical reception, similar-books list) were mentioned only once each but align with “pre-reading decision” and “contextual” needs; worth a small follow-up probe rather than acting on n=1.
+Methodology Notes
+Data drawn from a Lyssna survey test (“[Book Hub] Feature Prioritization”), 18 completed responses, 90% screen-in rate, self-recruited participants, recruitment link now disabled. Each of the 19 candidate features was tested with a single-select “would this help” question, a single-select “when would this help” question, and a 1–5 linear-scale essentialness question, all logic-gated to appear only for participants who said a feature would help them. No demographic data beyond location was captured. This report reflects only the results visible in the Lyssna results page and does not incorporate other data sources.
+Total participants | 18 (90% screen-in rate)
+Location | United States (16), Uganda (1), Australia (1)
+Age range | Not captured (unknown for all 18)
+Source | Self-recruited (18)
+Status | Complete
+Reason for visiting SuperSummary today | % | n
+Preparing for a book club discussion | 33% | 6
+Looking for in-depth content to better understand a book | 33% | 6
+Refreshing about a book I read a while ago | 17% | 3
+Deciding to read a book | 6% | 1
+Catching up before a book club discussion | 6% | 1
+Other | 6% | 1
+Looking something up quickly | 0% | 0
+Feature | Would help (Yes) | Most-cited timing | Essential score (mean /5)
+Chapter summaries and analysis | 100% | During (44%) / After (44%) | 4.50
+Story Recap Tool | 78% | After (61%) | 4.21
+Character list | 78% | During (50%) | 4.21
+Themes | 78% | After (44%) | 4.29
+Plot summary | 78% | Pre (39%) / After (39%) | 3.79
+Discussion Questions Tool | 72% | After (67%) | 4.23
+Book club questions | 72% | After (72%) | 4.31
+Character analysis | 72% | After (44%) | 4.38
+Important quotes | 67% | After (72%) | 4.33
+Timeline Tool | 67% | During (56%) | 4.17
+Symbols and motifs | 61% | After (50%) | 4.18
+Author insights | 61% | After (61%) | 3.91
+Book Activities Tool | 56% | After (61%) | 3.90
+Essay topics | 39% | After (78%) | 4.71
+Book-Inspired Recipes Tool | 39% | After (78%) | 3.71
+Quizzes | 33% | After (83%) | 4.00
+True or False Game | 28% | After (83%) | 3.80
+Plot Scramble Game | 17% | After (89%) | 3.33
+Word Worm Game | 17% | After (72%) | 3.33
+Insight | Opportunity | Impact | Effort
+Nearly every participant (100%) wants chapter summaries and analysis, split evenly between during- and after-reading use | Make chapter-by-chapter summaries a default, always-visible module on the Book Hub page, not a secondary tab | High | Low
+Story Recap, Character list, Themes and Character analysis all clear 70%+ demand with essential scores above 4.2 | Prioritize these four as the next Book Hub modules after chapter summaries; they form a natural “core reference” cluster | High | Med
+Discussion Questions Tool and Book club questions are both wanted mainly “after reading” (67–72% yes) by a panel that skews toward book-club use cases (33% of respondents came in preparing for a book club) | Package these two together as a post-read “discuss this book” module, surfaced once a user reaches the end of a summary | Med | Low
+Essay topics has the lowest demand among analytical content (39% yes) but the highest essential score of any feature (4.71) among those who want it | Treat as a niche, high-value add for a student/essay-writing segment rather than a broad Book Hub default — consider gating behind a “for school” entry point | Med | Med
+All three gamified formats (Plot Scramble, True/False, Word Worm) scored lowest on both demand (17–28%) and essential rating (3.33–3.80), and are wanted almost exclusively after reading | Deprioritize games for the initial Book Hub release; revisit only if a later release targets engagement/retention rather than comprehension | Low | High
+Plot summary and Story Recap Tool both show demand split across pre- and after-reading, unlike most other features | Design these two as flexible entry points that work equally well before starting a book or as a refresher — not locked to one journey stage | Med | Med
